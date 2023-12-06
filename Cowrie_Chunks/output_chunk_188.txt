@@ -1,0 +1,101 @@
+2023-11-27T04:04:03+0000	[-] Python Version 3.11.2 (main, Mar 13 2023, 12:18:29) [GCC 12.2.0]	Unnamed: 2	Unnamed: 3	Unnamed: 4
+2023-11-30T01:52:29+0000	[HoneyPotSSHTransport,544,118.123.105.93] Bad protocol version identification: b'\x16\x03\x03\x01X\x0	1\	x00	\x01T\x03\x03\xe5\xeb\xed\x94\x839\xffn%\x17\rD\xb2\xc0L\xf5g\xac\xf8;'
+2023-11-30T01:52:29+0000	[cowrie.ssh.transport.HoneyPotSSHTransport#info] connection lost			
+2023-11-30T01:52:29+0000	[HoneyPotSSHTransport,544,118.123.105.93] Connection lost after 0 seconds			
+2023-11-30T01:52:30+0000	[cowrie.ssh.factory.CowrieSSHFactory] No moduli, no diffie-hellman-group-exchange-sha1			
+2023-11-30T01:52:30+0000	[cowrie.ssh.factory.CowrieSSHFactory] No moduli, no diffie-hellman-group-exchange-sha256			
+2023-11-30T01:52:30+0000	[cowrie.ssh.factory.CowrieSSHFactory] New connection: 118.123.105.93:54666 (172.17.0.2:2222) [session	:	4c5	eecc27e2d]
+2023-11-30T01:52:30+0000	[HoneyPotSSHTransport,545,118.123.105.93] Remote SSH version: _x0016__x0003__x0003__x0001_J_x0001_ _x0001_F_x0003__x0003_\xa9 'A_x001C_\xa2\xd0\xf1_x001D_\xa6\x9	9G	\xa	0_x001D_2-\xa2\xd0_3_x001C_
+				
+\xbd\xc4%jj╧⌐\x81\xd5 \x	df67\xa8:\xc0\xfc\xa9_x0019_[\xb0-pl\xc4|\xe7\xafq\xf3}kD9_\xd8`\x914\xfdB\x84 D\xc0_x0013_\xc0'\xc0/\xc0_x0014_\xc0(\xc	0	\xc	0`\xc0a\xc0v\xc0w╠¿_x0013__x0005__x0013__x0004__x0013__x0003_\xcc_x0013_\xc0_x0011_
+2023-11-30T01:52:30+0000	"[HoneyPotSSHTransport,545,118.123.105.93] Bad protocol version identification: b""\x16\x03\x03\x01J\x0"	1\	x00	"\x01F\x03\x03\xa9 'A\x1c\xa2\xd0\xf1\x1d\xa6\x99G\xa0\x1d2-\xa2\xd0_3\x1c\r\r\xbd\xc4%jj\xcf\xa9\x81\xd5 \xdf67\xa8:\xc0\xfc\xa9\x19[\xb0-pl\xc4|\xe7\xafq\xf3}kD9_\xd8`\x914\xfdB\x84\x00D\xc0\x13\xc0'\xc0/\xc0\x14\xc0(\xc00\xc0`\xc0a\xc0v\xc0w\xcc\xa8\x13\x05\x13\x04\x13\x03\xcc\x13\xc0\x11\x00"""
+2023-11-30T01:52:30+0000	[cowrie.ssh.transport.HoneyPotSSHTransport#info] connection lost			
+2023-11-30T01:52:30+0000	[HoneyPotSSHTransport,545,118.123.105.93] Connection lost after 0 seconds			
+2023-11-30T01:52:30+0000	[cowrie.ssh.factory.CowrieSSHFactory] No moduli, no diffie-hellman-group-exchange-sha1			
+2023-11-30T01:52:30+0000	[cowrie.ssh.factory.CowrieSSHFactory] No moduli, no diffie-hellman-group-exchange-sha256			
+2023-11-30T01:52:30+0000	[cowrie.ssh.factory.CowrieSSHFactory] New connection: 118.123.105.93:58204 (172.17.0.2:2222) [session	:	af4	14e23fbee]
+2023-11-30T01:52:30+0000	[HoneyPotSSHTransport,546,118.123.105.93] Remote SSH version: _x0016__x0003__x0003__x0001_\x9b_x0001_ _x0001_\x97_x0003__x0003_|._x0010_Z\x85(\xd1_x001A_\xcf&T\x	fe	a\x	bc\xf99=\xd7rTs\xc8\xe5_x001F_^═Æ_x0011__x0002_\xc6\xfe\xf8 \x89\xa3\xccM\x9b$h\xef▀│>_x0013__x001B_\xff\xb3a_x0012__x000C_ß╜é>\xbe\xc5_x0004_\xf7\x88\x81
+\x93╨É \x8c\xba\xba\xc0_x0012_	\xc0_x0013_\xc0 \xc0'\xcc_x0014_\xc0/_x0013__x0001_\xc0_x0014__x0013__x0002_\xc0(╠⌐\xc00\xc0s\xc0`\xc0r\xc0a\xc0,\xc0v\xc0\xaf\xc0w\xc0\xad╠¿\xc	0$	_x0013__x0005_\	xc0
+2023-11-30T01:52:30+0000	"[HoneyPotSSHTransport,546,118.123.105.93] Bad protocol version identification: b""\x16\x03\x03\x01\x9b"	\x	01\	"x00\x01\x97\x03\x03|.\x10Z\x85(\xd1\x1a\xcf&T\xfea\xbc\xf99=\xd7rTs\xc8\xe5\x1f^\xcd\x92\x11\x02\xc6\xfe\xf8 \x89\xa3\xccM\x9b$h\xef\xdf\xb3>\x13\x1b\xff\xb3a\x12\x0c\xe1\xbd\x82>\xbe\xc5\x04\xf7\x88\x81\x0b\x93\xd0\x90\x00\x8c\xba\xba\xc0\x12\xc0\x13\xc0\x07\xc0'\xcc\x14\xc0/\x13\x01\xc0\x14\x13\x02\xc0(\xcc\xa9\xc00\xc0s\xc0`\xc0r\xc0a\xc0,\xc0v\xc0\xaf\xc0w\xc0\xad\xcc\xa8\xc0$\x13\x05\xc0"""
+2023-11-30T01:52:30+0000	[cowrie.ssh.transport.HoneyPotSSHTransport#info] connection lost			
+2023-11-30T01:52:30+0000	[HoneyPotSSHTransport,546,118.123.105.93] Connection lost after 0 seconds			
+2023-11-30T01:52:31+0000	[cowrie.ssh.factory.CowrieSSHFactory] No moduli, no diffie-hellman-group-exchange-sha1			
+2023-11-30T01:52:31+0000	[cowrie.ssh.factory.CowrieSSHFactory] No moduli, no diffie-hellman-group-exchange-sha256			
+2023-11-30T01:52:31+0000	[cowrie.ssh.factory.CowrieSSHFactory] New connection: 118.123.105.93:33082 (172.17.0.2:2222) [session	:	202	b82173a4a]
+2023-11-30T01:52:31+0000	[HoneyPotSSHTransport,547,118.123.105.93] Remote SSH version: _x0016__x0003__x0002__x0001_\x9c_x0001_ _x0001_\x98_x0003__x0002_\xac\xe8\xb5B/\xb4C\x8	f^	_x000C_s\	x9d8;_x000F_\xd4q\x9du
+2023-11-30T01:52:31+0000	[HoneyPotSSHTransport,547,118.123.105.93] Bad protocol version identification: b'\x16\x03\x02\x01\x9c	\x	01\	x00\x01\x98\x03\x02\xac\xe8\xb5B/\xb4C\x8f^\x0cs\x9d8;\x0f\xd4q\x9du'
+2023-11-30T01:52:31+0000	[cowrie.ssh.transport.HoneyPotSSHTransport#info] connection lost			
+2023-11-30T01:52:31+0000	[HoneyPotSSHTransport,547,118.123.105.93] Connection lost after 0 seconds			
+2023-11-30T01:52:31+0000	[cowrie.ssh.factory.CowrieSSHFactory] No moduli, no diffie-hellman-group-exchange-sha1			
+2023-11-30T01:52:31+0000	[cowrie.ssh.factory.CowrieSSHFactory] No moduli, no diffie-hellman-group-exchange-sha256			
+2023-11-30T01:52:31+0000	[cowrie.ssh.factory.CowrieSSHFactory] New connection: 118.123.105.93:35708 (172.17.0.2:2222) [session	:	ebe	f5350dd12]
+2023-11-30T01:52:31+0000	[HoneyPotSSHTransport,548,118.123.105.93] Remote SSH version: _x0016__x0003__x0001__x0001_\xa9_x0001_ _x0001_\xa5_x0003__x0003_f\xee			
+2023-11-30T01:52:31+0000	[HoneyPotSSHTransport,548,118.123.105.93] Bad protocol version identification: b'\x16\x03\x01\x01\xa9	\x	01\	x00\x01\xa5\x03\x03f\xee'
+2023-11-30T01:52:31+0000	[cowrie.ssh.transport.HoneyPotSSHTransport#info] connection lost			
+2023-11-30T01:52:31+0000	[HoneyPotSSHTransport,548,118.123.105.93] Connection lost after 0 seconds			
+2023-11-30T01:52:33+0000	[cowrie.ssh.factory.CowrieSSHFactory] No moduli, no diffie-hellman-group-exchange-sha1			
+2023-11-30T01:52:33+0000	[cowrie.ssh.factory.CowrieSSHFactory] No moduli, no diffie-hellman-group-exchange-sha256			
+2023-11-30T01:52:33+0000	[cowrie.ssh.factory.CowrieSSHFactory] New connection: 118.123.105.93:38016 (172.17.0.2:2222) [session	:	d8e	c0a7d185d]
+2023-11-30T01:52:34+0000	[cowrie.ssh.factory.CowrieSSHFactory] No moduli, no diffie-hellman-group-exchange-sha1			
+2023-11-30T01:52:34+0000	[cowrie.ssh.factory.CowrieSSHFactory] No moduli, no diffie-hellman-group-exchange-sha256			
+2023-11-30T01:52:34+0000	[cowrie.ssh.factory.CowrieSSHFactory] New connection: 118.123.105.93:42514 (172.17.0.2:2222) [session	:	b22	cfc5acc13]
+2023-11-30T01:52:34+0000	[HoneyPotSSHTransport,550,118.123.105.93] Remote SSH version: _x0016__x0003__x0001__x0001_\x9f_x0001_ _x0001_\x9b_x0003__x0003_t_x0015_\xa2\xfd\x8f\xf3\xa5	\x	ff	
+_\x9c\x96ax7c\xc9\xe4v\x	fd_x0012_b\xa3u\x86_x001A__x000F_\xbf_x0006_ \x89\xf0 \xb3\xc8\xfb_x0011_u\x89\xa9c\x88_x0014_lI\x93o\xb0\xa4\xedr\xfa\xf0g6_x001B_\xe2_x001D_\x82t=V>	#2	\x	"80 _x0016_ 3 g\xc0\x9e\xc0\xa2 \x9e 9 k\xc0\x9f\xc0\xa3 \x9f E \xbe \x88 \xc4 \x9a\xc0_x0008_\xc0	\xc0#\xc0\xac\xc0\xae\xc0+\xc0"
+2023-11-30T01:52:34+0000	[HoneyPotSSHTransport,550,118.123.105.93] Bad protocol version identification: b'\x16\x03\x01\x01\x9f	\x	01\	x00\x01\x9b\x03\x03t\x15\xa2\xfd\x8f\xf3\xa5\xff\x0b_\x9c\x96ax7c\xc9\xe4v\xfd\x12b\xa3u\x86\x1a\x0f\xbf\x06 \x89\xf0 \xb3\xc8\xfb\x11u\x89\xa9c\x88\x14lI\x93o\xb0\xa4\xedr\xfa\xf0g6\x1b\xe2\x1d\x82t=V>#2\x00\x80\x00\x16\x003\x00g\xc0\x9e\xc0\xa2\x00\x9e\x009\x00k\xc0\x9f\xc0\xa3\x00\x9f\x00E\x00\xbe\x00\x88\x00\xc4\x00\x9a\xc0\x08\xc0\t\xc0#\xc0\xac\xc0\xae\xc0+\xc0'
+2023-11-30T01:52:34+0000	[cowrie.ssh.transport.HoneyPotSSHTransport#info] connection lost			
+2023-11-30T01:52:34+0000	[HoneyPotSSHTransport,550,118.123.105.93] Connection lost after 0 seconds			
+2023-11-30T01:52:34+0000	[cowrie.ssh.factory.CowrieSSHFactory] No moduli, no diffie-hellman-group-exchange-sha1			
+2023-11-30T01:52:34+0000	[cowrie.ssh.factory.CowrieSSHFactory] No moduli, no diffie-hellman-group-exchange-sha256			
+2023-11-30T01:52:34+0000	[cowrie.ssh.factory.CowrieSSHFactory] New connection: 118.123.105.93:43560 (172.17.0.2:2222) [session	:	695	ef070844c]
+2023-11-30T01:52:34+0000	[HoneyPotSSHTransport,551,118.123.105.93] Remote SSH version: _x0016__x0003__x0001__x0001_\xb6_x0001_ _x0001_\xb2_x0003__x0003_f\xbd!\xd8;\x96\xfb\xf	c\	xf9	\xe8_x0008_\x81\xc83o\xff\x8c\x86\xaa
+2023-11-30T01:52:34+0000	[HoneyPotSSHTransport,551,118.123.105.93] Bad protocol version identification: b'\x16\x03\x01\x01\xb6	\x	01\	x00\x01\xb2\x03\x03f\xbd!\xd8;\x96\xfb\xfc\xf9\xe8\x08\x81\xc83o\xff\x8c\x86\xaa'
+2023-11-30T01:52:34+0000	[cowrie.ssh.transport.HoneyPotSSHTransport#info] connection lost			
+2023-11-30T01:52:34+0000	[HoneyPotSSHTransport,551,118.123.105.93] Connection lost after 0 seconds			
+2023-11-30T01:52:36+0000	[HoneyPotSSHTransport,549,118.123.105.93] Remote SSH version: _x0016__x0003__x0001__x0001_\xa9_x0001_ _x0001_\xa5_x0003__x0003_{\x93\x93\xcak6\xb0^;/	\x	f5\	"xad}_x0016_F\xe1W\xefslU\xd58.\xa0b_x0019_\x9d\xe21pn ,\xba\xc4_x0013_\xf3G╧Å\x92\xcf\xf3_x0019_╘ò\x81\xa4\x91G\x8f{_x0002_Y_x0012_\x83W\xd0,B	\xdauo \x8a _x0005_ _x0004_   \xc0 \x84 \xba A \x9d\xc0\xa1\xc0\x9d = 5 \x9c\xc0\xa0\xc0\x9c < /"
+2023-11-30T01:52:36+0000	[HoneyPotSSHTransport,549,118.123.105.93] Bad protocol version identification: b'\x16\x03\x01\x01\xa9	\x	01\	x00\x01\xa5\x03\x03{\x93\x93\xcak6\xb0^;/\xf5\xad}\x16F\xe1W\xefslU\xd58.\xa0b\x19\x9d\xe21pn ,\xba\xc4\x13\xf3G\xcf\x8f\x92\xcf\xf3\x19\xd4\x95\x81\xa4\x91G\x8f{\x02Y\x12\x83W\xd0,B\t\xdauo\x00\x8a\x00\x05\x00\x04\x00\x07\x00\xc0\x00\x84\x00\xba\x00A\x00\x9d\xc0\xa1\xc0\x9d\x00=\x005\x00\x9c\xc0\xa0\xc0\x9c\x00<\x00/\x00'
+2023-11-30T01:52:36+0000	[cowrie.ssh.transport.HoneyPotSSHTransport#info] connection lost			
+2023-11-30T01:52:36+0000	[HoneyPotSSHTransport,549,118.123.105.93] Connection lost after 2 seconds			
+2023-11-30T02:24:09+0000	[cowrie.ssh.factory.CowrieSSHFactory] No moduli, no diffie-hellman-group-exchange-sha1			
+2023-11-30T02:24:09+0000	[cowrie.ssh.factory.CowrieSSHFactory] No moduli, no diffie-hellman-group-exchange-sha256			
+2023-11-30T02:24:09+0000	[cowrie.ssh.factory.CowrieSSHFactory] New connection: 167.71.68.224:61000 (172.17.0.2:2222) [session:	4	c8b	ae0d9dd9]
+2023-11-30T02:24:09+0000	[cowrie.ssh.transport.HoneyPotSSHTransport#info] connection lost			
+2023-11-30T02:24:09+0000	[HoneyPotSSHTransport,552,167.71.68.224] Connection lost after 0 seconds			
+2023-11-30T02:46:36+0000	[cowrie.ssh.factory.CowrieSSHFactory] No moduli, no diffie-hellman-group-exchange-sha1			
+2023-11-30T02:46:36+0000	[cowrie.ssh.factory.CowrieSSHFactory] No moduli, no diffie-hellman-group-exchange-sha256			
+2023-11-30T02:46:36+0000	[cowrie.ssh.factory.CowrieSSHFactory] New connection: 8.218.190.174:46256 (172.17.0.2:2222) [session:	7	41b	0e5c1a3c]
+2023-11-30T02:46:38+0000	[cowrie.ssh.transport.HoneyPotSSHTransport#info] connection lost			
+2023-11-30T02:46:38+0000	[HoneyPotSSHTransport,553,8.218.190.174] Connection lost after 2 seconds			
+2023-11-30T02:46:39+0000	[cowrie.ssh.factory.CowrieSSHFactory] No moduli, no diffie-hellman-group-exchange-sha1			
+2023-11-30T02:46:39+0000	[cowrie.ssh.factory.CowrieSSHFactory] No moduli, no diffie-hellman-group-exchange-sha256			
+2023-11-30T02:46:39+0000	[cowrie.ssh.factory.CowrieSSHFactory] New connection: 8.218.190.174:52478 (172.17.0.2:2222) [session:	9	b15	614c2da7]
+2023-11-30T02:46:39+0000	[cowrie.ssh.transport.HoneyPotSSHTransport#info] connection lost			
+2023-11-30T02:46:39+0000	[HoneyPotSSHTransport,554,8.218.190.174] Connection lost after 0 seconds			
+2023-11-30T02:46:45+0000	[cowrie.ssh.factory.CowrieSSHFactory] No moduli, no diffie-hellman-group-exchange-sha1			
+2023-11-30T02:46:45+0000	[cowrie.ssh.factory.CowrieSSHFactory] No moduli, no diffie-hellman-group-exchange-sha256			
+2023-11-30T02:46:45+0000	[cowrie.ssh.factory.CowrieSSHFactory] New connection: 8.218.190.174:39432 (172.17.0.2:2222) [session:	e	47c	f731e5ee]
+2023-11-30T02:46:45+0000	[HoneyPotSSHTransport,555,8.218.190.174] Remote SSH version: SSH-2.0-libssh_0.7.4			
+2023-11-30T02:46:46+0000	[HoneyPotSSHTransport,555,8.218.190.174] SSH client hassh fingerprint: e37f354a101aff5871ba233aa82b84	ec		
+2023-11-30T02:46:46+0000	[cowrie.ssh.transport.HoneyPotSSHTransport#debug] kex alg=b'curve25519-sha256@libssh.org' key alg=b's	sh		25519'
+2023-11-30T02:46:46+0000	[cowrie.ssh.transport.HoneyPotSSHTransport#debug] outgoing: b'aes256-ctr' b'hmac-sha2-256' b'none'			
+2023-11-30T02:46:46+0000	[cowrie.ssh.transport.HoneyPotSSHTransport#debug] incoming: b'aes256-ctr' b'hmac-sha2-256' b'none'			
+2023-11-30T02:46:47+0000	[cowrie.ssh.transport.HoneyPotSSHTransport#debug] NEW KEYS			
+2023-11-30T02:46:47+0000	[cowrie.ssh.transport.HoneyPotSSHTransport#debug] starting service b'ssh-userauth'			
+2023-11-30T02:46:48+0000	[cowrie.ssh.userauth.HoneyPotSSHUserAuthServer#debug] b'NL5xUDpV2xRa' trying auth b'publickey'			
+2023-11-30T02:46:48+0000	[HoneyPotSSHTransport,555,8.218.190.174] Unhandled Error			
+"	Traceback (most recent"	call last):			
+"	  File ""/cowrie/cowrie-"	"env/lib/python3.11/site-packages/twisted/python/log.py"", line 96, in callWithLogger"			
+"	    return callWithCont"	"ext({""system"": lp}, func, *args, **kw)"			
+"	  File ""/cowrie/cowrie-"	"env/lib/python3.11/site-packages/twisted/python/log.py"", line 80, in callWithContext"			
+"	    return context.call"	({ILogContext: newCtx}, func, *args, **kw)			
+"	  File ""/cowrie/cowrie-"	"env/lib/python3.11/site-packages/twisted/python/context.py"", line 117, in callWithContext"			
+"	    return self.current"	Context().callWithContext(ctx, func, *args, **kw)			
+"	  File ""/cowrie/cowrie-"	"env/lib/python3.11/site-packages/twisted/python/context.py"", line 82, in callWithContext"			
+"	    return func(*args,"	**kw)			
+"	--- <exception caught h"	ere> ---			
+"	  File ""/cowrie/cowrie-"	"env/lib/python3.11/site-packages/twisted/internet/posixbase.py"", line 482, in _doReadOrWrite"			
+"	    why = selectable.do"	Read()			
+"	  File ""/cowrie/cowrie-"	"env/lib/python3.11/site-packages/twisted/internet/tcp.py"", line 248, in doRead"			
+"	    return self._dataRe"	ceived(data)			
+"	  File ""/cowrie/cowrie-"	"env/lib/python3.11/site-packages/twisted/internet/tcp.py"", line 253, in _dataReceived"			
+"	    rval = self.protoco"	l.dataReceived(data)			
+"	  File ""/cowrie/cowrie-"	"git/src/cowrie/ssh/transport.py"", line 144, in dataReceived"			

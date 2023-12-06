@@ -1,0 +1,101 @@
+2023-11-27T04:04:03+0000	[-] Python Version 3.11.2 (main, Mar 13 2023, 12:18:29) [GCC 12.2.0]	Unnamed: 2	Unnamed: 3	Unnamed: 4
+2023-12-02T06:22:55+0000	"[twisted.conch.ssh.session#info] Executing command ""b'uname -s -v -n -r -m'"""			
+2023-12-02T06:22:55+0000	[SSHChannel session (0) on SSHService b'ssh-connection' on HoneyPotSSHTransport,182,82.102.21.134] CM	D:	un	ame -s -v -n -r -m
+2023-12-02T06:22:55+0000	[SSHChannel session (0) on SSHService b'ssh-connection' on HoneyPotSSHTransport,182,82.102.21.134] Co	mm	and	found: uname -s -v -n -r -m
+2023-12-02T06:22:55+0000	[twisted.conch.ssh.session#info] exitCode: 0			
+2023-12-02T06:22:55+0000	[cowrie.ssh.connection.CowrieSSHConnection#debug] sending request b'exit-status'			
+2023-12-02T06:22:55+0000	[cowrie.ssh.connection.CowrieSSHConnection#info] sending close 0			
+2023-12-02T06:22:55+0000	[cowrie.ssh.session.HoneyPotSSHSession#info] remote close			
+2023-12-02T06:22:55+0000	[HoneyPotSSHTransport,182,82.102.21.134] Closing TTY Log: var/lib/cowrie/tty/7ab552f01de999cb12092166	cd	c36	fd68a0edbb33927e0ef3d26f4ee6449f804 after 0 seconds
+2023-12-02T06:22:55+0000	[HoneyPotSSHTransport,182,82.102.21.134] avatar root logging out			
+2023-12-02T06:22:55+0000	[cowrie.ssh.transport.HoneyPotSSHTransport#info] connection lost			
+2023-12-02T06:22:55+0000	[HoneyPotSSHTransport,182,82.102.21.134] Connection lost after 1 seconds			
+2023-12-02T06:23:12+0000	[cowrie.ssh.factory.CowrieSSHFactory] No moduli, no diffie-hellman-group-exchange-sha1			
+2023-12-02T06:23:12+0000	[cowrie.ssh.factory.CowrieSSHFactory] No moduli, no diffie-hellman-group-exchange-sha256			
+2023-12-02T06:23:12+0000	[cowrie.ssh.factory.CowrieSSHFactory] New connection: 34.73.116.232:59578 (172.17.0.2:2222) [session:	b	af6	f93f2ca5]
+2023-12-02T06:23:12+0000	[HoneyPotSSHTransport,183,34.73.116.232] Remote SSH version: SSH-2.0-Go			
+2023-12-02T06:23:12+0000	[HoneyPotSSHTransport,183,34.73.116.232] SSH client hassh fingerprint: 4e066189c3bbeec38c99b185511373	3a		
+2023-12-02T06:23:12+0000	[cowrie.ssh.transport.HoneyPotSSHTransport#debug] kex alg=b'curve25519-sha256' key alg=b'ecdsa-sha2-n	is	tp2	56'
+2023-12-02T06:23:12+0000	[cowrie.ssh.transport.HoneyPotSSHTransport#debug] outgoing: b'aes128-ctr' b'hmac-sha2-256' b'none'			
+2023-12-02T06:23:12+0000	[cowrie.ssh.transport.HoneyPotSSHTransport#debug] incoming: b'aes128-ctr' b'hmac-sha2-256' b'none'			
+2023-12-02T06:23:12+0000	[cowrie.ssh.transport.HoneyPotSSHTransport#debug] NEW KEYS			
+2023-12-02T06:23:12+0000	[cowrie.ssh.transport.HoneyPotSSHTransport#debug] starting service b'ssh-userauth'			
+2023-12-02T06:23:12+0000	[cowrie.ssh.userauth.HoneyPotSSHUserAuthServer#debug] b'root' trying auth b'none'			
+2023-12-02T06:23:12+0000	[cowrie.ssh.userauth.HoneyPotSSHUserAuthServer#debug] b'root' trying auth b'password'			
+2023-12-02T06:23:12+0000	[HoneyPotSSHTransport,183,34.73.116.232] Could not read etc/userdb.txt, default database activated			
+2023-12-02T06:23:12+0000	[HoneyPotSSHTransport,183,34.73.116.232] login attempt [b'root'/b'0'] succeeded			
+2023-12-02T06:23:12+0000	[HoneyPotSSHTransport,183,34.73.116.232] Initialized emulated server as architecture: linux-x64-lsb			
+2023-12-02T06:23:12+0000	[cowrie.ssh.userauth.HoneyPotSSHUserAuthServer#debug] b'root' authenticated with b'password'			
+2023-12-02T06:23:12+0000	[cowrie.ssh.transport.HoneyPotSSHTransport#debug] starting service b'ssh-connection'			
+2023-12-02T06:23:12+0000	[cowrie.ssh.connection.CowrieSSHConnection#debug] got channel b'session' request			
+2023-12-02T06:23:12+0000	[cowrie.ssh.session.HoneyPotSSHSession#info] channel open			
+2023-12-02T06:23:12+0000	"[twisted.conch.ssh.session#info] Executing command ""b'apt update && apt install sudo curl -y && sudo"	us	era	"dd -m -p $(openssl passwd -1 MC7ekRem) system && sudo usermod -aG sudo system && sudo usermod -aG sudo system'"""
+2023-12-02T06:23:12+0000	[SSHChannel session (0) on SSHService b'ssh-connection' on HoneyPotSSHTransport,183,34.73.116.232] CM	D:	ap	t update && apt install sudo curl -y && sudo useradd -m -p $(openssl passwd -1 MC7ekRem) system && sudo usermod -aG sudo system && sudo usermod -aG sudo system
+2023-12-02T06:23:12+0000	[SSHChannel session (0) on SSHService b'ssh-connection' on HoneyPotSSHTransport,183,34.73.116.232] CM	D:	op	enssl passwd -1 MC7ekRem
+2023-12-02T06:23:12+0000	[SSHChannel session (0) on SSHService b'ssh-connection' on HoneyPotSSHTransport,183,34.73.116.232] Ca	n'	t f	ind command openssl
+2023-12-02T06:23:12+0000	[SSHChannel session (0) on SSHService b'ssh-connection' on HoneyPotSSHTransport,183,34.73.116.232] Co	mm	and	not found: openssl passwd -1 MC7ekRem
+2023-12-02T06:23:12+0000	[twisted.conch.ssh.session#info] exitCode: 0			
+2023-12-02T06:23:12+0000	[cowrie.ssh.connection.CowrieSSHConnection#debug] sending request b'exit-status'			
+2023-12-02T06:23:12+0000	[cowrie.ssh.connection.CowrieSSHConnection#info] sending close 0			
+2023-12-02T06:23:12+0000	[SSHChannel session (0) on SSHService b'ssh-connection' on HoneyPotSSHTransport,183,34.73.116.232] Ca	n'	t f	ind command apt
+2023-12-02T06:23:12+0000	[SSHChannel session (0) on SSHService b'ssh-connection' on HoneyPotSSHTransport,183,34.73.116.232] Co	mm	and	not found: apt update
+2023-12-02T06:23:12+0000	[twisted.conch.ssh.session#info] exitCode: 0			
+2023-12-02T06:23:12+0000	[SSHChannel session (0) on SSHService b'ssh-connection' on HoneyPotSSHTransport,183,34.73.116.232] Ca	n'	t f	ind command apt
+2023-12-02T06:23:12+0000	[SSHChannel session (0) on SSHService b'ssh-connection' on HoneyPotSSHTransport,183,34.73.116.232] Co	mm	and	not found: apt install sudo curl -y
+2023-12-02T06:23:12+0000	[twisted.conch.ssh.session#info] exitCode: 0			
+2023-12-02T06:23:12+0000	[SSHChannel session (0) on SSHService b'ssh-connection' on HoneyPotSSHTransport,183,34.73.116.232] Co	mm	and	found: sudo useradd -m -p  system
+2023-12-02T06:23:12+0000	[SSHChannel session (0) on SSHService b'ssh-connection' on HoneyPotSSHTransport,183,34.73.116.232] Co	mm	and	found: sudo usermod -aG sudo system
+2023-12-02T06:23:12+0000	[SSHChannel session (0) on SSHService b'ssh-connection' on HoneyPotSSHTransport,183,34.73.116.232] Ca	n'	t f	ind command usermod
+2023-12-02T06:23:12+0000	[SSHChannel session (0) on SSHService b'ssh-connection' on HoneyPotSSHTransport,183,34.73.116.232] Ca	n'	t f	ind command -aG
+2023-12-02T06:23:12+0000	[SSHChannel session (0) on SSHService b'ssh-connection' on HoneyPotSSHTransport,183,34.73.116.232] Co	mm	and	found: sudo usermod -aG sudo system
+2023-12-02T06:23:12+0000	[SSHChannel session (0) on SSHService b'ssh-connection' on HoneyPotSSHTransport,183,34.73.116.232] Ca	n'	t f	ind command usermod
+2023-12-02T06:23:12+0000	[SSHChannel session (0) on SSHService b'ssh-connection' on HoneyPotSSHTransport,183,34.73.116.232] Ca	n'	t f	ind command -aG
+2023-12-02T06:23:12+0000	[SSHChannel session (0) on SSHService b'ssh-connection' on HoneyPotSSHTransport,183,34.73.116.232] Ca	n'	t f	ind command system
+2023-12-02T06:23:12+0000	[twisted.conch.ssh.session#info] exitCode: 0			
+2023-12-02T06:23:12+0000	[cowrie.ssh.session.HoneyPotSSHSession#info] remote close			
+2023-12-02T06:23:12+0000	[HoneyPotSSHTransport,183,34.73.116.232] Closing TTY Log: var/lib/cowrie/tty/2e361034f654b5e7697e314e	2d	e08	4e71c1fff2defed5aa86b2132ff0718c0f5 after 0 seconds
+2023-12-02T06:23:12+0000	[HoneyPotSSHTransport,183,34.73.116.232] avatar root logging out			
+2023-12-02T06:23:12+0000	[cowrie.ssh.transport.HoneyPotSSHTransport#info] connection lost			
+2023-12-02T06:23:12+0000	[HoneyPotSSHTransport,183,34.73.116.232] Connection lost after 0 seconds			
+2023-12-02T06:26:52+0000	[cowrie.ssh.factory.CowrieSSHFactory] No moduli, no diffie-hellman-group-exchange-sha1			
+2023-12-02T06:26:52+0000	[cowrie.ssh.factory.CowrieSSHFactory] No moduli, no diffie-hellman-group-exchange-sha256			
+2023-12-02T06:26:52+0000	[cowrie.ssh.factory.CowrieSSHFactory] New connection: 34.68.217.87:53480 (172.17.0.2:2222) [session:	c3	e73	2b7c015]
+2023-12-02T06:26:52+0000	[HoneyPotSSHTransport,184,34.68.217.87] Remote SSH version: SSH-2.0-Go			
+2023-12-02T06:26:52+0000	[HoneyPotSSHTransport,184,34.68.217.87] SSH client hassh fingerprint: 4e066189c3bbeec38c99b1855113733	a		
+2023-12-02T06:26:52+0000	[cowrie.ssh.transport.HoneyPotSSHTransport#debug] kex alg=b'curve25519-sha256' key alg=b'ecdsa-sha2-n	is	tp2	56'
+2023-12-02T06:26:52+0000	[cowrie.ssh.transport.HoneyPotSSHTransport#debug] outgoing: b'aes128-ctr' b'hmac-sha2-256' b'none'			
+2023-12-02T06:26:52+0000	[cowrie.ssh.transport.HoneyPotSSHTransport#debug] incoming: b'aes128-ctr' b'hmac-sha2-256' b'none'			
+2023-12-02T06:26:53+0000	[cowrie.ssh.transport.HoneyPotSSHTransport#debug] NEW KEYS			
+2023-12-02T06:26:53+0000	[cowrie.ssh.transport.HoneyPotSSHTransport#debug] starting service b'ssh-userauth'			
+2023-12-02T06:26:53+0000	[cowrie.ssh.userauth.HoneyPotSSHUserAuthServer#debug] b'root' trying auth b'none'			
+2023-12-02T06:26:53+0000	[cowrie.ssh.userauth.HoneyPotSSHUserAuthServer#debug] b'root' trying auth b'password'			
+2023-12-02T06:26:53+0000	[HoneyPotSSHTransport,184,34.68.217.87] Could not read etc/userdb.txt, default database activated			
+2023-12-02T06:26:53+0000	[HoneyPotSSHTransport,184,34.68.217.87] login attempt [b'root'/b'0'] succeeded			
+2023-12-02T06:26:53+0000	[HoneyPotSSHTransport,184,34.68.217.87] Initialized emulated server as architecture: linux-x64-lsb			
+2023-12-02T06:26:53+0000	[cowrie.ssh.userauth.HoneyPotSSHUserAuthServer#debug] b'root' authenticated with b'password'			
+2023-12-02T06:26:53+0000	[cowrie.ssh.transport.HoneyPotSSHTransport#debug] starting service b'ssh-connection'			
+2023-12-02T06:26:53+0000	[cowrie.ssh.connection.CowrieSSHConnection#debug] got channel b'session' request			
+2023-12-02T06:26:53+0000	[cowrie.ssh.session.HoneyPotSSHSession#info] channel open			
+2023-12-02T06:26:53+0000	"[twisted.conch.ssh.session#info] Executing command ""b'apt update && apt install sudo curl -y && sudo"	us	era	"dd -m -p $(openssl passwd -1 qEAr93Xm) system && sudo usermod -aG sudo system && sudo usermod -aG sudo system'"""
+2023-12-02T06:26:53+0000	[SSHChannel session (0) on SSHService b'ssh-connection' on HoneyPotSSHTransport,184,34.68.217.87] CMD	:	apt	update && apt install sudo curl -y && sudo useradd -m -p $(openssl passwd -1 qEAr93Xm) system && sudo usermod -aG sudo system && sudo usermod -aG sudo system
+2023-12-02T06:26:53+0000	[SSHChannel session (0) on SSHService b'ssh-connection' on HoneyPotSSHTransport,184,34.68.217.87] CMD	:	ope	nssl passwd -1 qEAr93Xm
+2023-12-02T06:26:53+0000	[SSHChannel session (0) on SSHService b'ssh-connection' on HoneyPotSSHTransport,184,34.68.217.87] Can	't	fi	nd command openssl
+2023-12-02T06:26:53+0000	[SSHChannel session (0) on SSHService b'ssh-connection' on HoneyPotSSHTransport,184,34.68.217.87] Com	ma	nd	not found: openssl passwd -1 qEAr93Xm
+2023-12-02T06:26:53+0000	[twisted.conch.ssh.session#info] exitCode: 0			
+2023-12-02T06:26:53+0000	[cowrie.ssh.connection.CowrieSSHConnection#debug] sending request b'exit-status'			
+2023-12-02T06:26:53+0000	[cowrie.ssh.connection.CowrieSSHConnection#info] sending close 0			
+2023-12-02T06:26:53+0000	[SSHChannel session (0) on SSHService b'ssh-connection' on HoneyPotSSHTransport,184,34.68.217.87] Can	't	fi	nd command apt
+2023-12-02T06:26:53+0000	[SSHChannel session (0) on SSHService b'ssh-connection' on HoneyPotSSHTransport,184,34.68.217.87] Com	ma	nd	not found: apt update
+2023-12-02T06:26:53+0000	[twisted.conch.ssh.session#info] exitCode: 0			
+2023-12-02T06:26:53+0000	[SSHChannel session (0) on SSHService b'ssh-connection' on HoneyPotSSHTransport,184,34.68.217.87] Can	't	fi	nd command apt
+2023-12-02T06:26:53+0000	[SSHChannel session (0) on SSHService b'ssh-connection' on HoneyPotSSHTransport,184,34.68.217.87] Com	ma	nd	not found: apt install sudo curl -y
+2023-12-02T06:26:53+0000	[twisted.conch.ssh.session#info] exitCode: 0			
+2023-12-02T06:26:53+0000	[SSHChannel session (0) on SSHService b'ssh-connection' on HoneyPotSSHTransport,184,34.68.217.87] Com	ma	nd	found: sudo useradd -m -p  system
+2023-12-02T06:26:53+0000	[SSHChannel session (0) on SSHService b'ssh-connection' on HoneyPotSSHTransport,184,34.68.217.87] Com	ma	nd	found: sudo usermod -aG sudo system
+2023-12-02T06:26:53+0000	[SSHChannel session (0) on SSHService b'ssh-connection' on HoneyPotSSHTransport,184,34.68.217.87] Can	't	fi	nd command usermod
+2023-12-02T06:26:53+0000	[SSHChannel session (0) on SSHService b'ssh-connection' on HoneyPotSSHTransport,184,34.68.217.87] Can	't	fi	nd command -aG
+2023-12-02T06:26:53+0000	[SSHChannel session (0) on SSHService b'ssh-connection' on HoneyPotSSHTransport,184,34.68.217.87] Com	ma	nd	found: sudo usermod -aG sudo system
+2023-12-02T06:26:53+0000	[SSHChannel session (0) on SSHService b'ssh-connection' on HoneyPotSSHTransport,184,34.68.217.87] Can	't	fi	nd command usermod
+2023-12-02T06:26:53+0000	[SSHChannel session (0) on SSHService b'ssh-connection' on HoneyPotSSHTransport,184,34.68.217.87] Can	't	fi	nd command -aG
+2023-12-02T06:26:53+0000	[SSHChannel session (0) on SSHService b'ssh-connection' on HoneyPotSSHTransport,184,34.68.217.87] Can	't	fi	nd command system
+2023-12-02T06:26:53+0000	[twisted.conch.ssh.session#info] exitCode: 0			

@@ -1,0 +1,101 @@
+2023-11-27T04:04:03+0000	[-] Python Version 3.11.2 (main, Mar 13 2023, 12:18:29) [GCC 12.2.0]	Unnamed: 2	Unnamed: 3	Unnamed: 4
+2023-11-29T05:04:54+0000	[cowrie.shell.protocol.HoneyPotInteractiveProtocol#warn] Received unhandled keyID: b'\x00'			
+2023-11-29T05:04:54+0000	[cowrie.shell.protocol.HoneyPotInteractiveProtocol#warn] Received unhandled keyID: b'\x07'			
+2023-11-29T05:04:54+0000	[HoneyPotSSHTransport,259,142.171.239.212] CMD: >?A@/X'8ELFX8yL			
+2023-11-29T05:04:54+0000	[HoneyPotSSHTransport,259,142.171.239.212] exception: No closing quotation			
+2023-11-29T05:04:54+0000	[cowrie.shell.protocol.HoneyPotInteractiveProtocol#warn] Received unhandled keyID: b'\x14'			
+2023-11-29T05:04:54+0000	[cowrie.shell.protocol.HoneyPotInteractiveProtocol#warn] Received unhandled keyID: b'\x00'			
+2023-11-29T05:04:54+0000	[cowrie.shell.protocol.HoneyPotInteractiveProtocol#warn] Received unhandled keyID: b'\xdf'			
+2023-11-29T05:04:54+0000	[cowrie.shell.protocol.HoneyPotInteractiveProtocol#warn] Received unhandled keyID: b'\xd6'			
+2023-11-29T05:04:54+0000	[cowrie.shell.protocol.HoneyPotInteractiveProtocol#warn] Received unhandled keyID: b'\xc6'			
+2023-11-29T05:04:54+0000	[cowrie.shell.protocol.HoneyPotInteractiveProtocol#warn] Received unhandled keyID: b'\xbe'			
+2023-11-29T05:04:54+0000	[cowrie.shell.protocol.HoneyPotInteractiveProtocol#warn] Received unhandled keyID: b'\x13'			
+2023-11-29T05:04:54+0000	[cowrie.shell.protocol.HoneyPotInteractiveProtocol#warn] Received unhandled keyID: b'\x0f'			
+2023-11-29T05:04:54+0000	[cowrie.shell.protocol.HoneyPotInteractiveProtocol#warn] Received unhandled keyID: b'\xd7'			
+2023-11-29T05:04:54+0000	[cowrie.shell.protocol.HoneyPotInteractiveProtocol#warn] Received unhandled keyID: b'\xb7'			
+2023-11-29T05:04:54+0000	[cowrie.shell.protocol.HoneyPotInteractiveProtocol#warn] Received unhandled keyID: b'\xef'			
+2023-11-29T05:04:54+0000	[cowrie.shell.protocol.HoneyPotInteractiveProtocol#warn] Received unhandled keyID: b'\xcb'			
+2023-11-29T05:04:54+0000	[cowrie.shell.protocol.HoneyPotInteractiveProtocol#warn] Received unhandled keyID: b'\x90'			
+2023-11-29T05:04:54+0000	[cowrie.shell.protocol.HoneyPotInteractiveProtocol#warn] Received unhandled keyID: b'\x87'			
+2023-11-29T05:04:54+0000	[cowrie.shell.protocol.HoneyPotInteractiveProtocol#warn] Received unhandled keyID: b'\xac'			
+2023-11-29T05:04:54+0000	[cowrie.shell.protocol.HoneyPotInteractiveProtocol#warn] Received unhandled keyID: b'\x00'			
+2023-11-29T05:04:54+0000	[cowrie.shell.protocol.HoneyPotInteractiveProtocol#warn] Received unhandled keyID: b'\xcf'			
+2023-11-29T05:04:54+0000	[cowrie.shell.protocol.HoneyPotInteractiveProtocol#warn] Received unhandled keyID: b'\xdd'			
+2023-11-29T05:04:54+0000	[cowrie.shell.protocol.HoneyPotInteractiveProtocol#warn] Received unhandled keyID: b'\xe4'			
+2023-11-29T05:04:54+0000	[cowrie.shell.protocol.HoneyPotInteractiveProtocol#warn] Received unhandled keyID: b'\xf0'			
+2023-11-29T05:04:54+0000	[HoneyPotSSHTransport,259,142.171.239.212] Received CTRL-D, exiting..			
+2023-11-29T05:04:54+0000	[twisted.conch.ssh.session#info] exitCode: 0			
+2023-11-29T05:04:54+0000	[cowrie.ssh.connection.CowrieSSHConnection#debug] sending request b'exit-status'			
+2023-11-29T05:04:54+0000	[HoneyPotSSHTransport,259,142.171.239.212] Closing TTY Log: var/lib/cowrie/tty/7e6971c151cb995db97aab	4a	878	e0cb5453016d84046906134fb2fe040fdf162 after 6 seconds
+2023-11-29T05:04:54+0000	[cowrie.ssh.connection.CowrieSSHConnection#info] sending close 0			
+2023-11-29T05:04:54+0000	[HoneyPotSSHTransport,259,142.171.239.212] Unhandled Error			
+"	Traceback (most recent"	call last):			
+"	  File ""/cowrie/cowrie-"	"env/lib/python3.11/site-packages/twisted/python/log.py"", line 96, in callWithLogger"			
+"	    return callWithCont"	"ext({""system"": lp}, func, *args, **kw)"			
+"	  File ""/cowrie/cowrie-"	"env/lib/python3.11/site-packages/twisted/python/log.py"", line 80, in callWithContext"			
+"	    return context.call"	({ILogContext: newCtx}, func, *args, **kw)			
+"	  File ""/cowrie/cowrie-"	"env/lib/python3.11/site-packages/twisted/python/context.py"", line 117, in callWithContext"			
+"	    return self.current"	Context().callWithContext(ctx, func, *args, **kw)			
+"	  File ""/cowrie/cowrie-"	"env/lib/python3.11/site-packages/twisted/python/context.py"", line 82, in callWithContext"			
+"	    return func(*args,"	**kw)			
+"	--- <exception caught h"	ere> ---			
+"	  File ""/cowrie/cowrie-"	"env/lib/python3.11/site-packages/twisted/internet/posixbase.py"", line 482, in _doReadOrWrite"			
+"	    why = selectable.do"	Read()			
+"	  File ""/cowrie/cowrie-"	"env/lib/python3.11/site-packages/twisted/internet/tcp.py"", line 248, in doRead"			
+"	    return self._dataRe"	ceived(data)			
+"	  File ""/cowrie/cowrie-"	"env/lib/python3.11/site-packages/twisted/internet/tcp.py"", line 253, in _dataReceived"			
+"	    rval = self.protoco"	l.dataReceived(data)			
+"	  File ""/cowrie/cowrie-"	"git/src/cowrie/ssh/transport.py"", line 144, in dataReceived"			
+"	    self.dispatchMessag"	e(messageNum, packet[1:])			
+"	  File ""/cowrie/cowrie-"	"git/src/cowrie/ssh/transport.py"", line 148, in dispatchMessage"			
+"	    transport.SSHServer"	Transport.dispatchMessage(self, messageNum, payload)			
+"	  File ""/cowrie/cowrie-"	"env/lib/python3.11/site-packages/twisted/conch/ssh/transport.py"", line 800, in dispatchMessage"			
+"	    self.service.packet"	Received(messageNum, payload)			
+"	  File ""/cowrie/cowrie-"	"env/lib/python3.11/site-packages/twisted/conch/ssh/service.py"", line 50, in packetReceived"			
+"	    return f(packet)"				
+"	  File ""/cowrie/cowrie-"	"env/lib/python3.11/site-packages/twisted/conch/ssh/connection.py"", line 265, in ssh_CHANNEL_DATA"			
+"	    channel.dataReceive"	d(data)			
+"	  File ""/cowrie/cowrie-"	"env/lib/python3.11/site-packages/twisted/conch/ssh/session.py"", line 165, in dataReceived"			
+"	    self.client.transpo"	rt.write(data)			
+"	  File ""/cowrie/cowrie-"	"env/lib/python3.11/site-packages/twisted/conch/ssh/session.py"", line 225, in write"			
+"	    self.proto.dataRece"	ived(data)			
+"	  File ""/cowrie/cowrie-"	"git/src/cowrie/insults/insults.py"", line 126, in dataReceived"			
+"	    insults.ServerProto"	col.dataReceived(self, data)			
+"	  File ""/cowrie/cowrie-"	"env/lib/python3.11/site-packages/twisted/conch/insults/insults.py"", line 520, in dataReceived"			
+"	    self.terminalProtoc"	ol.keystrokeReceived(ch, None)			
+"	builtins.AttributeError"	: 'NoneType' object has no attribute 'keystrokeReceived'			
+"	"				
+2023-11-29T05:04:54+0000	[HoneyPotSSHTransport,259,142.171.239.212] avatar root logging out			
+2023-11-29T05:04:54+0000	[cowrie.ssh.transport.HoneyPotSSHTransport#info] connection lost			
+2023-11-29T05:04:54+0000	[HoneyPotSSHTransport,259,142.171.239.212] Connection lost after 8 seconds			
+2023-11-29T05:07:22+0000	[cowrie.ssh.factory.CowrieSSHFactory] No moduli, no diffie-hellman-group-exchange-sha1			
+2023-11-29T05:07:22+0000	[cowrie.ssh.factory.CowrieSSHFactory] No moduli, no diffie-hellman-group-exchange-sha256			
+2023-11-29T05:07:22+0000	[cowrie.ssh.factory.CowrieSSHFactory] New connection: 146.190.63.65:41140 (172.17.0.2:2222) [session:	d	dd2	2dd74494]
+2023-11-29T05:07:22+0000	[HoneyPotSSHTransport,260,146.190.63.65] Remote SSH version: SSH-2.0-Go			
+2023-11-29T05:07:22+0000	[HoneyPotSSHTransport,260,146.190.63.65] SSH client hassh fingerprint: 4e066189c3bbeec38c99b185511373	3a		
+2023-11-29T05:07:22+0000	[cowrie.ssh.transport.HoneyPotSSHTransport#debug] kex alg=b'curve25519-sha256' key alg=b'ecdsa-sha2-n	is	tp2	56'
+2023-11-29T05:07:22+0000	[cowrie.ssh.transport.HoneyPotSSHTransport#debug] outgoing: b'aes128-ctr' b'hmac-sha2-256' b'none'			
+2023-11-29T05:07:22+0000	[cowrie.ssh.transport.HoneyPotSSHTransport#debug] incoming: b'aes128-ctr' b'hmac-sha2-256' b'none'			
+2023-11-29T05:07:22+0000	[cowrie.ssh.transport.HoneyPotSSHTransport#debug] NEW KEYS			
+2023-11-29T05:07:22+0000	[cowrie.ssh.transport.HoneyPotSSHTransport#debug] starting service b'ssh-userauth'			
+2023-11-29T05:07:22+0000	[cowrie.ssh.userauth.HoneyPotSSHUserAuthServer#debug] b'nsrecover' trying auth b'none'			
+2023-11-29T05:07:22+0000	[cowrie.ssh.userauth.HoneyPotSSHUserAuthServer#debug] b'nsrecover' trying auth b'password'			
+2023-11-29T05:07:22+0000	[HoneyPotSSHTransport,260,146.190.63.65] Could not read etc/userdb.txt, default database activated			
+2023-11-29T05:07:22+0000	[HoneyPotSSHTransport,260,146.190.63.65] login attempt [b'nsrecover'/b'nsroot'] failed			
+2023-11-29T05:07:23+0000	[cowrie.ssh.userauth.HoneyPotSSHUserAuthServer#debug] b'nsrecover' failed auth b'password'			
+2023-11-29T05:07:23+0000	[cowrie.ssh.userauth.HoneyPotSSHUserAuthServer#debug] unauthorized login: ()			
+2023-11-29T05:07:23+0000	[cowrie.ssh.transport.HoneyPotSSHTransport#info] connection lost			
+2023-11-29T05:07:23+0000	[HoneyPotSSHTransport,260,146.190.63.65] Connection lost after 1 seconds			
+2023-11-29T05:12:58+0000	[cowrie.ssh.factory.CowrieSSHFactory] No moduli, no diffie-hellman-group-exchange-sha1			
+2023-11-29T05:12:58+0000	[cowrie.ssh.factory.CowrieSSHFactory] No moduli, no diffie-hellman-group-exchange-sha256			
+2023-11-29T05:12:58+0000	[cowrie.ssh.factory.CowrieSSHFactory] New connection: 146.190.63.65:47104 (172.17.0.2:2222) [session:	1	5b6	09094c62]
+2023-11-29T05:12:58+0000	[HoneyPotSSHTransport,261,146.190.63.65] Remote SSH version: SSH-2.0-Go			
+2023-11-29T05:12:58+0000	[HoneyPotSSHTransport,261,146.190.63.65] SSH client hassh fingerprint: 4e066189c3bbeec38c99b185511373	3a		
+2023-11-29T05:12:58+0000	[cowrie.ssh.transport.HoneyPotSSHTransport#debug] kex alg=b'curve25519-sha256' key alg=b'ecdsa-sha2-n	is	tp2	56'
+2023-11-29T05:12:58+0000	[cowrie.ssh.transport.HoneyPotSSHTransport#debug] outgoing: b'aes128-ctr' b'hmac-sha2-256' b'none'			
+2023-11-29T05:12:58+0000	[cowrie.ssh.transport.HoneyPotSSHTransport#debug] incoming: b'aes128-ctr' b'hmac-sha2-256' b'none'			
+2023-11-29T05:12:58+0000	[cowrie.ssh.transport.HoneyPotSSHTransport#debug] NEW KEYS			
+2023-11-29T05:12:58+0000	[cowrie.ssh.transport.HoneyPotSSHTransport#debug] starting service b'ssh-userauth'			
+2023-11-29T05:12:58+0000	[cowrie.ssh.userauth.HoneyPotSSHUserAuthServer#debug] b'oracle' trying auth b'none'			
+2023-11-29T05:12:58+0000	[cowrie.ssh.userauth.HoneyPotSSHUserAuthServer#debug] b'oracle' trying auth b'password'			
+2023-11-29T05:12:58+0000	[HoneyPotSSHTransport,261,146.190.63.65] Could not read etc/userdb.txt, default database activated			

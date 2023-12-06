@@ -1,0 +1,101 @@
+2023-11-27T04:04:03+0000	[-] Python Version 3.11.2 (main, Mar 13 2023, 12:18:29) [GCC 12.2.0]	Unnamed: 2	Unnamed: 3	Unnamed: 4
+2023-11-28T05:29:54+0000	[cowrie.ssh.factory.CowrieSSHFactory] No moduli, no diffie-hellman-group-exchange-sha256			
+2023-11-28T05:29:54+0000	[cowrie.ssh.factory.CowrieSSHFactory] New connection: 91.143.110.156:58432 (172.17.0.2:2222) [session	:	8fd	1be3b6cb1]
+2023-11-28T05:29:54+0000	[HoneyPotSSHTransport,91,91.143.110.156] Remote SSH version: SSH-2.0-Go			
+2023-11-28T05:29:54+0000	[HoneyPotSSHTransport,91,91.143.110.156] SSH client hassh fingerprint: 4e066189c3bbeec38c99b185511373	3a		
+2023-11-28T05:29:54+0000	[cowrie.ssh.transport.HoneyPotSSHTransport#debug] kex alg=b'curve25519-sha256' key alg=b'ecdsa-sha2-n	is	tp2	56'
+2023-11-28T05:29:54+0000	[cowrie.ssh.transport.HoneyPotSSHTransport#debug] outgoing: b'aes128-ctr' b'hmac-sha2-256' b'none'			
+2023-11-28T05:29:54+0000	[cowrie.ssh.transport.HoneyPotSSHTransport#debug] incoming: b'aes128-ctr' b'hmac-sha2-256' b'none'			
+2023-11-28T05:29:54+0000	[cowrie.ssh.transport.HoneyPotSSHTransport#debug] NEW KEYS			
+2023-11-28T05:29:54+0000	[cowrie.ssh.transport.HoneyPotSSHTransport#debug] starting service b'ssh-userauth'			
+2023-11-28T05:29:55+0000	[cowrie.ssh.userauth.HoneyPotSSHUserAuthServer#debug] b'ansible' trying auth b'none'			
+2023-11-28T05:29:55+0000	[cowrie.ssh.userauth.HoneyPotSSHUserAuthServer#debug] b'ansible' trying auth b'password'			
+2023-11-28T05:29:55+0000	[HoneyPotSSHTransport,91,91.143.110.156] Could not read etc/userdb.txt, default database activated			
+2023-11-28T05:29:55+0000	[HoneyPotSSHTransport,91,91.143.110.156] login attempt [b'ansible'/b'ansible'] failed			
+2023-11-28T05:29:56+0000	[cowrie.ssh.userauth.HoneyPotSSHUserAuthServer#debug] b'ansible' failed auth b'password'			
+2023-11-28T05:29:56+0000	[cowrie.ssh.userauth.HoneyPotSSHUserAuthServer#debug] unauthorized login: ()			
+2023-11-28T05:29:56+0000	[cowrie.ssh.transport.HoneyPotSSHTransport#info] connection lost			
+2023-11-28T05:29:56+0000	[HoneyPotSSHTransport,91,91.143.110.156] Connection lost after 1 seconds			
+2023-11-28T05:29:56+0000	[cowrie.ssh.factory.CowrieSSHFactory] No moduli, no diffie-hellman-group-exchange-sha1			
+2023-11-28T05:29:56+0000	[cowrie.ssh.factory.CowrieSSHFactory] No moduli, no diffie-hellman-group-exchange-sha256			
+2023-11-28T05:29:56+0000	[cowrie.ssh.factory.CowrieSSHFactory] New connection: 91.143.110.156:52398 (172.17.0.2:2222) [session	:	a20	ecd2d9098]
+2023-11-28T05:29:56+0000	[HoneyPotSSHTransport,92,91.143.110.156] Remote SSH version: SSH-2.0-Go			
+2023-11-28T05:29:56+0000	[HoneyPotSSHTransport,92,91.143.110.156] SSH client hassh fingerprint: 4e066189c3bbeec38c99b185511373	3a		
+2023-11-28T05:29:56+0000	[cowrie.ssh.transport.HoneyPotSSHTransport#debug] kex alg=b'curve25519-sha256' key alg=b'ecdsa-sha2-n	is	tp2	56'
+2023-11-28T05:29:56+0000	[cowrie.ssh.transport.HoneyPotSSHTransport#debug] outgoing: b'aes128-ctr' b'hmac-sha2-256' b'none'			
+2023-11-28T05:29:56+0000	[cowrie.ssh.transport.HoneyPotSSHTransport#debug] incoming: b'aes128-ctr' b'hmac-sha2-256' b'none'			
+2023-11-28T05:29:56+0000	[cowrie.ssh.transport.HoneyPotSSHTransport#debug] NEW KEYS			
+2023-11-28T05:29:56+0000	[cowrie.ssh.transport.HoneyPotSSHTransport#debug] starting service b'ssh-userauth'			
+2023-11-28T05:29:56+0000	[cowrie.ssh.userauth.HoneyPotSSHUserAuthServer#debug] b'ansible' trying auth b'none'			
+2023-11-28T05:29:56+0000	[cowrie.ssh.userauth.HoneyPotSSHUserAuthServer#debug] b'ansible' trying auth b'password'			
+2023-11-28T05:29:56+0000	[HoneyPotSSHTransport,92,91.143.110.156] Could not read etc/userdb.txt, default database activated			
+2023-11-28T05:29:56+0000	[HoneyPotSSHTransport,92,91.143.110.156] login attempt [b'ansible'/b'123456'] failed			
+2023-11-28T05:29:57+0000	[cowrie.ssh.userauth.HoneyPotSSHUserAuthServer#debug] b'ansible' failed auth b'password'			
+2023-11-28T05:29:57+0000	[cowrie.ssh.userauth.HoneyPotSSHUserAuthServer#debug] unauthorized login: ()			
+2023-11-28T05:29:58+0000	[cowrie.ssh.transport.HoneyPotSSHTransport#info] connection lost			
+2023-11-28T05:29:58+0000	[HoneyPotSSHTransport,92,91.143.110.156] Connection lost after 1 seconds			
+2023-11-28T05:29:58+0000	[cowrie.ssh.factory.CowrieSSHFactory] No moduli, no diffie-hellman-group-exchange-sha1			
+2023-11-28T05:29:58+0000	[cowrie.ssh.factory.CowrieSSHFactory] No moduli, no diffie-hellman-group-exchange-sha256			
+2023-11-28T05:29:58+0000	[cowrie.ssh.factory.CowrieSSHFactory] New connection: 91.143.110.156:60259 (172.17.0.2:2222) [session	:	d6a	ee6ec2946]
+2023-11-28T05:29:58+0000	[HoneyPotSSHTransport,93,91.143.110.156] Remote SSH version: SSH-2.0-Go			
+2023-11-28T05:29:58+0000	[HoneyPotSSHTransport,93,91.143.110.156] SSH client hassh fingerprint: 4e066189c3bbeec38c99b185511373	3a		
+2023-11-28T05:29:58+0000	[cowrie.ssh.transport.HoneyPotSSHTransport#debug] kex alg=b'curve25519-sha256' key alg=b'ecdsa-sha2-n	is	tp2	56'
+2023-11-28T05:29:58+0000	[cowrie.ssh.transport.HoneyPotSSHTransport#debug] outgoing: b'aes128-ctr' b'hmac-sha2-256' b'none'			
+2023-11-28T05:29:58+0000	[cowrie.ssh.transport.HoneyPotSSHTransport#debug] incoming: b'aes128-ctr' b'hmac-sha2-256' b'none'			
+2023-11-28T05:29:58+0000	[cowrie.ssh.transport.HoneyPotSSHTransport#debug] NEW KEYS			
+2023-11-28T05:29:58+0000	[cowrie.ssh.transport.HoneyPotSSHTransport#debug] starting service b'ssh-userauth'			
+2023-11-28T05:29:58+0000	[cowrie.ssh.userauth.HoneyPotSSHUserAuthServer#debug] b'woshinibaba' trying auth b'none'			
+2023-11-28T05:29:58+0000	[cowrie.ssh.userauth.HoneyPotSSHUserAuthServer#debug] b'woshinibaba' trying auth b'password'			
+2023-11-28T05:29:58+0000	[HoneyPotSSHTransport,93,91.143.110.156] Could not read etc/userdb.txt, default database activated			
+2023-11-28T05:29:58+0000	[HoneyPotSSHTransport,93,91.143.110.156] login attempt [b'woshinibaba'/b'woshinibaba'] failed			
+2023-11-28T05:29:59+0000	[cowrie.ssh.userauth.HoneyPotSSHUserAuthServer#debug] b'woshinibaba' failed auth b'password'			
+2023-11-28T05:29:59+0000	[cowrie.ssh.userauth.HoneyPotSSHUserAuthServer#debug] unauthorized login: ()			
+2023-11-28T05:29:59+0000	[cowrie.ssh.transport.HoneyPotSSHTransport#info] connection lost			
+2023-11-28T05:29:59+0000	[HoneyPotSSHTransport,93,91.143.110.156] Connection lost after 1 seconds			
+2023-11-28T05:30:00+0000	[cowrie.ssh.factory.CowrieSSHFactory] No moduli, no diffie-hellman-group-exchange-sha1			
+2023-11-28T05:30:00+0000	[cowrie.ssh.factory.CowrieSSHFactory] No moduli, no diffie-hellman-group-exchange-sha256			
+2023-11-28T05:30:00+0000	[cowrie.ssh.factory.CowrieSSHFactory] New connection: 91.143.110.156:54555 (172.17.0.2:2222) [session	:	4ca	2edd2f3a1]
+2023-11-28T05:30:00+0000	[HoneyPotSSHTransport,94,91.143.110.156] Remote SSH version: SSH-2.0-Go			
+2023-11-28T05:30:00+0000	[HoneyPotSSHTransport,94,91.143.110.156] SSH client hassh fingerprint: 4e066189c3bbeec38c99b185511373	3a		
+2023-11-28T05:30:00+0000	[cowrie.ssh.transport.HoneyPotSSHTransport#debug] kex alg=b'curve25519-sha256' key alg=b'ecdsa-sha2-n	is	tp2	56'
+2023-11-28T05:30:00+0000	[cowrie.ssh.transport.HoneyPotSSHTransport#debug] outgoing: b'aes128-ctr' b'hmac-sha2-256' b'none'			
+2023-11-28T05:30:00+0000	[cowrie.ssh.transport.HoneyPotSSHTransport#debug] incoming: b'aes128-ctr' b'hmac-sha2-256' b'none'			
+2023-11-28T05:30:00+0000	[cowrie.ssh.transport.HoneyPotSSHTransport#debug] NEW KEYS			
+2023-11-28T05:30:00+0000	[cowrie.ssh.transport.HoneyPotSSHTransport#debug] starting service b'ssh-userauth'			
+2023-11-28T05:30:00+0000	[cowrie.ssh.userauth.HoneyPotSSHUserAuthServer#debug] b'woshinibaba' trying auth b'none'			
+2023-11-28T05:30:00+0000	[cowrie.ssh.userauth.HoneyPotSSHUserAuthServer#debug] b'woshinibaba' trying auth b'password'			
+2023-11-28T05:30:00+0000	[HoneyPotSSHTransport,94,91.143.110.156] Could not read etc/userdb.txt, default database activated			
+2023-11-28T05:30:00+0000	[HoneyPotSSHTransport,94,91.143.110.156] login attempt [b'woshinibaba'/b'123456'] failed			
+2023-11-28T05:30:01+0000	[cowrie.ssh.userauth.HoneyPotSSHUserAuthServer#debug] b'woshinibaba' failed auth b'password'			
+2023-11-28T05:30:01+0000	[cowrie.ssh.userauth.HoneyPotSSHUserAuthServer#debug] unauthorized login: ()			
+2023-11-28T05:30:01+0000	[cowrie.ssh.transport.HoneyPotSSHTransport#info] connection lost			
+2023-11-28T05:30:01+0000	[HoneyPotSSHTransport,94,91.143.110.156] Connection lost after 1 seconds			
+2023-11-28T05:30:01+0000	[cowrie.ssh.factory.CowrieSSHFactory] No moduli, no diffie-hellman-group-exchange-sha1			
+2023-11-28T05:30:01+0000	[cowrie.ssh.factory.CowrieSSHFactory] No moduli, no diffie-hellman-group-exchange-sha256			
+2023-11-28T05:30:01+0000	[cowrie.ssh.factory.CowrieSSHFactory] New connection: 91.143.110.156:63456 (172.17.0.2:2222) [session	:	3b5	ed87cfc36]
+2023-11-28T05:30:01+0000	[HoneyPotSSHTransport,95,91.143.110.156] Remote SSH version: SSH-2.0-Go			
+2023-11-28T05:30:01+0000	[HoneyPotSSHTransport,95,91.143.110.156] SSH client hassh fingerprint: 4e066189c3bbeec38c99b185511373	3a		
+2023-11-28T05:30:01+0000	[cowrie.ssh.transport.HoneyPotSSHTransport#debug] kex alg=b'curve25519-sha256' key alg=b'ecdsa-sha2-n	is	tp2	56'
+2023-11-28T05:30:01+0000	[cowrie.ssh.transport.HoneyPotSSHTransport#debug] outgoing: b'aes128-ctr' b'hmac-sha2-256' b'none'			
+2023-11-28T05:30:01+0000	[cowrie.ssh.transport.HoneyPotSSHTransport#debug] incoming: b'aes128-ctr' b'hmac-sha2-256' b'none'			
+2023-11-28T05:30:02+0000	[cowrie.ssh.transport.HoneyPotSSHTransport#debug] NEW KEYS			
+2023-11-28T05:30:02+0000	[cowrie.ssh.transport.HoneyPotSSHTransport#debug] starting service b'ssh-userauth'			
+2023-11-28T05:30:02+0000	[cowrie.ssh.userauth.HoneyPotSSHUserAuthServer#debug] b'teamspeak3' trying auth b'none'			
+2023-11-28T05:30:02+0000	[cowrie.ssh.userauth.HoneyPotSSHUserAuthServer#debug] b'teamspeak3' trying auth b'password'			
+2023-11-28T05:30:02+0000	[HoneyPotSSHTransport,95,91.143.110.156] Could not read etc/userdb.txt, default database activated			
+2023-11-28T05:30:02+0000	[HoneyPotSSHTransport,95,91.143.110.156] login attempt [b'teamspeak3'/b'teamspeak3'] failed			
+2023-11-28T05:30:03+0000	[cowrie.ssh.userauth.HoneyPotSSHUserAuthServer#debug] b'teamspeak3' failed auth b'password'			
+2023-11-28T05:30:03+0000	[cowrie.ssh.userauth.HoneyPotSSHUserAuthServer#debug] unauthorized login: ()			
+2023-11-28T05:30:03+0000	[cowrie.ssh.transport.HoneyPotSSHTransport#info] connection lost			
+2023-11-28T05:30:03+0000	[HoneyPotSSHTransport,95,91.143.110.156] Connection lost after 1 seconds			
+2023-11-28T05:30:03+0000	[cowrie.ssh.factory.CowrieSSHFactory] No moduli, no diffie-hellman-group-exchange-sha1			
+2023-11-28T05:30:03+0000	[cowrie.ssh.factory.CowrieSSHFactory] No moduli, no diffie-hellman-group-exchange-sha256			
+2023-11-28T05:30:03+0000	[cowrie.ssh.factory.CowrieSSHFactory] New connection: 91.143.110.156:60440 (172.17.0.2:2222) [session	:	867	210facb75]
+2023-11-28T05:30:03+0000	[HoneyPotSSHTransport,96,91.143.110.156] Remote SSH version: SSH-2.0-Go			
+2023-11-28T05:30:03+0000	[HoneyPotSSHTransport,96,91.143.110.156] SSH client hassh fingerprint: 4e066189c3bbeec38c99b185511373	3a		
+2023-11-28T05:30:03+0000	[cowrie.ssh.transport.HoneyPotSSHTransport#debug] kex alg=b'curve25519-sha256' key alg=b'ecdsa-sha2-n	is	tp2	56'
+2023-11-28T05:30:03+0000	[cowrie.ssh.transport.HoneyPotSSHTransport#debug] outgoing: b'aes128-ctr' b'hmac-sha2-256' b'none'			
+2023-11-28T05:30:03+0000	[cowrie.ssh.transport.HoneyPotSSHTransport#debug] incoming: b'aes128-ctr' b'hmac-sha2-256' b'none'			
+2023-11-28T05:30:03+0000	[cowrie.ssh.transport.HoneyPotSSHTransport#debug] NEW KEYS			
+2023-11-28T05:30:03+0000	[cowrie.ssh.transport.HoneyPotSSHTransport#debug] starting service b'ssh-userauth'			
+2023-11-28T05:30:03+0000	[cowrie.ssh.userauth.HoneyPotSSHUserAuthServer#debug] b'demo' trying auth b'none'			

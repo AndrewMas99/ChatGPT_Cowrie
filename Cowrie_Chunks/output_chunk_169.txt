@@ -1,0 +1,101 @@
+2023-11-27T04:04:03+0000	[-] Python Version 3.11.2 (main, Mar 13 2023, 12:18:29) [GCC 12.2.0]	Unnamed: 2	Unnamed: 3	Unnamed: 4
+2023-11-29T21:44:14+0000	[cowrie.ssh.transport.HoneyPotSSHTransport#info] connection lost			
+2023-11-29T21:44:14+0000	[HoneyPotSSHTransport,397,165.154.41.238] Connection lost after 120 seconds			
+2023-11-29T21:44:14+0000	[-] Timeout reached in HoneyPotSSHTransport			
+2023-11-29T21:44:14+0000	[cowrie.ssh.transport.HoneyPotSSHTransport#info] connection lost			
+2023-11-29T21:44:14+0000	[HoneyPotSSHTransport,398,165.154.41.238] Connection lost after 120 seconds			
+2023-11-29T21:44:15+0000	[-] Timeout reached in HoneyPotSSHTransport			
+2023-11-29T21:44:15+0000	[cowrie.ssh.transport.HoneyPotSSHTransport#info] connection lost			
+2023-11-29T21:44:15+0000	[HoneyPotSSHTransport,399,165.154.41.238] Connection lost after 120 seconds			
+2023-11-29T21:44:16+0000	[-] Timeout reached in HoneyPotSSHTransport			
+2023-11-29T21:44:16+0000	[cowrie.ssh.transport.HoneyPotSSHTransport#info] connection lost			
+2023-11-29T21:44:16+0000	[HoneyPotSSHTransport,400,165.154.41.238] Connection lost after 120 seconds			
+2023-11-29T21:44:17+0000	[-] Timeout reached in HoneyPotSSHTransport			
+2023-11-29T21:44:17+0000	[cowrie.ssh.transport.HoneyPotSSHTransport#info] connection lost			
+2023-11-29T21:44:17+0000	[HoneyPotSSHTransport,401,165.154.41.238] Connection lost after 120 seconds			
+2023-11-29T21:44:17+0000	[-] Timeout reached in HoneyPotSSHTransport			
+2023-11-29T21:44:17+0000	[cowrie.ssh.transport.HoneyPotSSHTransport#info] connection lost			
+2023-11-29T21:44:17+0000	[HoneyPotSSHTransport,402,165.154.41.238] Connection lost after 120 seconds			
+2023-11-29T21:44:18+0000	[-] Timeout reached in HoneyPotSSHTransport			
+2023-11-29T21:44:18+0000	[cowrie.ssh.transport.HoneyPotSSHTransport#info] connection lost			
+2023-11-29T21:44:18+0000	[HoneyPotSSHTransport,403,165.154.41.238] Connection lost after 120 seconds			
+2023-11-29T21:44:19+0000	[-] Timeout reached in HoneyPotSSHTransport			
+2023-11-29T21:44:19+0000	[cowrie.ssh.transport.HoneyPotSSHTransport#info] connection lost			
+2023-11-29T21:44:19+0000	[HoneyPotSSHTransport,404,165.154.41.238] Connection lost after 120 seconds			
+2023-11-29T21:44:20+0000	[-] Timeout reached in HoneyPotSSHTransport			
+2023-11-29T21:44:20+0000	[cowrie.ssh.transport.HoneyPotSSHTransport#info] connection lost			
+2023-11-29T21:44:20+0000	[HoneyPotSSHTransport,405,165.154.41.238] Connection lost after 120 seconds			
+2023-11-29T21:44:21+0000	[-] Timeout reached in HoneyPotSSHTransport			
+2023-11-29T21:44:21+0000	[cowrie.ssh.transport.HoneyPotSSHTransport#info] connection lost			
+2023-11-29T21:44:21+0000	[HoneyPotSSHTransport,406,165.154.41.238] Connection lost after 120 seconds			
+2023-11-29T21:44:21+0000	[-] Timeout reached in HoneyPotSSHTransport			
+2023-11-29T21:44:21+0000	[cowrie.ssh.transport.HoneyPotSSHTransport#info] connection lost			
+2023-11-29T21:44:21+0000	[HoneyPotSSHTransport,407,165.154.41.238] Connection lost after 120 seconds			
+2023-11-29T21:44:22+0000	[-] Timeout reached in HoneyPotSSHTransport			
+2023-11-29T21:44:22+0000	[cowrie.ssh.transport.HoneyPotSSHTransport#info] connection lost			
+2023-11-29T21:44:22+0000	[HoneyPotSSHTransport,408,165.154.41.238] Connection lost after 120 seconds			
+2023-11-29T21:44:22+0000	[-] Timeout reached in HoneyPotSSHTransport			
+2023-11-29T21:44:22+0000	[cowrie.ssh.transport.HoneyPotSSHTransport#info] connection lost			
+2023-11-29T21:44:22+0000	[HoneyPotSSHTransport,409,165.154.41.238] Connection lost after 120 seconds			
+2023-11-29T21:44:24+0000	[-] Timeout reached in HoneyPotSSHTransport			
+2023-11-29T21:44:24+0000	[cowrie.ssh.transport.HoneyPotSSHTransport#info] connection lost			
+2023-11-29T21:44:24+0000	[HoneyPotSSHTransport,410,165.154.41.238] Connection lost after 120 seconds			
+2023-11-29T21:44:25+0000	[-] Timeout reached in HoneyPotSSHTransport			
+2023-11-29T21:44:25+0000	[cowrie.ssh.transport.HoneyPotSSHTransport#info] connection lost			
+2023-11-29T21:44:25+0000	[HoneyPotSSHTransport,411,165.154.41.238] Connection lost after 120 seconds			
+2023-11-29T21:44:26+0000	[-] Timeout reached in HoneyPotSSHTransport			
+2023-11-29T21:44:26+0000	[cowrie.ssh.transport.HoneyPotSSHTransport#info] connection lost			
+2023-11-29T21:44:26+0000	[HoneyPotSSHTransport,412,165.154.41.238] Connection lost after 120 seconds			
+2023-11-29T21:44:27+0000	[-] Timeout reached in HoneyPotSSHTransport			
+2023-11-29T21:44:27+0000	[cowrie.ssh.transport.HoneyPotSSHTransport#info] connection lost			
+2023-11-29T21:44:27+0000	[HoneyPotSSHTransport,413,165.154.41.238] Connection lost after 120 seconds			
+2023-11-29T21:44:28+0000	[-] Timeout reached in HoneyPotSSHTransport			
+2023-11-29T21:44:28+0000	[cowrie.ssh.transport.HoneyPotSSHTransport#info] connection lost			
+2023-11-29T21:44:28+0000	[HoneyPotSSHTransport,414,165.154.41.238] Connection lost after 120 seconds			
+2023-11-29T21:44:29+0000	[-] Timeout reached in HoneyPotSSHTransport			
+2023-11-29T21:44:29+0000	[cowrie.ssh.transport.HoneyPotSSHTransport#info] connection lost			
+2023-11-29T21:44:29+0000	[HoneyPotSSHTransport,415,165.154.41.238] Connection lost after 120 seconds			
+2023-11-29T21:44:30+0000	[-] Timeout reached in HoneyPotSSHTransport			
+2023-11-29T21:44:30+0000	[cowrie.ssh.transport.HoneyPotSSHTransport#info] connection lost			
+2023-11-29T21:44:30+0000	[HoneyPotSSHTransport,416,165.154.41.238] Connection lost after 120 seconds			
+2023-11-29T21:44:30+0000	[-] Timeout reached in HoneyPotSSHTransport			
+2023-11-29T21:44:30+0000	[cowrie.ssh.transport.HoneyPotSSHTransport#info] connection lost			
+2023-11-29T21:44:30+0000	[HoneyPotSSHTransport,417,165.154.41.238] Connection lost after 120 seconds			
+2023-11-29T21:44:31+0000	[-] Timeout reached in HoneyPotSSHTransport			
+2023-11-29T21:44:31+0000	[cowrie.ssh.transport.HoneyPotSSHTransport#info] connection lost			
+2023-11-29T21:44:31+0000	[HoneyPotSSHTransport,418,165.154.41.238] Connection lost after 120 seconds			
+2023-11-29T21:44:32+0000	[-] Timeout reached in HoneyPotSSHTransport			
+2023-11-29T21:44:32+0000	[cowrie.ssh.transport.HoneyPotSSHTransport#info] connection lost			
+2023-11-29T21:44:32+0000	[HoneyPotSSHTransport,419,165.154.41.238] Connection lost after 120 seconds			
+2023-11-29T21:44:32+0000	[-] Timeout reached in HoneyPotSSHTransport			
+2023-11-29T21:44:32+0000	[cowrie.ssh.transport.HoneyPotSSHTransport#info] connection lost			
+2023-11-29T21:44:32+0000	[HoneyPotSSHTransport,420,165.154.41.238] Connection lost after 120 seconds			
+2023-11-29T21:44:35+0000	[-] Timeout reached in HoneyPotSSHTransport			
+2023-11-29T21:44:35+0000	[cowrie.ssh.transport.HoneyPotSSHTransport#info] connection lost			
+2023-11-29T21:44:35+0000	[HoneyPotSSHTransport,421,165.154.41.238] Connection lost after 120 seconds			
+2023-11-29T21:44:35+0000	[-] Timeout reached in HoneyPotSSHTransport			
+2023-11-29T21:44:35+0000	[cowrie.ssh.transport.HoneyPotSSHTransport#info] connection lost			
+2023-11-29T21:44:35+0000	[HoneyPotSSHTransport,422,165.154.41.238] Connection lost after 120 seconds			
+2023-11-29T21:44:36+0000	[-] Timeout reached in HoneyPotSSHTransport			
+2023-11-29T21:44:36+0000	[cowrie.ssh.transport.HoneyPotSSHTransport#info] connection lost			
+2023-11-29T21:44:36+0000	[HoneyPotSSHTransport,423,165.154.41.238] Connection lost after 120 seconds			
+2023-11-29T21:44:37+0000	[-] Timeout reached in HoneyPotSSHTransport			
+2023-11-29T21:44:37+0000	[cowrie.ssh.transport.HoneyPotSSHTransport#info] connection lost			
+2023-11-29T21:44:37+0000	[HoneyPotSSHTransport,424,165.154.41.238] Connection lost after 120 seconds			
+2023-11-29T21:44:37+0000	[-] Timeout reached in HoneyPotSSHTransport			
+2023-11-29T21:44:37+0000	[cowrie.ssh.transport.HoneyPotSSHTransport#info] connection lost			
+2023-11-29T21:44:37+0000	[HoneyPotSSHTransport,425,165.154.41.238] Connection lost after 120 seconds			
+2023-11-29T21:44:38+0000	[-] Timeout reached in HoneyPotSSHTransport			
+2023-11-29T21:44:38+0000	[cowrie.ssh.transport.HoneyPotSSHTransport#info] connection lost			
+2023-11-29T21:44:38+0000	[HoneyPotSSHTransport,427,165.154.41.238] Connection lost after 120 seconds			
+2023-11-29T21:51:41+0000	[cowrie.ssh.factory.CowrieSSHFactory] No moduli, no diffie-hellman-group-exchange-sha1			
+2023-11-29T21:51:41+0000	[cowrie.ssh.factory.CowrieSSHFactory] No moduli, no diffie-hellman-group-exchange-sha256			
+2023-11-29T21:51:41+0000	[cowrie.ssh.factory.CowrieSSHFactory] New connection: 164.90.233.55:61000 (172.17.0.2:2222) [session:	e	564	b4224c56]
+2023-11-29T21:51:42+0000	[cowrie.ssh.transport.HoneyPotSSHTransport#info] connection lost			
+2023-11-29T21:51:42+0000	[HoneyPotSSHTransport,450,164.90.233.55] Connection lost after 0 seconds			
+2023-11-29T21:52:58+0000	[cowrie.ssh.factory.CowrieSSHFactory] No moduli, no diffie-hellman-group-exchange-sha1			
+2023-11-29T21:52:58+0000	[cowrie.ssh.factory.CowrieSSHFactory] No moduli, no diffie-hellman-group-exchange-sha256			
+2023-11-29T21:52:58+0000	[cowrie.ssh.factory.CowrieSSHFactory] New connection: 140.143.204.220:33212 (172.17.0.2:2222) [sessio	n:	ff	f7a56dc4d2]
+2023-11-29T21:53:11+0000	[cowrie.ssh.transport.HoneyPotSSHTransport#info] connection lost			
+2023-11-29T21:53:11+0000	[HoneyPotSSHTransport,451,140.143.204.220] Connection lost after 13 seconds			
+2023-11-29T21:53:36+0000	[cowrie.ssh.factory.CowrieSSHFactory] No moduli, no diffie-hellman-group-exchange-sha1			

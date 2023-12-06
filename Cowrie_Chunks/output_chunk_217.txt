@@ -1,0 +1,101 @@
+2023-11-27T04:04:03+0000	[-] Python Version 3.11.2 (main, Mar 13 2023, 12:18:29) [GCC 12.2.0]	Unnamed: 2	Unnamed: 3	Unnamed: 4
+2023-12-01T00:15:04+0000	[HoneyPotSSHTransport,34,183.107.151.167] Could not read etc/userdb.txt, default database activated			
+2023-12-01T00:15:04+0000	[HoneyPotSSHTransport,34,183.107.151.167] login attempt [b'admin'/b'Admin'] failed			
+2023-12-01T00:15:05+0000	[cowrie.ssh.userauth.HoneyPotSSHUserAuthServer#debug] b'admin' failed auth b'password'			
+2023-12-01T00:15:05+0000	[cowrie.ssh.userauth.HoneyPotSSHUserAuthServer#debug] unauthorized login: ()			
+2023-12-01T00:15:05+0000	[cowrie.ssh.transport.HoneyPotSSHTransport#debug] starting service b'ssh-userauth'			
+2023-12-01T00:15:05+0000	[cowrie.ssh.userauth.HoneyPotSSHUserAuthServer#debug] b'admin' trying auth b'password'			
+2023-12-01T00:15:05+0000	[HoneyPotSSHTransport,34,183.107.151.167] Could not read etc/userdb.txt, default database activated			
+2023-12-01T00:15:05+0000	[HoneyPotSSHTransport,34,183.107.151.167] login attempt [b'admin'/b'7ujMko0'] failed			
+2023-12-01T00:15:06+0000	[cowrie.ssh.userauth.HoneyPotSSHUserAuthServer#debug] b'admin' failed auth b'password'			
+2023-12-01T00:15:06+0000	[cowrie.ssh.userauth.HoneyPotSSHUserAuthServer#debug] unauthorized login: ()			
+2023-12-01T00:15:07+0000	[cowrie.ssh.transport.HoneyPotSSHTransport#debug] starting service b'ssh-userauth'			
+2023-12-01T00:15:07+0000	[cowrie.ssh.userauth.HoneyPotSSHUserAuthServer#debug] b'admin' trying auth b'password'			
+2023-12-01T00:15:07+0000	[HoneyPotSSHTransport,34,183.107.151.167] Could not read etc/userdb.txt, default database activated			
+2023-12-01T00:15:07+0000	[HoneyPotSSHTransport,34,183.107.151.167] login attempt [b'admin'/b'1234'] failed			
+2023-12-01T00:15:08+0000	[cowrie.ssh.userauth.HoneyPotSSHUserAuthServer#debug] b'admin' failed auth b'password'			
+2023-12-01T00:15:08+0000	[cowrie.ssh.userauth.HoneyPotSSHUserAuthServer#debug] unauthorized login: ()			
+2023-12-01T00:15:08+0000	[cowrie.ssh.transport.HoneyPotSSHTransport#debug] starting service b'ssh-userauth'			
+2023-12-01T00:15:08+0000	[cowrie.ssh.userauth.HoneyPotSSHUserAuthServer#debug] b'admin' trying auth b'password'			
+2023-12-01T00:15:08+0000	[HoneyPotSSHTransport,34,183.107.151.167] Could not read etc/userdb.txt, default database activated			
+2023-12-01T00:15:08+0000	[HoneyPotSSHTransport,34,183.107.151.167] login attempt [b'admin'/b'12345'] failed			
+2023-12-01T00:15:09+0000	[cowrie.ssh.userauth.HoneyPotSSHUserAuthServer#debug] b'admin' failed auth b'password'			
+2023-12-01T00:15:09+0000	[cowrie.ssh.userauth.HoneyPotSSHUserAuthServer#debug] unauthorized login: ()			
+2023-12-01T00:15:10+0000	[cowrie.ssh.transport.HoneyPotSSHTransport#info] connection lost			
+2023-12-01T00:15:10+0000	[HoneyPotSSHTransport,34,183.107.151.167] Connection lost after 29 seconds			
+2023-12-01T00:15:10+0000	[cowrie.ssh.factory.CowrieSSHFactory] No moduli, no diffie-hellman-group-exchange-sha1			
+2023-12-01T00:15:10+0000	[cowrie.ssh.factory.CowrieSSHFactory] No moduli, no diffie-hellman-group-exchange-sha256			
+2023-12-01T00:15:10+0000	[cowrie.ssh.factory.CowrieSSHFactory] New connection: 183.107.151.167:63279 (172.17.0.2:2222) [sessio	n:	85	f08fc26b17]
+2023-12-01T00:15:10+0000	[HoneyPotSSHTransport,35,183.107.151.167] Remote SSH version: SSH-2.0-OpenSSH_6.0p1 Debian-4+deb7u2			
+2023-12-01T00:15:10+0000	[HoneyPotSSHTransport,35,183.107.151.167] SSH client hassh fingerprint: 9d31b8e6c87f893d077ca6526f7c7	10	b	
+2023-12-01T00:15:10+0000	[cowrie.ssh.transport.HoneyPotSSHTransport#debug] kex alg=b'diffie-hellman-group14-sha1' key alg=b'ss	h-	rsa	'
+2023-12-01T00:15:10+0000	[cowrie.ssh.transport.HoneyPotSSHTransport#debug] outgoing: b'aes128-ctr' b'hmac-sha1' b'none'			
+2023-12-01T00:15:10+0000	[cowrie.ssh.transport.HoneyPotSSHTransport#debug] incoming: b'aes128-ctr' b'hmac-sha1' b'none'			
+2023-12-01T00:15:11+0000	[cowrie.ssh.transport.HoneyPotSSHTransport#debug] NEW KEYS			
+2023-12-01T00:15:11+0000	[cowrie.ssh.transport.HoneyPotSSHTransport#debug] starting service b'ssh-userauth'			
+2023-12-01T00:15:11+0000	[cowrie.ssh.userauth.HoneyPotSSHUserAuthServer#debug] b'ont' trying auth b'password'			
+2023-12-01T00:15:11+0000	[HoneyPotSSHTransport,35,183.107.151.167] Could not read etc/userdb.txt, default database activated			
+2023-12-01T00:15:11+0000	[HoneyPotSSHTransport,35,183.107.151.167] login attempt [b'ont'/b'ont'] failed			
+2023-12-01T00:15:12+0000	[cowrie.ssh.userauth.HoneyPotSSHUserAuthServer#debug] b'ont' failed auth b'password'			
+2023-12-01T00:15:12+0000	[cowrie.ssh.userauth.HoneyPotSSHUserAuthServer#debug] unauthorized login: ()			
+2023-12-01T00:15:13+0000	[cowrie.ssh.transport.HoneyPotSSHTransport#info] connection lost			
+2023-12-01T00:15:13+0000	[HoneyPotSSHTransport,35,183.107.151.167] Connection lost after 2 seconds			
+2023-12-01T00:15:13+0000	[cowrie.ssh.factory.CowrieSSHFactory] No moduli, no diffie-hellman-group-exchange-sha1			
+2023-12-01T00:15:13+0000	[cowrie.ssh.factory.CowrieSSHFactory] No moduli, no diffie-hellman-group-exchange-sha256			
+2023-12-01T00:15:13+0000	[cowrie.ssh.factory.CowrieSSHFactory] New connection: 183.107.151.167:63317 (172.17.0.2:2222) [sessio	n:	2e	f905d4a09b]
+2023-12-01T00:15:13+0000	[HoneyPotSSHTransport,36,183.107.151.167] Remote SSH version: SSH-2.0-OpenSSH_6.0p1 Debian-4+deb7u2			
+2023-12-01T00:15:13+0000	[HoneyPotSSHTransport,36,183.107.151.167] SSH client hassh fingerprint: 9d31b8e6c87f893d077ca6526f7c7	10	b	
+2023-12-01T00:15:13+0000	[cowrie.ssh.transport.HoneyPotSSHTransport#debug] kex alg=b'diffie-hellman-group14-sha1' key alg=b'ss	h-	rsa	'
+2023-12-01T00:15:13+0000	[cowrie.ssh.transport.HoneyPotSSHTransport#debug] outgoing: b'aes128-ctr' b'hmac-sha1' b'none'			
+2023-12-01T00:15:13+0000	[cowrie.ssh.transport.HoneyPotSSHTransport#debug] incoming: b'aes128-ctr' b'hmac-sha1' b'none'			
+2023-12-01T00:15:14+0000	[cowrie.ssh.transport.HoneyPotSSHTransport#debug] NEW KEYS			
+2023-12-01T00:15:14+0000	[cowrie.ssh.transport.HoneyPotSSHTransport#debug] starting service b'ssh-userauth'			
+2023-12-01T00:15:14+0000	[cowrie.ssh.userauth.HoneyPotSSHUserAuthServer#debug] b'support' trying auth b'password'			
+2023-12-01T00:15:14+0000	[HoneyPotSSHTransport,36,183.107.151.167] Could not read etc/userdb.txt, default database activated			
+2023-12-01T00:15:14+0000	[HoneyPotSSHTransport,36,183.107.151.167] login attempt [b'support'/b'123456'] failed			
+2023-12-01T00:15:15+0000	[cowrie.ssh.userauth.HoneyPotSSHUserAuthServer#debug] b'support' failed auth b'password'			
+2023-12-01T00:15:15+0000	[cowrie.ssh.userauth.HoneyPotSSHUserAuthServer#debug] unauthorized login: ()			
+2023-12-01T00:15:15+0000	[cowrie.ssh.transport.HoneyPotSSHTransport#debug] starting service b'ssh-userauth'			
+2023-12-01T00:15:16+0000	[cowrie.ssh.userauth.HoneyPotSSHUserAuthServer#debug] b'support' trying auth b'password'			
+2023-12-01T00:15:16+0000	[HoneyPotSSHTransport,36,183.107.151.167] Could not read etc/userdb.txt, default database activated			
+2023-12-01T00:15:16+0000	[HoneyPotSSHTransport,36,183.107.151.167] login attempt [b'support'/b'support'] failed			
+2023-12-01T00:15:17+0000	[cowrie.ssh.userauth.HoneyPotSSHUserAuthServer#debug] b'support' failed auth b'password'			
+2023-12-01T00:15:17+0000	[cowrie.ssh.userauth.HoneyPotSSHUserAuthServer#debug] unauthorized login: ()			
+2023-12-01T00:15:17+0000	[cowrie.ssh.transport.HoneyPotSSHTransport#info] connection lost			
+2023-12-01T00:15:17+0000	[HoneyPotSSHTransport,36,183.107.151.167] Connection lost after 4 seconds			
+2023-12-01T00:31:41+0000	[cowrie.ssh.factory.CowrieSSHFactory] No moduli, no diffie-hellman-group-exchange-sha1			
+2023-12-01T00:31:41+0000	[cowrie.ssh.factory.CowrieSSHFactory] No moduli, no diffie-hellman-group-exchange-sha256			
+2023-12-01T00:31:41+0000	[cowrie.ssh.factory.CowrieSSHFactory] New connection: 141.98.11.11:57102 (172.17.0.2:2222) [session:	ba	8d7	a742330]
+2023-12-01T00:31:41+0000	[HoneyPotSSHTransport,37,141.98.11.11] Remote SSH version: SSH-2.0-OpenSSH_8.4p1 Debian-5			
+2023-12-01T00:31:42+0000	[HoneyPotSSHTransport,37,141.98.11.11] SSH client hassh fingerprint: da8289288f8753c305bb949090f10a39			
+2023-12-01T00:31:42+0000	[cowrie.ssh.transport.HoneyPotSSHTransport#debug] kex alg=b'curve25519-sha256' key alg=b'ecdsa-sha2-n	is	tp2	56'
+2023-12-01T00:31:42+0000	[cowrie.ssh.transport.HoneyPotSSHTransport#debug] outgoing: b'aes128-ctr' b'hmac-sha2-256' b'none'			
+2023-12-01T00:31:42+0000	[cowrie.ssh.transport.HoneyPotSSHTransport#debug] incoming: b'aes128-ctr' b'hmac-sha2-256' b'none'			
+2023-12-01T00:31:42+0000	[cowrie.ssh.transport.HoneyPotSSHTransport#debug] NEW KEYS			
+2023-12-01T00:31:42+0000	[cowrie.ssh.transport.HoneyPotSSHTransport#debug] starting service b'ssh-userauth'			
+2023-12-01T00:31:44+0000	[cowrie.ssh.userauth.HoneyPotSSHUserAuthServer#debug] b'root' trying auth b'none'			
+2023-12-01T00:31:44+0000	[cowrie.ssh.userauth.HoneyPotSSHUserAuthServer#debug] b'root' trying auth b'password'			
+2023-12-01T00:31:44+0000	[HoneyPotSSHTransport,37,141.98.11.11] Could not read etc/userdb.txt, default database activated			
+2023-12-01T00:31:44+0000	[HoneyPotSSHTransport,37,141.98.11.11] login attempt [b'root'/b'abcd1234'] succeeded			
+2023-12-01T00:31:44+0000	[HoneyPotSSHTransport,37,141.98.11.11] Initialized emulated server as architecture: linux-x64-lsb			
+2023-12-01T00:31:44+0000	[cowrie.ssh.userauth.HoneyPotSSHUserAuthServer#debug] b'root' authenticated with b'password'			
+2023-12-01T00:31:44+0000	[cowrie.ssh.transport.HoneyPotSSHTransport#debug] starting service b'ssh-connection'			
+2023-12-01T00:31:44+0000	[cowrie.ssh.connection.CowrieSSHConnection#debug] got global b'no-more-sessions@openssh.com' request			
+2023-12-01T00:31:46+0000	[cowrie.ssh.connection.CowrieSSHConnection#debug] got channel b'direct-tcpip' request			
+2023-12-01T00:31:46+0000	[HoneyPotSSHTransport,37,141.98.11.11] direct-tcp connection request to 172.217.16.36:443 from 127.0.	0	01:05:00	9032
+2023-12-01T00:31:46+0000	[HoneyPotSSHTransport,37,141.98.11.11] discarded direct-tcp forward request 0 to 172.217.16.36:443 wi	th	da	"ta b""\x16\x03\x01\x02\x00\x01\x00\x01\xfc\x03\x03\xed\x7f\x8d\x07\xc8M\x1c\xc7\xf5\x9ew;\x80\xc5\xdf)V\xa4\xba\xd0\x8c!)\xea\xe2\x9a\x8cX\x1fi\xcb\x8b \xd8\x93\xb7S\xe7\x81*\xce6\xde\x16\x10\xc1\xd2J0\xa99\xd3)=\xc5\xd8\xfd\xc8\x9cN\x03\x94\xc89a\x00V\x13\x02\x13\x03\x13\x01\xc0,\xc00\xc0+\xc0/\xcc\xa9\xcc\xa8\x00\x9f\x00\x9e\xcc\xaa\xc0\xaf\xc0\xad\xc0\xae\xc0\xac\xc0$\xc0(\xc0#\xc0'\xc0\n\xc0\x14\xc0\t\xc0\x13\xc0\xa3\xc0\x9f\xc0\xa2\xc0\x9e\x00k\x00g\x009\x003\x00\x9d\x00\x9c\xc0\xa1\xc0\x9d\xc0\xa0\xc0\x9c\x00=\x00<\x005\x00/\x00\xff\x01\x00\x01]\x00\x00\x00\x13\x00\x11\x00\x00\x0ewww.google.com\x00\x0b\x00\x04\x03\x00\x01\x02\x00\n\x00\x0c\x00\n\x00\x1d\x00\x17\x00\x1e\x00\x19\x00\x18\x00\x10\x00\x0b\x00\t\x08http/1.1\x00\x16\x00\x00\x00\x17\x00\x00\x001\x00\x00\x00\r\x00*\x00(\x04\x03\x05\x03\x06\x03\x08\x07\x08\x08\x08\t\x08\n\x08\x0b\x08\x04\x08\x05\x08\x06\x04\x01\x05\x01\x06\x01\x03\x03\x03\x01\x03\x02\x04\x02\x05\x02\x06\x02\x00+\x00\x05\x04\x03\x04\x03\x03\x00-\x00\x02\x01\x01\x003\x00&\x00$\x00\x1d\x00 \xebF+\xb9\xdb4\x1f\x985\xc7\xf5\tRo\x8dk?\xfemkP\x87\x17\xdd\t4\x10\x13\xf1\xff\x14~\x00\x15\x00\xa8\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00"""
+2023-12-01T00:31:46+0000	[cowrie.ssh.forwarding.FakeForwardingChannel#error] failed to connect to 172.217.16.36:443: Connectio	n	ref	used
+2023-12-01T00:31:46+0000	[cowrie.ssh.connection.CowrieSSHConnection#info] sending close 0			
+2023-12-01T00:31:46+0000	[cowrie.ssh.forwarding.FakeForwardingChannel#info] remote close			
+2023-12-01T00:31:46+0000	[cowrie.ssh.connection.CowrieSSHConnection#debug] got channel b'direct-tcpip' request			
+2023-12-01T00:31:46+0000	[HoneyPotSSHTransport,37,141.98.11.11] direct-tcp connection request to 34.117.59.81:443 from 127.0.0	0.1	:59	272
+2023-12-01T00:31:48+0000	[HoneyPotSSHTransport,37,141.98.11.11] discarded direct-tcp forward request 1 to 34.117.59.81:443 wit	h	dat	"a b""\x16\x03\x01\x02\x00\x01\x00\x01\xfc\x03\x031\xa8\x00\xc4\x12\x10\x89\xaa\x11\xd7,\xe8\xb5\xcd\xa5\xdbEt\x1d)\x96\x10\x0e\xcd\xa6\xea\x1b5\xba\xb6\xacw \x9c^\x96\x06<i\xfe\x14\xa3*\xffPM\x15\x0f&Q(\xe2w\x9d\xec\x01\xe3\x14Z\x92ug\xde\x97\xb5\x00V\x13\x02\x13\x03\x13\x01\xc0,\xc00\xc0+\xc0/\xcc\xa9\xcc\xa8\x00\x9f\x00\x9e\xcc\xaa\xc0\xaf\xc0\xad\xc0\xae\xc0\xac\xc0$\xc0(\xc0#\xc0'\xc0\n\xc0\x14\xc0\t\xc0\x13\xc0\xa3\xc0\x9f\xc0\xa2\xc0\x9e\x00k\x00g\x009\x003\x00\x9d\x00\x9c\xc0\xa1\xc0\x9d\xc0\xa0\xc0\x9c\x00=\x00<\x005\x00/\x00\xff\x01\x00\x01]\x00\x00\x00\x0e\x00\x0c\x00\x00\tipinfo.io\x00\x0b\x00\x04\x03\x00\x01\x02\x00\n\x00\x0c\x00\n\x00\x1d\x00\x17\x00\x1e\x00\x19\x00\x18\x00\x10\x00\x0b\x00\t\x08http/1.1\x00\x16\x00\x00\x00\x17\x00\x00\x001\x00\x00\x00\r\x00*\x00(\x04\x03\x05\x03\x06\x03\x08\x07\x08\x08\x08\t\x08\n\x08\x0b\x08\x04\x08\x05\x08\x06\x04\x01\x05\x01\x06\x01\x03\x03\x03\x01\x03\x02\x04\x02\x05\x02\x06\x02\x00+\x00\x05\x04\x03\x04\x03\x03\x00-\x00\x02\x01\x01\x003\x00&\x00$\x00\x1d\x00 \x18:6H\x11):\xced\xde\xa4E\xfb~{`\xb1\x8b\xf3\xdf?\xbenc>Q\xaf\xf1\x86\xe4\xe1\x02\x00\x15\x00\xad\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00"""
+2023-12-01T00:31:48+0000	[cowrie.ssh.forwarding.FakeForwardingChannel#error] failed to connect to 34.117.59.81:443: Connection	r	efu	sed
+2023-12-01T00:31:48+0000	[cowrie.ssh.connection.CowrieSSHConnection#info] sending close 1			
+2023-12-01T00:31:48+0000	[cowrie.ssh.forwarding.FakeForwardingChannel#info] remote close			
+2023-12-01T00:31:48+0000	[HoneyPotSSHTransport,37,141.98.11.11] Got remote error, code 11 reason: b'disconnected by user'			
+2023-12-01T00:31:48+0000	[HoneyPotSSHTransport,37,141.98.11.11] avatar root logging out			
+2023-12-01T00:31:48+0000	[cowrie.ssh.transport.HoneyPotSSHTransport#info] connection lost			
+2023-12-01T00:31:48+0000	[HoneyPotSSHTransport,37,141.98.11.11] Connection lost after 6 seconds			
+2023-12-01T00:33:05+0000	[cowrie.ssh.factory.CowrieSSHFactory] No moduli, no diffie-hellman-group-exchange-sha1			
+2023-12-01T00:33:05+0000	[cowrie.ssh.factory.CowrieSSHFactory] No moduli, no diffie-hellman-group-exchange-sha256			

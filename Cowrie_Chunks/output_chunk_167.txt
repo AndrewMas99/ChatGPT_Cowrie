@@ -1,0 +1,101 @@
+2023-11-27T04:04:03+0000	[-] Python Version 3.11.2 (main, Mar 13 2023, 12:18:29) [GCC 12.2.0]	Unnamed: 2	Unnamed: 3	Unnamed: 4
+2023-11-29T21:43:13+0000	[cowrie.ssh.transport.HoneyPotSSHTransport#info] connection lost			
+2023-11-29T21:43:13+0000	[HoneyPotSSHTransport,440,165.154.41.238] Connection lost after 23 seconds			
+2023-11-29T21:43:27+0000	[HoneyPotSSHTransport,429,165.154.41.238] Remote SSH version: SSH-2.0-Go			
+2023-11-29T21:43:27+0000	[HoneyPotSSHTransport,429,165.154.41.238] SSH client hassh fingerprint: 4e066189c3bbeec38c99b18551137	33	a	
+2023-11-29T21:43:27+0000	[cowrie.ssh.transport.HoneyPotSSHTransport#debug] kex alg=b'curve25519-sha256' key alg=b'ecdsa-sha2-n	is	tp2	56'
+2023-11-29T21:43:27+0000	[cowrie.ssh.transport.HoneyPotSSHTransport#debug] outgoing: b'aes128-ctr' b'hmac-sha2-256' b'none'			
+2023-11-29T21:43:27+0000	[cowrie.ssh.transport.HoneyPotSSHTransport#debug] incoming: b'aes128-ctr' b'hmac-sha2-256' b'none'			
+2023-11-29T21:43:27+0000	[cowrie.ssh.transport.HoneyPotSSHTransport#debug] NEW KEYS			
+2023-11-29T21:43:27+0000	[cowrie.ssh.transport.HoneyPotSSHTransport#debug] starting service b'ssh-userauth'			
+2023-11-29T21:43:28+0000	[cowrie.ssh.userauth.HoneyPotSSHUserAuthServer#debug] b'admin' trying auth b'none'			
+2023-11-29T21:43:28+0000	[cowrie.ssh.userauth.HoneyPotSSHUserAuthServer#debug] b'admin' trying auth b'password'			
+2023-11-29T21:43:28+0000	[HoneyPotSSHTransport,429,165.154.41.238] Could not read etc/userdb.txt, default database activated			
+2023-11-29T21:43:28+0000	[HoneyPotSSHTransport,429,165.154.41.238] login attempt [b'admin'/b'admin'] failed			
+2023-11-29T21:43:29+0000	[cowrie.ssh.userauth.HoneyPotSSHUserAuthServer#debug] b'admin' failed auth b'password'			
+2023-11-29T21:43:29+0000	[cowrie.ssh.userauth.HoneyPotSSHUserAuthServer#debug] unauthorized login: ()			
+2023-11-29T21:43:29+0000	[HoneyPotSSHTransport,432,165.154.41.238] Remote SSH version: SSH-2.0-Go			
+2023-11-29T21:43:29+0000	[HoneyPotSSHTransport,432,165.154.41.238] SSH client hassh fingerprint: 4e066189c3bbeec38c99b18551137	33	a	
+2023-11-29T21:43:29+0000	[cowrie.ssh.transport.HoneyPotSSHTransport#debug] kex alg=b'curve25519-sha256' key alg=b'ecdsa-sha2-n	is	tp2	56'
+2023-11-29T21:43:29+0000	[cowrie.ssh.transport.HoneyPotSSHTransport#debug] outgoing: b'aes128-ctr' b'hmac-sha2-256' b'none'			
+2023-11-29T21:43:29+0000	[cowrie.ssh.transport.HoneyPotSSHTransport#debug] incoming: b'aes128-ctr' b'hmac-sha2-256' b'none'			
+2023-11-29T21:43:29+0000	[HoneyPotSSHTransport,433,165.154.41.238] Remote SSH version: SSH-2.0-Go			
+2023-11-29T21:43:29+0000	[HoneyPotSSHTransport,433,165.154.41.238] SSH client hassh fingerprint: 4e066189c3bbeec38c99b18551137	33	a	
+2023-11-29T21:43:29+0000	[cowrie.ssh.transport.HoneyPotSSHTransport#debug] kex alg=b'curve25519-sha256' key alg=b'ecdsa-sha2-n	is	tp2	56'
+2023-11-29T21:43:29+0000	[cowrie.ssh.transport.HoneyPotSSHTransport#debug] outgoing: b'aes128-ctr' b'hmac-sha2-256' b'none'			
+2023-11-29T21:43:29+0000	[cowrie.ssh.transport.HoneyPotSSHTransport#debug] incoming: b'aes128-ctr' b'hmac-sha2-256' b'none'			
+2023-11-29T21:43:29+0000	[cowrie.ssh.transport.HoneyPotSSHTransport#info] connection lost			
+2023-11-29T21:43:29+0000	[HoneyPotSSHTransport,429,165.154.41.238] Connection lost after 46 seconds			
+2023-11-29T21:43:30+0000	[cowrie.ssh.transport.HoneyPotSSHTransport#debug] NEW KEYS			
+2023-11-29T21:43:30+0000	[cowrie.ssh.transport.HoneyPotSSHTransport#debug] starting service b'ssh-userauth'			
+2023-11-29T21:43:30+0000	[cowrie.ssh.transport.HoneyPotSSHTransport#debug] NEW KEYS			
+2023-11-29T21:43:30+0000	[cowrie.ssh.transport.HoneyPotSSHTransport#debug] starting service b'ssh-userauth'			
+2023-11-29T21:43:30+0000	[cowrie.ssh.userauth.HoneyPotSSHUserAuthServer#debug] b'user1' trying auth b'none'			
+2023-11-29T21:43:30+0000	[cowrie.ssh.userauth.HoneyPotSSHUserAuthServer#debug] b'oracle' trying auth b'none'			
+2023-11-29T21:43:31+0000	[cowrie.ssh.userauth.HoneyPotSSHUserAuthServer#debug] b'user1' trying auth b'password'			
+2023-11-29T21:43:31+0000	[HoneyPotSSHTransport,432,165.154.41.238] Could not read etc/userdb.txt, default database activated			
+2023-11-29T21:43:31+0000	[HoneyPotSSHTransport,432,165.154.41.238] login attempt [b'user1'/b'123456'] failed			
+2023-11-29T21:43:31+0000	[cowrie.ssh.userauth.HoneyPotSSHUserAuthServer#debug] b'oracle' trying auth b'password'			
+2023-11-29T21:43:31+0000	[HoneyPotSSHTransport,433,165.154.41.238] Could not read etc/userdb.txt, default database activated			
+2023-11-29T21:43:31+0000	[HoneyPotSSHTransport,433,165.154.41.238] login attempt [b'oracle'/b'oracle'] failed			
+2023-11-29T21:43:31+0000	[HoneyPotSSHTransport,434,165.154.41.238] SSH client hassh fingerprint: 4e066189c3bbeec38c99b18551137	33	a	
+2023-11-29T21:43:31+0000	[cowrie.ssh.transport.HoneyPotSSHTransport#debug] kex alg=b'curve25519-sha256' key alg=b'ecdsa-sha2-n	is	tp2	56'
+2023-11-29T21:43:31+0000	[cowrie.ssh.transport.HoneyPotSSHTransport#debug] outgoing: b'aes128-ctr' b'hmac-sha2-256' b'none'			
+2023-11-29T21:43:31+0000	[cowrie.ssh.transport.HoneyPotSSHTransport#debug] incoming: b'aes128-ctr' b'hmac-sha2-256' b'none'			
+2023-11-29T21:43:31+0000	[cowrie.ssh.transport.HoneyPotSSHTransport#debug] NEW KEYS			
+2023-11-29T21:43:31+0000	[cowrie.ssh.transport.HoneyPotSSHTransport#debug] starting service b'ssh-userauth'			
+2023-11-29T21:43:32+0000	[cowrie.ssh.userauth.HoneyPotSSHUserAuthServer#debug] b'oracle' trying auth b'none'			
+2023-11-29T21:43:32+0000	[cowrie.ssh.userauth.HoneyPotSSHUserAuthServer#debug] b'user1' failed auth b'password'			
+2023-11-29T21:43:32+0000	[cowrie.ssh.userauth.HoneyPotSSHUserAuthServer#debug] unauthorized login: ()			
+2023-11-29T21:43:32+0000	[cowrie.ssh.userauth.HoneyPotSSHUserAuthServer#debug] b'oracle' failed auth b'password'			
+2023-11-29T21:43:32+0000	[cowrie.ssh.userauth.HoneyPotSSHUserAuthServer#debug] unauthorized login: ()			
+2023-11-29T21:43:32+0000	[cowrie.ssh.userauth.HoneyPotSSHUserAuthServer#debug] b'oracle' trying auth b'password'			
+2023-11-29T21:43:32+0000	[HoneyPotSSHTransport,434,165.154.41.238] Could not read etc/userdb.txt, default database activated			
+2023-11-29T21:43:32+0000	[HoneyPotSSHTransport,434,165.154.41.238] login attempt [b'oracle'/b'123456'] failed			
+2023-11-29T21:43:32+0000	[cowrie.ssh.transport.HoneyPotSSHTransport#info] connection lost			
+2023-11-29T21:43:32+0000	[HoneyPotSSHTransport,432,165.154.41.238] Connection lost after 48 seconds			
+2023-11-29T21:43:32+0000	[cowrie.ssh.transport.HoneyPotSSHTransport#info] connection lost			
+2023-11-29T21:43:32+0000	[HoneyPotSSHTransport,433,165.154.41.238] Connection lost after 47 seconds			
+2023-11-29T21:43:33+0000	[cowrie.ssh.userauth.HoneyPotSSHUserAuthServer#debug] b'oracle' failed auth b'password'			
+2023-11-29T21:43:33+0000	[cowrie.ssh.userauth.HoneyPotSSHUserAuthServer#debug] unauthorized login: ()			
+2023-11-29T21:43:33+0000	[cowrie.ssh.transport.HoneyPotSSHTransport#info] connection lost			
+2023-11-29T21:43:33+0000	[HoneyPotSSHTransport,434,165.154.41.238] Connection lost after 47 seconds			
+2023-11-29T21:43:45+0000	[-] Timeout reached in HoneyPotSSHTransport			
+2023-11-29T21:43:45+0000	[cowrie.ssh.transport.HoneyPotSSHTransport#info] connection lost			
+2023-11-29T21:43:45+0000	[HoneyPotSSHTransport,360,165.154.41.238] Connection lost after 120 seconds			
+2023-11-29T21:43:46+0000	[-] Timeout reached in HoneyPotSSHTransport			
+2023-11-29T21:43:46+0000	[cowrie.ssh.transport.HoneyPotSSHTransport#info] connection lost			
+2023-11-29T21:43:46+0000	[HoneyPotSSHTransport,361,165.154.41.238] Connection lost after 120 seconds			
+2023-11-29T21:43:48+0000	[-] Timeout reached in HoneyPotSSHTransport			
+2023-11-29T21:43:48+0000	[cowrie.ssh.transport.HoneyPotSSHTransport#info] connection lost			
+2023-11-29T21:43:48+0000	[HoneyPotSSHTransport,362,165.154.41.238] Connection lost after 120 seconds			
+2023-11-29T21:43:48+0000	[-] Timeout reached in HoneyPotSSHTransport			
+2023-11-29T21:43:48+0000	[cowrie.ssh.transport.HoneyPotSSHTransport#info] connection lost			
+2023-11-29T21:43:48+0000	[HoneyPotSSHTransport,363,165.154.41.238] Connection lost after 120 seconds			
+2023-11-29T21:43:48+0000	[-] Timeout reached in HoneyPotSSHTransport			
+2023-11-29T21:43:48+0000	[cowrie.ssh.transport.HoneyPotSSHTransport#info] connection lost			
+2023-11-29T21:43:48+0000	[HoneyPotSSHTransport,364,165.154.41.238] Connection lost after 120 seconds			
+2023-11-29T21:43:50+0000	[-] Timeout reached in HoneyPotSSHTransport			
+2023-11-29T21:43:50+0000	[cowrie.ssh.transport.HoneyPotSSHTransport#info] connection lost			
+2023-11-29T21:43:50+0000	[HoneyPotSSHTransport,365,165.154.41.238] Connection lost after 120 seconds			
+2023-11-29T21:43:51+0000	[-] Timeout reached in HoneyPotSSHTransport			
+2023-11-29T21:43:51+0000	[cowrie.ssh.transport.HoneyPotSSHTransport#info] connection lost			
+2023-11-29T21:43:51+0000	[HoneyPotSSHTransport,366,165.154.41.238] Connection lost after 120 seconds			
+2023-11-29T21:43:51+0000	[-] Timeout reached in HoneyPotSSHTransport			
+2023-11-29T21:43:51+0000	[cowrie.ssh.transport.HoneyPotSSHTransport#info] connection lost			
+2023-11-29T21:43:51+0000	[HoneyPotSSHTransport,367,165.154.41.238] Connection lost after 120 seconds			
+2023-11-29T21:43:52+0000	[-] Timeout reached in HoneyPotSSHTransport			
+2023-11-29T21:43:52+0000	[cowrie.ssh.transport.HoneyPotSSHTransport#info] connection lost			
+2023-11-29T21:43:52+0000	[HoneyPotSSHTransport,368,165.154.41.238] Connection lost after 120 seconds			
+2023-11-29T21:43:52+0000	[-] Timeout reached in HoneyPotSSHTransport			
+2023-11-29T21:43:52+0000	[cowrie.ssh.transport.HoneyPotSSHTransport#info] connection lost			
+2023-11-29T21:43:52+0000	[HoneyPotSSHTransport,369,165.154.41.238] Connection lost after 120 seconds			
+2023-11-29T21:43:52+0000	[-] Timeout reached in HoneyPotSSHTransport			
+2023-11-29T21:43:52+0000	[cowrie.ssh.transport.HoneyPotSSHTransport#info] connection lost			
+2023-11-29T21:43:52+0000	[HoneyPotSSHTransport,370,165.154.41.238] Connection lost after 120 seconds			
+2023-11-29T21:43:54+0000	[-] Timeout reached in HoneyPotSSHTransport			
+2023-11-29T21:43:54+0000	[cowrie.ssh.transport.HoneyPotSSHTransport#info] connection lost			
+2023-11-29T21:43:54+0000	[HoneyPotSSHTransport,371,165.154.41.238] Connection lost after 120 seconds			
+2023-11-29T21:43:54+0000	[-] Timeout reached in HoneyPotSSHTransport			
+2023-11-29T21:43:54+0000	[cowrie.ssh.transport.HoneyPotSSHTransport#info] connection lost			
+2023-11-29T21:43:54+0000	[HoneyPotSSHTransport,372,165.154.41.238] Connection lost after 120 seconds			

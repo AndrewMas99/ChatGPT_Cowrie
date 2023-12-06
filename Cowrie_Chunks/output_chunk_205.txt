@@ -1,0 +1,101 @@
+2023-11-27T04:04:03+0000	[-] Python Version 3.11.2 (main, Mar 13 2023, 12:18:29) [GCC 12.2.0]	Unnamed: 2	Unnamed: 3	Unnamed: 4
+2023-11-30T06:15:38+0000	[cowrie.ssh.userauth.HoneyPotSSHUserAuthServer#debug] b'root' trying auth b'password'			
+2023-11-30T06:15:38+0000	[HoneyPotSSHTransport,669,85.133.216.169] Could not read etc/userdb.txt, default database activated			
+2023-11-30T06:15:38+0000	[HoneyPotSSHTransport,669,85.133.216.169] login attempt [b'root'/b'ubuntu'] succeeded			
+2023-11-30T06:15:38+0000	[HoneyPotSSHTransport,669,85.133.216.169] Initialized emulated server as architecture: linux-x64-lsb			
+2023-11-30T06:15:38+0000	[cowrie.ssh.userauth.HoneyPotSSHUserAuthServer#debug] b'root' authenticated with b'password'			
+2023-11-30T06:15:38+0000	[cowrie.ssh.transport.HoneyPotSSHTransport#debug] starting service b'ssh-connection'			
+2023-11-30T06:15:39+0000	[cowrie.ssh.factory.CowrieSSHFactory] No moduli, no diffie-hellman-group-exchange-sha1			
+2023-11-30T06:15:39+0000	[cowrie.ssh.factory.CowrieSSHFactory] No moduli, no diffie-hellman-group-exchange-sha256			
+2023-11-30T06:15:39+0000	[cowrie.ssh.factory.CowrieSSHFactory] New connection: 85.133.216.169:33036 (172.17.0.2:2222) [session	:	c5d	0840a89fb]
+2023-11-30T06:15:39+0000	[HoneyPotSSHTransport,670,85.133.216.169] Remote SSH version: SSH-2.0-Go			
+2023-11-30T06:15:39+0000	[HoneyPotSSHTransport,670,85.133.216.169] SSH client hassh fingerprint: 4e066189c3bbeec38c99b18551137	33	a	
+2023-11-30T06:15:39+0000	[cowrie.ssh.transport.HoneyPotSSHTransport#debug] kex alg=b'curve25519-sha256' key alg=b'ecdsa-sha2-n	is	tp2	56'
+2023-11-30T06:15:39+0000	[cowrie.ssh.transport.HoneyPotSSHTransport#debug] outgoing: b'aes128-ctr' b'hmac-sha2-256' b'none'			
+2023-11-30T06:15:39+0000	[cowrie.ssh.transport.HoneyPotSSHTransport#debug] incoming: b'aes128-ctr' b'hmac-sha2-256' b'none'			
+2023-11-30T06:15:39+0000	[cowrie.ssh.transport.HoneyPotSSHTransport#debug] NEW KEYS			
+2023-11-30T06:15:39+0000	[cowrie.ssh.transport.HoneyPotSSHTransport#debug] starting service b'ssh-userauth'			
+2023-11-30T06:15:40+0000	[cowrie.ssh.userauth.HoneyPotSSHUserAuthServer#debug] b'root' trying auth b'none'			
+2023-11-30T06:15:40+0000	[cowrie.ssh.userauth.HoneyPotSSHUserAuthServer#debug] b'root' trying auth b'password'			
+2023-11-30T06:15:40+0000	[HoneyPotSSHTransport,670,85.133.216.169] Could not read etc/userdb.txt, default database activated			
+2023-11-30T06:15:40+0000	[HoneyPotSSHTransport,670,85.133.216.169] login attempt [b'root'/b'kjashd123sadhj123dhs1SS'] succeede	d		
+2023-11-30T06:15:40+0000	[HoneyPotSSHTransport,670,85.133.216.169] Initialized emulated server as architecture: linux-x64-lsb			
+2023-11-30T06:15:40+0000	[cowrie.ssh.userauth.HoneyPotSSHUserAuthServer#debug] b'root' authenticated with b'password'			
+2023-11-30T06:15:40+0000	[cowrie.ssh.transport.HoneyPotSSHTransport#debug] starting service b'ssh-connection'			
+2023-11-30T06:15:40+0000	[HoneyPotSSHTransport,670,85.133.216.169] avatar root logging out			
+2023-11-30T06:15:40+0000	[cowrie.ssh.transport.HoneyPotSSHTransport#info] connection lost			
+2023-11-30T06:15:40+0000	[HoneyPotSSHTransport,670,85.133.216.169] Connection lost after 1 seconds			
+2023-11-30T06:15:40+0000	[HoneyPotSSHTransport,669,85.133.216.169] avatar root logging out			
+2023-11-30T06:15:40+0000	[cowrie.ssh.transport.HoneyPotSSHTransport#info] connection lost			
+2023-11-30T06:15:40+0000	[HoneyPotSSHTransport,669,85.133.216.169] Connection lost after 2 seconds			
+2023-11-30T06:46:09+0000	[cowrie.ssh.factory.CowrieSSHFactory] No moduli, no diffie-hellman-group-exchange-sha1			
+2023-11-30T06:46:09+0000	[cowrie.ssh.factory.CowrieSSHFactory] No moduli, no diffie-hellman-group-exchange-sha256			
+2023-11-30T06:46:09+0000	[cowrie.ssh.factory.CowrieSSHFactory] New connection: 198.235.24.78:51364 (172.17.0.2:2222) [session:	e	3ee	bf925e5d]
+2023-11-30T06:46:10+0000	[cowrie.ssh.transport.HoneyPotSSHTransport#info] connection lost			
+2023-11-30T06:46:10+0000	[HoneyPotSSHTransport,671,198.235.24.78] Connection lost after 0 seconds			
+2023-11-30T07:18:01+0000	[cowrie.ssh.factory.CowrieSSHFactory] No moduli, no diffie-hellman-group-exchange-sha1			
+2023-11-30T07:18:01+0000	[cowrie.ssh.factory.CowrieSSHFactory] No moduli, no diffie-hellman-group-exchange-sha256			
+2023-11-30T07:18:01+0000	[cowrie.ssh.factory.CowrieSSHFactory] New connection: 143.110.159.86:61000 (172.17.0.2:2222) [session	:	ae6	2ebd01e2a]
+2023-11-30T07:18:01+0000	[cowrie.ssh.transport.HoneyPotSSHTransport#info] connection lost			
+2023-11-30T07:18:01+0000	[HoneyPotSSHTransport,672,143.110.159.86] Connection lost after 0 seconds			
+2023-11-30T07:31:48+0000	[cowrie.ssh.factory.CowrieSSHFactory] No moduli, no diffie-hellman-group-exchange-sha1			
+2023-11-30T07:31:48+0000	[cowrie.ssh.factory.CowrieSSHFactory] No moduli, no diffie-hellman-group-exchange-sha256			
+2023-11-30T07:31:48+0000	[cowrie.ssh.factory.CowrieSSHFactory] New connection: 2.189.254.140:35226 (172.17.0.2:2222) [session:	a	dec	9cac7b4d]
+2023-11-30T07:31:48+0000	[cowrie.ssh.transport.HoneyPotSSHTransport#info] connection lost			
+2023-11-30T07:31:48+0000	[HoneyPotSSHTransport,673,2.189.254.140] Connection lost after 0 seconds			
+2023-11-30T07:53:05+0000	[-] Python Version 3.11.2 (main, Mar 13 2023, 12:18:29) [GCC 12.2.0]			
+2023-11-30T07:53:05+0000	[-] Twisted Version 23.10.0			
+2023-11-30T07:53:05+0000	[-] Cowrie Version 2.5.0			
+2023-11-30T07:53:05+0000	[-] Loaded output engine: jsonlog			
+2023-11-30T07:53:05+0000	[twisted.scripts._twistd_unix.UnixAppLogger#info] twistd 23.10.0 (/cowrie/cowrie-env/bin/python3 3.11	0.2	) s	tarting up.
+2023-11-30T07:53:05+0000	[twisted.scripts._twistd_unix.UnixAppLogger#info] reactor class: twisted.internet.epollreactor.EPollR	ea	cto	r.
+2023-11-30T07:53:05+0000	[-] CowrieSSHFactory starting on 2222			
+2023-11-30T07:53:05+0000	[cowrie.ssh.factory.CowrieSSHFactory#info] Starting factory <cowrie.ssh.factory.CowrieSSHFactory obje	ct	at	0x7fa8ca95d0>
+2023-11-30T07:53:06+0000	[-] Ready to accept SSH connections			
+2023-11-30T15:01:34+0000	[cowrie.ssh.factory.CowrieSSHFactory] No moduli, no diffie-hellman-group-exchange-sha1			
+2023-11-30T15:01:34+0000	[cowrie.ssh.factory.CowrieSSHFactory] No moduli, no diffie-hellman-group-exchange-sha256			
+2023-11-30T15:01:34+0000	[cowrie.ssh.factory.CowrieSSHFactory] New connection: 137.184.179.251:61000 (172.17.0.2:2222) [sessio	n:	78	e0bbfeb615]
+2023-11-30T15:01:34+0000	[cowrie.ssh.transport.HoneyPotSSHTransport#info] connection lost			
+2023-11-30T15:01:34+0000	[HoneyPotSSHTransport,0,137.184.179.251] Connection lost after 0 seconds			
+2023-11-30T15:20:08+0000	[cowrie.ssh.factory.CowrieSSHFactory] No moduli, no diffie-hellman-group-exchange-sha1			
+2023-11-30T15:20:08+0000	[cowrie.ssh.factory.CowrieSSHFactory] No moduli, no diffie-hellman-group-exchange-sha256			
+2023-11-30T15:20:08+0000	[cowrie.ssh.factory.CowrieSSHFactory] New connection: 222.186.16.214:36904 (172.17.0.2:2222) [session	:	3d7	899151ebb]
+2023-11-30T15:22:08+0000	[-] Timeout reached in HoneyPotSSHTransport			
+2023-11-30T15:22:08+0000	[cowrie.ssh.transport.HoneyPotSSHTransport#info] connection lost			
+2023-11-30T15:22:08+0000	[HoneyPotSSHTransport,1,222.186.16.214] Connection lost after 120 seconds			
+2023-11-30T15:30:59+0000	[cowrie.ssh.factory.CowrieSSHFactory] No moduli, no diffie-hellman-group-exchange-sha1			
+2023-11-30T15:30:59+0000	[cowrie.ssh.factory.CowrieSSHFactory] No moduli, no diffie-hellman-group-exchange-sha256			
+2023-11-30T15:30:59+0000	[cowrie.ssh.factory.CowrieSSHFactory] New connection: 178.210.132.30:54512 (172.17.0.2:2222) [session	:	b4f	95e2bb7c2]
+2023-11-30T15:30:59+0000	[HoneyPotSSHTransport,2,178.210.132.30] Remote SSH version: SSH-2.0-libssh-0.3.0			
+2023-11-30T15:30:59+0000	[cowrie.ssh.transport.HoneyPotSSHTransport#info] connection lost			
+2023-11-30T15:30:59+0000	[HoneyPotSSHTransport,2,178.210.132.30] Connection lost after 0 seconds			
+2023-11-30T15:33:37+0000	[cowrie.ssh.factory.CowrieSSHFactory] No moduli, no diffie-hellman-group-exchange-sha1			
+2023-11-30T15:33:37+0000	[cowrie.ssh.factory.CowrieSSHFactory] No moduli, no diffie-hellman-group-exchange-sha256			
+2023-11-30T15:33:37+0000	[cowrie.ssh.factory.CowrieSSHFactory] New connection: 185.161.248.87:64001 (172.17.0.2:2222) [session	:	f77	c66f1fad9]
+2023-11-30T15:33:37+0000	[cowrie.ssh.transport.HoneyPotSSHTransport#info] connection lost			
+2023-11-30T15:33:37+0000	[HoneyPotSSHTransport,3,185.161.248.87] Connection lost after 0 seconds			
+2023-11-30T15:42:31+0000	[cowrie.ssh.factory.CowrieSSHFactory] No moduli, no diffie-hellman-group-exchange-sha1			
+2023-11-30T15:42:31+0000	[cowrie.ssh.factory.CowrieSSHFactory] No moduli, no diffie-hellman-group-exchange-sha256			
+2023-11-30T15:42:31+0000	[cowrie.ssh.factory.CowrieSSHFactory] New connection: 178.210.132.30:54802 (172.17.0.2:2222) [session	:	cfe	700940a2a]
+2023-11-30T15:42:31+0000	[HoneyPotSSHTransport,4,178.210.132.30] Remote SSH version: SSH-2.0-libssh-0.7.3			
+2023-11-30T15:42:31+0000	[HoneyPotSSHTransport,4,178.210.132.30] SSH client hassh fingerprint: c8c5fbf80b7b0a1b0e4de5e683f3c5a	d		
+2023-11-30T15:42:31+0000	[cowrie.ssh.transport.HoneyPotSSHTransport#debug] kex alg=b'curve25519-sha256@libssh.org' key alg=b's	sh		25519'
+2023-11-30T15:42:31+0000	[cowrie.ssh.transport.HoneyPotSSHTransport#debug] outgoing: b'aes256-ctr' b'hmac-sha2-256' b'none'			
+2023-11-30T15:42:31+0000	[cowrie.ssh.transport.HoneyPotSSHTransport#debug] incoming: b'aes256-ctr' b'hmac-sha2-256' b'none'			
+2023-11-30T15:42:31+0000	[cowrie.ssh.transport.HoneyPotSSHTransport#debug] NEW KEYS			
+2023-11-30T15:42:32+0000	[cowrie.ssh.transport.HoneyPotSSHTransport#debug] starting service b'ssh-userauth'			
+2023-11-30T15:42:32+0000	[cowrie.ssh.userauth.HoneyPotSSHUserAuthServer#debug] b'ubnt' trying auth b'password'			
+2023-11-30T15:42:32+0000	[HoneyPotSSHTransport,4,178.210.132.30] Could not read etc/userdb.txt, default database activated			
+2023-11-30T15:42:32+0000	[HoneyPotSSHTransport,4,178.210.132.30] login attempt [b'ubnt'/b'ubnt'] failed			
+2023-11-30T15:42:33+0000	[cowrie.ssh.userauth.HoneyPotSSHUserAuthServer#debug] b'ubnt' failed auth b'password'			
+2023-11-30T15:42:33+0000	[cowrie.ssh.userauth.HoneyPotSSHUserAuthServer#debug] unauthorized login: ()			
+2023-11-30T15:42:33+0000	[HoneyPotSSHTransport,4,178.210.132.30] Got remote error, code 11 reason: b'Bye Bye'			
+2023-11-30T15:42:33+0000	[cowrie.ssh.transport.HoneyPotSSHTransport#info] connection lost			
+2023-11-30T15:42:33+0000	[HoneyPotSSHTransport,4,178.210.132.30] Connection lost after 2 seconds			
+2023-11-30T15:46:12+0000	[cowrie.ssh.factory.CowrieSSHFactory] No moduli, no diffie-hellman-group-exchange-sha1			
+2023-11-30T15:46:12+0000	[cowrie.ssh.factory.CowrieSSHFactory] No moduli, no diffie-hellman-group-exchange-sha256			
+2023-11-30T15:46:12+0000	[cowrie.ssh.factory.CowrieSSHFactory] New connection: 115.231.236.234:37846 (172.17.0.2:2222) [sessio	n:	f3	123289e142]
+2023-11-30T15:46:19+0000	[cowrie.ssh.transport.HoneyPotSSHTransport#info] connection lost			
+2023-11-30T15:46:19+0000	[HoneyPotSSHTransport,5,115.231.236.234] Connection lost after 6 seconds			
+2023-11-30T16:17:03+0000	[cowrie.ssh.factory.CowrieSSHFactory] No moduli, no diffie-hellman-group-exchange-sha1			
+2023-11-30T16:17:03+0000	[cowrie.ssh.factory.CowrieSSHFactory] No moduli, no diffie-hellman-group-exchange-sha256			

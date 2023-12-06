@@ -1,0 +1,101 @@
+2023-11-27T04:04:03+0000	[-] Python Version 3.11.2 (main, Mar 13 2023, 12:18:29) [GCC 12.2.0]	Unnamed: 2	Unnamed: 3	Unnamed: 4
+2023-12-02T16:30:18+0000	[cowrie.ssh.userauth.HoneyPotSSHUserAuthServer#debug] b'root' failed auth b'publickey'			
+2023-12-02T16:30:18+0000	[cowrie.ssh.userauth.HoneyPotSSHUserAuthServer#debug] reason: ('Incorrect signature', None)			
+2023-12-02T16:30:18+0000	[cowrie.ssh.userauth.HoneyPotSSHUserAuthServer#debug] b'root' trying auth b'publickey'			
+2023-12-02T16:30:18+0000	[HoneyPotSSHTransport,7,64.227.112.200] public key attempt for user b'root' of type b'ssh-rsa' with f	in	ger	print 92:53:c2:45:64:14:44:b5:bb:23:e7:0e:f1:43:d2:5f
+2023-12-02T16:30:18+0000	[cowrie.ssh.userauth.HoneyPotSSHUserAuthServer#debug] b'root' failed auth b'publickey'			
+2023-12-02T16:30:18+0000	[cowrie.ssh.userauth.HoneyPotSSHUserAuthServer#debug] reason: ('Incorrect signature', None)			
+2023-12-02T16:30:18+0000	[cowrie.ssh.transport.HoneyPotSSHTransport#info] connection lost			
+2023-12-02T16:30:18+0000	[HoneyPotSSHTransport,7,64.227.112.200] Connection lost after 0 seconds			
+2023-12-02T16:30:18+0000	[cowrie.ssh.factory.CowrieSSHFactory] No moduli, no diffie-hellman-group-exchange-sha1			
+2023-12-02T16:30:18+0000	[cowrie.ssh.factory.CowrieSSHFactory] No moduli, no diffie-hellman-group-exchange-sha256			
+2023-12-02T16:30:18+0000	[cowrie.ssh.factory.CowrieSSHFactory] New connection: 64.227.112.200:55494 (172.17.0.2:2222) [session	:	9d0	b0b122072]
+2023-12-02T16:30:18+0000	[HoneyPotSSHTransport,8,64.227.112.200] Remote SSH version: SSH-2.0-OpenSSH_8.9p19			
+2023-12-02T16:30:18+0000	[HoneyPotSSHTransport,8,64.227.112.200] SSH client hassh fingerprint: 98f63c4d9c87edbd97ed4747fa03101	9		
+2023-12-02T16:30:18+0000	[cowrie.ssh.transport.HoneyPotSSHTransport#debug] kex alg=b'curve25519-sha256' key alg=b'ecdsa-sha2-n	is	tp2	56'
+2023-12-02T16:30:18+0000	[cowrie.ssh.transport.HoneyPotSSHTransport#debug] outgoing: b'aes128-ctr' b'hmac-sha2-256' b'none'			
+2023-12-02T16:30:18+0000	[cowrie.ssh.transport.HoneyPotSSHTransport#debug] incoming: b'aes128-ctr' b'hmac-sha2-256' b'none'			
+2023-12-02T16:30:18+0000	[cowrie.ssh.transport.HoneyPotSSHTransport#debug] NEW KEYS			
+2023-12-02T16:30:18+0000	[cowrie.ssh.transport.HoneyPotSSHTransport#debug] starting service b'ssh-userauth'			
+2023-12-02T16:30:18+0000	[cowrie.ssh.userauth.HoneyPotSSHUserAuthServer#debug] b'root' trying auth b'publickey'			
+2023-12-02T16:30:18+0000	[HoneyPotSSHTransport,8,64.227.112.200] public key attempt for user b'root' of type b'ssh-rsa' with f	in	ger	print 2d:13:51:5e:4b:e7:30:a6:9c:0b:42:4e:96:4c:05:fb
+2023-12-02T16:30:18+0000	[cowrie.ssh.userauth.HoneyPotSSHUserAuthServer#debug] b'root' failed auth b'publickey'			
+2023-12-02T16:30:18+0000	[cowrie.ssh.userauth.HoneyPotSSHUserAuthServer#debug] reason: ('Incorrect signature', None)			
+2023-12-02T16:30:19+0000	[cowrie.ssh.userauth.HoneyPotSSHUserAuthServer#debug] b'root' trying auth b'publickey'			
+2023-12-02T16:30:19+0000	[HoneyPotSSHTransport,8,64.227.112.200] public key attempt for user b'root' of type b'ssh-rsa' with f	in	ger	print 6e:ce:51:04:b9:f7:75:de:2d:68:6a:b2:3a:6f:30:20
+2023-12-02T16:30:19+0000	[cowrie.ssh.userauth.HoneyPotSSHUserAuthServer#debug] b'root' failed auth b'publickey'			
+2023-12-02T16:30:19+0000	[cowrie.ssh.userauth.HoneyPotSSHUserAuthServer#debug] reason: ('Incorrect signature', None)			
+2023-12-02T16:30:19+0000	[cowrie.ssh.transport.HoneyPotSSHTransport#info] connection lost			
+2023-12-02T16:30:19+0000	[HoneyPotSSHTransport,8,64.227.112.200] Connection lost after 0 seconds			
+2023-12-02T16:30:19+0000	[cowrie.ssh.factory.CowrieSSHFactory] No moduli, no diffie-hellman-group-exchange-sha1			
+2023-12-02T16:30:19+0000	[cowrie.ssh.factory.CowrieSSHFactory] No moduli, no diffie-hellman-group-exchange-sha256			
+2023-12-02T16:30:19+0000	[cowrie.ssh.factory.CowrieSSHFactory] New connection: 64.227.112.200:55498 (172.17.0.2:2222) [session	:	11c	9f9c61029]
+2023-12-02T16:30:19+0000	[HoneyPotSSHTransport,9,64.227.112.200] Remote SSH version: SSH-2.0-OpenSSH_8.9p19			
+2023-12-02T16:30:19+0000	[HoneyPotSSHTransport,9,64.227.112.200] SSH client hassh fingerprint: 98f63c4d9c87edbd97ed4747fa03101	9		
+2023-12-02T16:30:19+0000	[cowrie.ssh.transport.HoneyPotSSHTransport#debug] kex alg=b'curve25519-sha256' key alg=b'ecdsa-sha2-n	is	tp2	56'
+2023-12-02T16:30:19+0000	[cowrie.ssh.transport.HoneyPotSSHTransport#debug] outgoing: b'aes128-ctr' b'hmac-sha2-256' b'none'			
+2023-12-02T16:30:19+0000	[cowrie.ssh.transport.HoneyPotSSHTransport#debug] incoming: b'aes128-ctr' b'hmac-sha2-256' b'none'			
+2023-12-02T16:30:19+0000	[cowrie.ssh.transport.HoneyPotSSHTransport#debug] NEW KEYS			
+2023-12-02T16:30:19+0000	[cowrie.ssh.transport.HoneyPotSSHTransport#debug] starting service b'ssh-userauth'			
+2023-12-02T16:30:19+0000	[cowrie.ssh.userauth.HoneyPotSSHUserAuthServer#debug] b'root' trying auth b'publickey'			
+2023-12-02T16:30:19+0000	[HoneyPotSSHTransport,9,64.227.112.200] public key attempt for user b'root' of type b'ssh-rsa' with f	in	ger	print 2d:13:51:5e:4b:e7:30:a6:9c:0b:42:4e:96:4c:05:fb
+2023-12-02T16:30:19+0000	[cowrie.ssh.userauth.HoneyPotSSHUserAuthServer#debug] b'root' failed auth b'publickey'			
+2023-12-02T16:30:19+0000	[cowrie.ssh.userauth.HoneyPotSSHUserAuthServer#debug] reason: ('Incorrect signature', None)			
+2023-12-02T16:30:19+0000	[cowrie.ssh.userauth.HoneyPotSSHUserAuthServer#debug] b'root' trying auth b'publickey'			
+2023-12-02T16:30:19+0000	[HoneyPotSSHTransport,9,64.227.112.200] public key attempt for user b'root' of type b'ssh-rsa' with f	in	ger	print 83:7a:04:22:5d:76:74:7a:a8:76:76:91:19:bb:73:16
+2023-12-02T16:30:19+0000	[cowrie.ssh.userauth.HoneyPotSSHUserAuthServer#debug] b'root' failed auth b'publickey'			
+2023-12-02T16:30:19+0000	[cowrie.ssh.userauth.HoneyPotSSHUserAuthServer#debug] reason: ('Incorrect signature', None)			
+2023-12-02T16:30:19+0000	[cowrie.ssh.transport.HoneyPotSSHTransport#info] connection lost			
+2023-12-02T16:30:19+0000	[HoneyPotSSHTransport,9,64.227.112.200] Connection lost after 0 seconds			
+2023-12-02T16:30:19+0000	[cowrie.ssh.factory.CowrieSSHFactory] No moduli, no diffie-hellman-group-exchange-sha1			
+2023-12-02T16:30:19+0000	[cowrie.ssh.factory.CowrieSSHFactory] No moduli, no diffie-hellman-group-exchange-sha256			
+2023-12-02T16:30:19+0000	[cowrie.ssh.factory.CowrieSSHFactory] New connection: 64.227.112.200:55502 (172.17.0.2:2222) [session	:	ff9	5554524cd]
+2023-12-02T16:30:19+0000	[HoneyPotSSHTransport,10,64.227.112.200] Remote SSH version: SSH-2.0-OpenSSH_8.9p19			
+2023-12-02T16:30:20+0000	[HoneyPotSSHTransport,10,64.227.112.200] SSH client hassh fingerprint: 98f63c4d9c87edbd97ed4747fa0310	19		
+2023-12-02T16:30:20+0000	[cowrie.ssh.transport.HoneyPotSSHTransport#debug] kex alg=b'curve25519-sha256' key alg=b'ecdsa-sha2-n	is	tp2	56'
+2023-12-02T16:30:20+0000	[cowrie.ssh.transport.HoneyPotSSHTransport#debug] outgoing: b'aes128-ctr' b'hmac-sha2-256' b'none'			
+2023-12-02T16:30:20+0000	[cowrie.ssh.transport.HoneyPotSSHTransport#debug] incoming: b'aes128-ctr' b'hmac-sha2-256' b'none'			
+2023-12-02T16:30:20+0000	[cowrie.ssh.transport.HoneyPotSSHTransport#debug] NEW KEYS			
+2023-12-02T16:30:20+0000	[cowrie.ssh.transport.HoneyPotSSHTransport#debug] starting service b'ssh-userauth'			
+2023-12-02T16:30:20+0000	[cowrie.ssh.userauth.HoneyPotSSHUserAuthServer#debug] b'root' trying auth b'publickey'			
+2023-12-02T16:30:20+0000	[HoneyPotSSHTransport,10,64.227.112.200] public key attempt for user b'root' of type b'ssh-rsa' with	fi	nge	rprint 2d:13:51:5e:4b:e7:30:a6:9c:0b:42:4e:96:4c:05:fb
+2023-12-02T16:30:20+0000	[cowrie.ssh.userauth.HoneyPotSSHUserAuthServer#debug] b'root' failed auth b'publickey'			
+2023-12-02T16:30:20+0000	[cowrie.ssh.userauth.HoneyPotSSHUserAuthServer#debug] reason: ('Incorrect signature', None)			
+2023-12-02T16:30:20+0000	[cowrie.ssh.userauth.HoneyPotSSHUserAuthServer#debug] b'root' trying auth b'publickey'			
+2023-12-02T16:30:20+0000	[HoneyPotSSHTransport,10,64.227.112.200] public key attempt for user b'root' of type b'ssh-rsa' with	fi	nge	rprint a5:91:a4:76:93:dd:aa:e6:b8:40:f7:18:96:db:84:f5
+2023-12-02T16:30:20+0000	[cowrie.ssh.userauth.HoneyPotSSHUserAuthServer#debug] b'root' failed auth b'publickey'			
+2023-12-02T16:30:20+0000	[cowrie.ssh.userauth.HoneyPotSSHUserAuthServer#debug] reason: ('Incorrect signature', None)			
+2023-12-02T16:30:20+0000	[cowrie.ssh.transport.HoneyPotSSHTransport#info] connection lost			
+2023-12-02T16:30:20+0000	[HoneyPotSSHTransport,10,64.227.112.200] Connection lost after 0 seconds			
+2023-12-02T16:30:20+0000	[cowrie.ssh.factory.CowrieSSHFactory] No moduli, no diffie-hellman-group-exchange-sha1			
+2023-12-02T16:30:20+0000	[cowrie.ssh.factory.CowrieSSHFactory] No moduli, no diffie-hellman-group-exchange-sha256			
+2023-12-02T16:30:20+0000	[cowrie.ssh.factory.CowrieSSHFactory] New connection: 64.227.112.200:55508 (172.17.0.2:2222) [session	:	aad	7e7a395ab]
+2023-12-02T16:30:20+0000	[HoneyPotSSHTransport,11,64.227.112.200] Remote SSH version: SSH-2.0-OpenSSH_8.9p19			
+2023-12-02T16:30:20+0000	[HoneyPotSSHTransport,11,64.227.112.200] SSH client hassh fingerprint: 98f63c4d9c87edbd97ed4747fa0310	19		
+2023-12-02T16:30:20+0000	[cowrie.ssh.transport.HoneyPotSSHTransport#debug] kex alg=b'curve25519-sha256' key alg=b'ecdsa-sha2-n	is	tp2	56'
+2023-12-02T16:30:20+0000	[cowrie.ssh.transport.HoneyPotSSHTransport#debug] outgoing: b'aes128-ctr' b'hmac-sha2-256' b'none'			
+2023-12-02T16:30:20+0000	[cowrie.ssh.transport.HoneyPotSSHTransport#debug] incoming: b'aes128-ctr' b'hmac-sha2-256' b'none'			
+2023-12-02T16:30:20+0000	[cowrie.ssh.transport.HoneyPotSSHTransport#debug] NEW KEYS			
+2023-12-02T16:30:20+0000	[cowrie.ssh.transport.HoneyPotSSHTransport#debug] starting service b'ssh-userauth'			
+2023-12-02T16:30:20+0000	[cowrie.ssh.userauth.HoneyPotSSHUserAuthServer#debug] b'root' trying auth b'publickey'			
+2023-12-02T16:30:20+0000	[HoneyPotSSHTransport,11,64.227.112.200] public key attempt for user b'root' of type b'ssh-rsa' with	fi	nge	rprint 2d:13:51:5e:4b:e7:30:a6:9c:0b:42:4e:96:4c:05:fb
+2023-12-02T16:30:20+0000	[cowrie.ssh.userauth.HoneyPotSSHUserAuthServer#debug] b'root' failed auth b'publickey'			
+2023-12-02T16:30:20+0000	[cowrie.ssh.userauth.HoneyPotSSHUserAuthServer#debug] reason: ('Incorrect signature', None)			
+2023-12-02T16:30:21+0000	[cowrie.ssh.userauth.HoneyPotSSHUserAuthServer#debug] b'root' trying auth b'publickey'			
+2023-12-02T16:30:21+0000	[HoneyPotSSHTransport,11,64.227.112.200] public key attempt for user b'root' of type b'ssh-ed25519' w	it	h f	ingerprint 46:1b:59:74:3e:24:19:b3:09:80:6d:32:33:a5:e4:d4
+2023-12-02T16:30:21+0000	[cowrie.ssh.userauth.HoneyPotSSHUserAuthServer#debug] b'root' failed auth b'publickey'			
+2023-12-02T16:30:21+0000	[cowrie.ssh.userauth.HoneyPotSSHUserAuthServer#debug] reason: ('Incorrect signature', None)			
+2023-12-02T16:30:21+0000	[cowrie.ssh.transport.HoneyPotSSHTransport#info] connection lost			
+2023-12-02T16:30:21+0000	[HoneyPotSSHTransport,11,64.227.112.200] Connection lost after 0 seconds			
+2023-12-02T16:30:21+0000	[cowrie.ssh.factory.CowrieSSHFactory] No moduli, no diffie-hellman-group-exchange-sha1			
+2023-12-02T16:30:21+0000	[cowrie.ssh.factory.CowrieSSHFactory] No moduli, no diffie-hellman-group-exchange-sha256			
+2023-12-02T16:30:21+0000	[cowrie.ssh.factory.CowrieSSHFactory] New connection: 64.227.112.200:55524 (172.17.0.2:2222) [session	:	895	850586aee]
+2023-12-02T16:30:21+0000	[HoneyPotSSHTransport,12,64.227.112.200] Remote SSH version: SSH-2.0-OpenSSH_8.9p19			
+2023-12-02T16:30:21+0000	[HoneyPotSSHTransport,12,64.227.112.200] SSH client hassh fingerprint: 98f63c4d9c87edbd97ed4747fa0310	19		
+2023-12-02T16:30:21+0000	[cowrie.ssh.transport.HoneyPotSSHTransport#debug] kex alg=b'curve25519-sha256' key alg=b'ecdsa-sha2-n	is	tp2	56'
+2023-12-02T16:30:21+0000	[cowrie.ssh.transport.HoneyPotSSHTransport#debug] outgoing: b'aes128-ctr' b'hmac-sha2-256' b'none'			
+2023-12-02T16:30:21+0000	[cowrie.ssh.transport.HoneyPotSSHTransport#debug] incoming: b'aes128-ctr' b'hmac-sha2-256' b'none'			
+2023-12-02T16:30:21+0000	[cowrie.ssh.transport.HoneyPotSSHTransport#debug] NEW KEYS			
+2023-12-02T16:30:21+0000	[cowrie.ssh.transport.HoneyPotSSHTransport#debug] starting service b'ssh-userauth'			
+2023-12-02T16:30:21+0000	[cowrie.ssh.userauth.HoneyPotSSHUserAuthServer#debug] b'root' trying auth b'publickey'			
+2023-12-02T16:30:21+0000	[HoneyPotSSHTransport,12,64.227.112.200] public key attempt for user b'root' of type b'ssh-rsa' with	fi	nge	rprint 2d:13:51:5e:4b:e7:30:a6:9c:0b:42:4e:96:4c:05:fb

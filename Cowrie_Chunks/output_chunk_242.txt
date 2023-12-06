@@ -1,0 +1,101 @@
+2023-11-27T04:04:03+0000	[-] Python Version 3.11.2 (main, Mar 13 2023, 12:18:29) [GCC 12.2.0]	Unnamed: 2	Unnamed: 3	Unnamed: 4
+2023-12-01T17:18:10+0000	[cowrie.ssh.session.HoneyPotSSHSession#info] remote close			
+2023-12-01T17:18:10+0000	[cowrie.ssh.connection.CowrieSSHConnection#debug] got channel b'session' request			
+2023-12-01T17:18:10+0000	[cowrie.ssh.session.HoneyPotSSHSession#info] channel open			
+2023-12-01T17:18:11+0000	"[twisted.conch.ssh.session#info] Executing command ""b'ifconfig'"""			
+2023-12-01T17:18:11+0000	[SSHChannel session (1) on SSHService b'ssh-connection' on HoneyPotSSHTransport,13,222.186.16.214] CM	D:	if	config
+2023-12-01T17:18:11+0000	[SSHChannel session (1) on SSHService b'ssh-connection' on HoneyPotSSHTransport,13,222.186.16.214] Co	mm	and	found: ifconfig
+2023-12-01T17:18:11+0000	[twisted.conch.ssh.session#info] exitCode: 0			
+2023-12-01T17:18:11+0000	[cowrie.ssh.connection.CowrieSSHConnection#debug] sending request b'exit-status'			
+2023-12-01T17:18:11+0000	[cowrie.ssh.connection.CowrieSSHConnection#info] sending close 1			
+2023-12-01T17:18:11+0000	[twisted.conch.ssh.session#info] exitCode: 0			
+2023-12-01T17:18:11+0000	[HoneyPotSSHTransport,13,222.186.16.214] Closing TTY Log: var/lib/cowrie/tty/1d6f385dd0e7ccc3ada3e24e	97	3fd	850470dbb222547ea0c1cb7c9f6d9e1dc5e after 0 seconds
+2023-12-01T17:18:11+0000	[cowrie.ssh.session.HoneyPotSSHSession#info] remote close			
+2023-12-01T17:18:11+0000	[cowrie.ssh.connection.CowrieSSHConnection#debug] got channel b'session' request			
+2023-12-01T17:18:11+0000	[cowrie.ssh.session.HoneyPotSSHSession#info] channel open			
+2023-12-01T17:18:11+0000	"[twisted.conch.ssh.session#info] Executing command ""b'uname -a'"""			
+2023-12-01T17:18:11+0000	[SSHChannel session (2) on SSHService b'ssh-connection' on HoneyPotSSHTransport,13,222.186.16.214] CM	D:	un	ame -a
+2023-12-01T17:18:11+0000	[SSHChannel session (2) on SSHService b'ssh-connection' on HoneyPotSSHTransport,13,222.186.16.214] Co	mm	and	found: uname -a
+2023-12-01T17:18:11+0000	[twisted.conch.ssh.session#info] exitCode: 0			
+2023-12-01T17:18:11+0000	[cowrie.ssh.connection.CowrieSSHConnection#debug] sending request b'exit-status'			
+2023-12-01T17:18:11+0000	[cowrie.ssh.connection.CowrieSSHConnection#info] sending close 2			
+2023-12-01T17:18:12+0000	[twisted.conch.ssh.session#info] exitCode: 0			
+2023-12-01T17:18:12+0000	[HoneyPotSSHTransport,13,222.186.16.214] Closing TTY Log: var/lib/cowrie/tty/28ba533b0f3c4df63d6b4a5e	ad	738	60697bdf735bb353e4ca928474889eb8a15 after 0 seconds
+2023-12-01T17:18:12+0000	[cowrie.ssh.session.HoneyPotSSHSession#info] remote close			
+2023-12-01T17:18:12+0000	[cowrie.ssh.connection.CowrieSSHConnection#debug] got channel b'session' request			
+2023-12-01T17:18:12+0000	[cowrie.ssh.session.HoneyPotSSHSession#info] channel open			
+2023-12-01T17:18:12+0000	"[twisted.conch.ssh.session#info] Executing command ""b'cat /proc/cpuinfo'"""			
+2023-12-01T17:18:12+0000	[SSHChannel session (3) on SSHService b'ssh-connection' on HoneyPotSSHTransport,13,222.186.16.214] CM	D:	ca	t /proc/cpuinfo
+2023-12-01T17:18:12+0000	[SSHChannel session (3) on SSHService b'ssh-connection' on HoneyPotSSHTransport,13,222.186.16.214] Co	mm	and	found: cat /proc/cpuinfo
+2023-12-01T17:18:12+0000	[twisted.conch.ssh.session#info] exitCode: 0			
+2023-12-01T17:18:12+0000	[cowrie.ssh.connection.CowrieSSHConnection#debug] sending request b'exit-status'			
+2023-12-01T17:18:12+0000	[cowrie.ssh.connection.CowrieSSHConnection#info] sending close 3			
+2023-12-01T17:18:13+0000	[twisted.conch.ssh.session#info] exitCode: 0			
+2023-12-01T17:18:13+0000	[HoneyPotSSHTransport,13,222.186.16.214] Closing TTY Log: var/lib/cowrie/tty/52a532334011a67d1c41a57e	ea	38e	d25893bff4b6c264c748c3f2df576a47f4a after 0 seconds
+2023-12-01T17:18:13+0000	[cowrie.ssh.session.HoneyPotSSHSession#info] remote close			
+2023-12-01T17:18:13+0000	[cowrie.ssh.connection.CowrieSSHConnection#debug] got channel b'session' request			
+2023-12-01T17:18:13+0000	[cowrie.ssh.session.HoneyPotSSHSession#info] channel open			
+2023-12-01T17:18:13+0000	"[twisted.conch.ssh.session#info] Executing command ""b""ps | grep '[Mm]iner'"""""			
+2023-12-01T17:18:13+0000	[SSHChannel session (4) on SSHService b'ssh-connection' on HoneyPotSSHTransport,13,222.186.16.214] CM	D:	ps	| grep '[Mm]iner'
+2023-12-01T17:18:13+0000	[SSHChannel session (4) on SSHService b'ssh-connection' on HoneyPotSSHTransport,13,222.186.16.214] Co	mm	and	found: grep [Mm]iner
+2023-12-01T17:18:13+0000	[SSHChannel session (4) on SSHService b'ssh-connection' on HoneyPotSSHTransport,13,222.186.16.214] Co	mm	and	found: ps
+2023-12-01T17:18:13+0000	[twisted.conch.ssh.session#info] exitCode: 0			
+2023-12-01T17:18:13+0000	[cowrie.ssh.connection.CowrieSSHConnection#debug] sending request b'exit-status'			
+2023-12-01T17:18:13+0000	[cowrie.ssh.connection.CowrieSSHConnection#info] sending close 4			
+2023-12-01T17:18:13+0000	[twisted.conch.ssh.session#info] exitCode: 0			
+2023-12-01T17:18:13+0000	[HoneyPotSSHTransport,13,222.186.16.214] Closing TTY Log: var/lib/cowrie/tty/4e9fdfe29ef2ada08ab1e29f	7b	3ef	7d297dfa86d002069289e7a7ae21b343904 after 0 seconds
+2023-12-01T17:18:14+0000	[cowrie.ssh.session.HoneyPotSSHSession#info] remote close			
+2023-12-01T17:18:14+0000	[cowrie.ssh.connection.CowrieSSHConnection#debug] got channel b'session' request			
+2023-12-01T17:18:14+0000	[cowrie.ssh.session.HoneyPotSSHSession#info] channel open			
+2023-12-01T17:18:14+0000	"[twisted.conch.ssh.session#info] Executing command ""b""ps -ef | grep '[Mm]iner'"""""			
+2023-12-01T17:18:14+0000	[SSHChannel session (5) on SSHService b'ssh-connection' on HoneyPotSSHTransport,13,222.186.16.214] CM	D:	ps	-ef | grep '[Mm]iner'
+2023-12-01T17:18:14+0000	[SSHChannel session (5) on SSHService b'ssh-connection' on HoneyPotSSHTransport,13,222.186.16.214] Co	mm	and	found: grep [Mm]iner
+2023-12-01T17:18:14+0000	[SSHChannel session (5) on SSHService b'ssh-connection' on HoneyPotSSHTransport,13,222.186.16.214] Co	mm	and	found: ps -ef
+2023-12-01T17:18:14+0000	[twisted.conch.ssh.session#info] exitCode: 0			
+2023-12-01T17:18:14+0000	[cowrie.ssh.connection.CowrieSSHConnection#debug] sending request b'exit-status'			
+2023-12-01T17:18:14+0000	[cowrie.ssh.connection.CowrieSSHConnection#info] sending close 5			
+2023-12-01T17:18:14+0000	[twisted.conch.ssh.session#info] exitCode: 0			
+2023-12-01T17:18:14+0000	[HoneyPotSSHTransport,13,222.186.16.214] Closing TTY Log: var/lib/cowrie/tty/e5cefcb1b141654b896106c8	dc	78a	e972511ca8772b28e593dbe256993fa8437 after 0 seconds
+2023-12-01T17:18:15+0000	[cowrie.ssh.session.HoneyPotSSHSession#info] remote close			
+2023-12-01T17:18:15+0000	[cowrie.ssh.connection.CowrieSSHConnection#debug] got channel b'session' request			
+2023-12-01T17:18:15+0000	[cowrie.ssh.session.HoneyPotSSHSession#info] channel open			
+2023-12-01T17:18:15+0000	"[twisted.conch.ssh.session#info] Executing command ""b'ls -la /dev/ttyGSM* /dev/ttyUSB-mod* /var/spool"	/s	ms/	"* /var/log/smsd.log /etc/smsd.conf* /usr/bin/qmuxd /var/qmux_connect_socket /etc/config/simman /dev/modem* /var/config/sms/*'"""
+2023-12-01T17:18:15+0000	[SSHChannel session (6) on SSHService b'ssh-connection' on HoneyPotSSHTransport,13,222.186.16.214] CM	D:	ls	-la /dev/ttyGSM* /dev/ttyUSB-mod* /var/spool/sms/* /var/log/smsd.log /etc/smsd.conf* /usr/bin/qmuxd /var/qmux_connect_socket /etc/config/simman /dev/modem* /var/config/sms/*
+2023-12-01T17:18:15+0000	[SSHChannel session (6) on SSHService b'ssh-connection' on HoneyPotSSHTransport,13,222.186.16.214] Co	mm	and	found: ls -la /dev/ttyGSM* /dev/ttyUSB-mod* /var/spool/sms/* /var/log/smsd.log /etc/smsd.conf* /usr/bin/qmuxd /var/qmux_connect_socket /etc/config/simman /dev/modem* /var/config/sms/*
+2023-12-01T17:18:15+0000	[twisted.conch.ssh.session#info] exitCode: 0			
+2023-12-01T17:18:15+0000	[cowrie.ssh.connection.CowrieSSHConnection#debug] sending request b'exit-status'			
+2023-12-01T17:18:15+0000	[cowrie.ssh.connection.CowrieSSHConnection#info] sending close 6			
+2023-12-01T17:18:15+0000	[twisted.conch.ssh.session#info] exitCode: 0			
+2023-12-01T17:18:15+0000	[HoneyPotSSHTransport,13,222.186.16.214] Closing TTY Log: var/lib/cowrie/tty/baaa3eb1b4234e92bb652c29	92	277	b87dbe17c9080a5f6d842fc72563087dbd8 after 0 seconds
+2023-12-01T17:18:15+0000	[cowrie.ssh.session.HoneyPotSSHSession#info] remote close			
+2023-12-01T17:18:15+0000	[cowrie.ssh.connection.CowrieSSHConnection#debug] got channel b'session' request			
+2023-12-01T17:18:15+0000	[cowrie.ssh.session.HoneyPotSSHSession#info] channel open			
+2023-12-01T17:18:16+0000	"[twisted.conch.ssh.session#info] Executing command ""b'echo Hi | cat -n'"""			
+2023-12-01T17:18:16+0000	[SSHChannel session (7) on SSHService b'ssh-connection' on HoneyPotSSHTransport,13,222.186.16.214] CM	D:	ec	ho Hi | cat -n
+2023-12-01T17:18:16+0000	[SSHChannel session (7) on SSHService b'ssh-connection' on HoneyPotSSHTransport,13,222.186.16.214] Co	mm	and	found: cat -n
+2023-12-01T17:18:16+0000	[SSHChannel session (7) on SSHService b'ssh-connection' on HoneyPotSSHTransport,13,222.186.16.214] Co	mm	and	found: echo Hi
+2023-12-01T17:18:16+0000	[twisted.conch.ssh.session#info] exitCode: 0			
+2023-12-01T17:18:16+0000	[cowrie.ssh.connection.CowrieSSHConnection#debug] sending request b'exit-status'			
+2023-12-01T17:18:16+0000	[cowrie.ssh.connection.CowrieSSHConnection#info] sending close 7			
+2023-12-01T17:18:16+0000	[twisted.conch.ssh.session#info] exitCode: 0			
+2023-12-01T17:18:16+0000	[HoneyPotSSHTransport,13,222.186.16.214] Closing TTY Log: var/lib/cowrie/tty/3e8341eade715d716ae9fe37	db	380	fb9cab5f953782fe691fcf3af29041a344e after 0 seconds
+2023-12-01T17:18:16+0000	[cowrie.ssh.session.HoneyPotSSHSession#info] remote close			
+2023-12-01T17:20:36+0000	[HoneyPotSSHTransport,13,222.186.16.214] Got remote error, code 11 reason: b'disconnected by user'			
+2023-12-01T17:20:36+0000	[HoneyPotSSHTransport,13,222.186.16.214] avatar root logging out			
+2023-12-01T17:20:36+0000	[cowrie.ssh.transport.HoneyPotSSHTransport#info] connection lost			
+2023-12-01T17:20:36+0000	[HoneyPotSSHTransport,13,222.186.16.214] Connection lost after 149 seconds			
+2023-12-01T18:11:04+0000	[cowrie.ssh.factory.CowrieSSHFactory] No moduli, no diffie-hellman-group-exchange-sha1			
+2023-12-01T18:11:04+0000	[cowrie.ssh.factory.CowrieSSHFactory] No moduli, no diffie-hellman-group-exchange-sha256			
+2023-12-01T18:11:04+0000	[cowrie.ssh.factory.CowrieSSHFactory] New connection: 218.92.0.53:43074 (172.17.0.2:2222) [session: 6	1c	143	1dac8a]
+2023-12-01T18:11:15+0000	[cowrie.ssh.transport.HoneyPotSSHTransport#info] connection lost			
+2023-12-01T18:11:15+0000	[HoneyPotSSHTransport,14,218.92.0.53] Connection lost after 11 seconds			
+2023-12-01T18:11:22+0000	[cowrie.ssh.factory.CowrieSSHFactory] No moduli, no diffie-hellman-group-exchange-sha1			
+2023-12-01T18:11:22+0000	[cowrie.ssh.factory.CowrieSSHFactory] No moduli, no diffie-hellman-group-exchange-sha256			
+2023-12-01T18:11:22+0000	[cowrie.ssh.factory.CowrieSSHFactory] New connection: 146.190.52.216:41510 (172.17.0.2:2222) [session	:	8f4	ca1e2902a]
+2023-12-01T18:11:22+0000	[cowrie.ssh.transport.HoneyPotSSHTransport#info] connection lost			
+2023-12-01T18:11:22+0000	[HoneyPotSSHTransport,15,146.190.52.216] Connection lost after 0 seconds			
+2023-12-01T18:27:08+0000	[cowrie.ssh.factory.CowrieSSHFactory] No moduli, no diffie-hellman-group-exchange-sha1			
+2023-12-01T18:27:08+0000	[cowrie.ssh.factory.CowrieSSHFactory] No moduli, no diffie-hellman-group-exchange-sha256			
+2023-12-01T18:27:08+0000	[cowrie.ssh.factory.CowrieSSHFactory] New connection: 218.92.0.45:12532 (172.17.0.2:2222) [session: 1	10	59a	8d5233]
+2023-12-01T18:27:08+0000	[HoneyPotSSHTransport,16,218.92.0.45] Remote SSH version: SSH-2.0-PuTTY			
+2023-12-01T18:27:08+0000	[HoneyPotSSHTransport,16,218.92.0.45] SSH client hassh fingerprint: fbfc26c04851b614d8992467123ba467			
